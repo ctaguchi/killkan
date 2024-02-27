@@ -4,8 +4,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR
-            MEDIA_URL="file:///Users/chihiro-t/kichwa_audio/Chapter9/58/09 MASTER K958.mp4"
-            MIME_TYPE="video/mp4" RELATIVE_MEDIA_URL="Chapter9/58/09 MASTER K958.mp4"/>
+            MEDIA_URL="file:///Users/chihiro-t/killkan/data/Chapter9/58/58.mp4"
+            MIME_TYPE="video/mp4" RELATIVE_MEDIA_URL="data/Chapter9/58/58.mp4"/>
         <PROPERTY NAME="lastUsedAnnotationId">a58</PROPERTY>
     </HEADER>
     <TIME_ORDER>
