@@ -28,7 +28,8 @@ def clip_mp4(src: str,
     # divide by 1000 to adjust the input format to moviepy
     if not os.path.exists(trg_dir):
         os.mkdir(trg_dir)
-    trg = trg_dir + "/" + src[:-4].split("/")[-1] + "{}.mp4".format(idx)
+    trg = f"{trg_dir}/{idx}.mp4"
+    # trg = trg_dir + "/" + src[:-4].split("/")[-1] + "{}.mp4".format(idx)
     ffmpeg_extract_subclip(src,
                            int(start) / 1000,
                            int(end) / 1000,
@@ -265,11 +266,11 @@ def get_all_chapters() -> list:
         paths.append(entry)
     return paths
 
-def write_eaf_file(alignments_list: list):
+def write_eaf_file(alignments_list: list, chapter_dir: str):
     for i in range(len(alignments_list)):
         start = alignments_list[i]["start"]
         end = alignments_list[i]["end"]
-        target_dir = d + "/" + str(i+1)
+        target_dir = f"data/{chapter_dir}/{str(i+1)}"
         output = clip_mp4(audio,
                           start,
                           end,
@@ -285,7 +286,7 @@ def write_eaf_file(alignments_list: list):
                                    annotation_id,
                                    str(int(end) - int(start)),
                                    text)
-        output_eaf = "{}/{}/{}.eaf".format(d, str(i+1), str(i+1))
+        output_eaf = f"data/{chapter_dir}/{str(i+1)}/{str(i+1)}.eaf"
         with open(output_eaf, "w", encoding="utf-8") as f:
             f.write(eaf_text)
 
@@ -332,9 +333,9 @@ if __name__ == "__main__":
         args.directory = ["Chapter" + str(i) for i in range(1, 21)]
 
     for d in tqdm.tqdm(args.directory):
-        eaf = glob.glob(f"{d}/{d}.eaf")[-1]
-        audio = glob.glob(f"{d}/*{args.audio_extension}")[-1]
+        eaf = glob.glob(f"data/{d}/{d}.eaf")[-1]
+        audio = glob.glob(f"data/{d}/*{args.audio_extension}")[-1]
         
         dct = elan2ud.eaftodict(eaf)
         alignments_list = elan2ud.get_text_and_timestamps(dct) # -> list of dict of text/start/end/id
-        write_eaf_file(alignments_list)
+        write_eaf_file(alignments_list, d)
