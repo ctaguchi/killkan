@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2023-10-11T17:25:56-05:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2024-05-10T03:10:04+09:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR
             MEDIA_URL="file:///Users/chihiro-t/kichwa_audio/Chapter1/01 MASTER K1.mp4"
-            MIME_TYPE="video/mp4" RELATIVE_MEDIA_URL="./01 MASTER K1.mp4"/>
+            MIME_TYPE="video/mp4" RELATIVE_MEDIA_URL="../../../kichwa_audio/Chapter1/01 MASTER K1.mp4"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:0639bb4d-2f06-4990-a49a-6fdc6a5f56f7</PROPERTY>
         <PROPERTY NAME="lastUsedAnnotationId">11368</PROPERTY>
     </HEADER>
@@ -51261,7 +51261,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1328" ANNOTATION_REF="a406">
-                <ANNOTATION_VALUE/>
+                <ANNOTATION_VALUE>CSID=OTHER</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -51271,7 +51271,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1330" ANNOTATION_REF="a408">
-                <ANNOTATION_VALUE/>
+                <ANNOTATION_VALUE>CSID=OTHER</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -51281,7 +51281,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1332" ANNOTATION_REF="a410">
-                <ANNOTATION_VALUE/>
+                <ANNOTATION_VALUE>CSID=OTHER</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -51296,7 +51296,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1335" ANNOTATION_REF="a413">
-                <ANNOTATION_VALUE/>
+                <ANNOTATION_VALUE>CSID=OTHER</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -51306,7 +51306,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1337" ANNOTATION_REF="a415">
-                <ANNOTATION_VALUE/>
+                <ANNOTATION_VALUE>CSID=OTHER</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -51321,7 +51321,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1340" ANNOTATION_REF="a418">
-                <ANNOTATION_VALUE/>
+                <ANNOTATION_VALUE>CSID=OTHER</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -51336,7 +51336,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1343" ANNOTATION_REF="a421">
-                <ANNOTATION_VALUE/>
+                <ANNOTATION_VALUE>CSID=OTHER</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -51356,7 +51356,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1347" ANNOTATION_REF="a425">
-                <ANNOTATION_VALUE/>
+                <ANNOTATION_VALUE>CSID=OTHER</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -51391,7 +51391,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1353" ANNOTATION_REF="a432">
-                <ANNOTATION_VALUE/>
+                <ANNOTATION_VALUE>CSID=OTHER</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -51441,7 +51441,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1362" ANNOTATION_REF="a442">
-                <ANNOTATION_VALUE/>
+                <ANNOTATION_VALUE>CSID=OTHER</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -51471,7 +51471,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1368" ANNOTATION_REF="a677">
-                <ANNOTATION_VALUE/>
+                <ANNOTATION_VALUE>CSID=OTHER</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -58234,11 +58234,6 @@
     </TIER>
     <TIER ANNOTATOR="Chihiro Taguchi" DEFAULT_LOCALE="en"
         LINGUISTIC_TYPE_REF="FORM" PARENT_REF="FORM" TIER_ID="Notes">
-        <ANNOTATION>
-            <REF_ANNOTATION ANNOTATION_ID="a671" ANNOTATION_REF="a431">
-                <ANNOTATION_VALUE>habitual past</ANNOTATION_VALUE>
-            </REF_ANNOTATION>
-        </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1968" ANNOTATION_REF="a1484">
                 <ANNOTATION_VALUE>escoba</ANNOTATION_VALUE>

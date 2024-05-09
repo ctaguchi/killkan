@@ -4,14 +4,14 @@
 # start = 3100
 # end = 6450
 1	Ari	ari	INTJ	_	_	5	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	CSID=KC|Lang=qu
+2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
 3	ari	ari	INTJ	_	_	5	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	CSID=KC|Lang=qu
-5	kikinkuna	kikin	PRON	_	Number=Plur|Person=2|PronType=Prs	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	CSID=KC|Lang=qu
-7	wawkikuna	wawki	NOUN	_	Number=Plur	5	appos	_	CSID=KC|Lang=qu
+4	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER
+5	kikinkuna	kikin	PRON	_	Number=Plur|Person=2|Polite=Form|PronType=Prs	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	CSID=OTHER
+7	wawkikuna	wawki	NOUN	_	Number=Plur	5	parataxis	_	CSID=KC|Lang=qu
 8	panikuna	pani	NOUN	_	Number=Plur	7	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
-9	.	.	PUNCT	_	_	5	punct	_	CSID=KC|Lang=qu
+9	.	.	PUNCT	_	_	5	punct	_	CSID=OTHER
 
 # sent_id = 1_1
 # sent = Kayman, kayman shamuychik.
@@ -19,52 +19,52 @@
 # start = 6450
 # end = 8150
 1	Kayman	kay	PRON	_	Case=Dat|PronType=Dem	3	reparandum	_	CSID=KC|Lang=qu|SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	CSID=KC|Lang=qu
+2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
 3	kayman	kay	PRON	_	Case=Dat|PronType=Dem	4	obl	_	CSID=KC|Lang=qu
 4	shamuychik	shamu	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-5	.	.	PUNCT	_	_	4	punct	_	CSID=KC|Lang=qu
+5	.	.	PUNCT	_	_	4	punct	_	CSID=OTHER
 
 # sent_id = 1_2
 # sent = Ñukawan purikrinchik.
 # trans = Van a caminar conmigo.
 # start = 8150
 # end = 9820
-1	Ñukawan	ñuka	PRON	_	Case=Ins	2	obl	_	CSID=KC|Lang=qu
-2	purikrinchik	puri	VERB	_	Aspect=Prosp|Number=Plur|Person=1|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-3	.	.	PUNCT	_	_	2	punct	_	CSID=KC|Lang=qu
+1	Ñukawan	ñuka	PRON	_	Case=Ins|Number=Sing|Person=1|PronType=Prs	2	obl	_	CSID=KC|Lang=qu
+2	purikrinchik	puri	VERB	_	Aspect=Prosp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	CSID=OTHER
 
 # sent_id = 1_3
 # sent = Ñuka ayllullaktata riksichikrinimi.
 # trans = Les voy a hacer un recorrido, un “tour”, por mi barrio.
 # start = 10040
 # end = 13170
-1	Ñuka	ñuka	PRON	_	PronType=Prs	2	nmod	_	CSID=KC|Lang=qu
+1	Ñuka	ñuka	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nmod	_	CSID=KC|Lang=qu
 2	ayllullaktata	ayllullakta	NOUN	_	Case=Acc	3	obj	_	CSID=KC|Lang=qu
-3	riksichikrinimi	riksi	VERB	_	Aspect=Prosp|Info=Foc|Number=Sing|Person=1|Voice=Cau	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-4	.	.	PUNCT	_	_	3	punct	_	CSID=KC|Lang=qu
+3	riksichikrinimi	riksi	VERB	_	Aspect=Prosp|Info=Foc|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|Voice=Cau	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
 
 # sent_id = 1_4
 # sent = Ñuka ayllullaktataka Esperanza nishpa riksin karka, shinapash na alli shimikuna tiyashkamanta Jaboneropa ayllullakta nishpa riksinkuna.
 # trans = Este barrio que antes se llamaba La Esperanza y luego las malas lenguas le cambiaron el nombrecito, el “Barrio del Jabonero” le pusieron.
 # start = 14570
 # end = 25140
-1	Ñuka	ñuka	PRON	_	PronType=Prs	2	nmod	_	CSID=KC|Lang=qu
+1	Ñuka	ñuka	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nmod	_	CSID=KC|Lang=qu
 2	ayllullaktataka	ayllullakta	NOUN	_	Case=Acc|Info=Top	5	obj	_	CSID=KC|Lang=qu
-3	Esperanza	Esperanza	PROPN	_	_	4	obj	_	CSID=ES|Lang=es
-4	nishpa	ni	VERB	_	VerbForm=Conv	5	advcl	_	CSID=KC|Lang=qu
+3	Esperanza	Esperanza	PROPN	_	_	4	ccomp	_	CSID=ES|Lang=es
+4	nishpa	ni	VERB	_	Switch=Same|VerbForm=Conv	5	advcl	_	CSID=KC|Lang=qu
 5	riksin	riksi	VERB	_	VerbForm=NomAg	0	root	_	CSID=KC|Lang=qu
 6	karka	ka	AUX	_	Person=3|Tense=Past|VerbForm=Fin	5	aux	_	CSID=KC|Lang=qu|SpaceAfter=No
-7	,	,	PUNCT	_	_	5	punct	_	CSID=KC|Lang=qu
+7	,	,	PUNCT	_	_	16	punct	_	CSID=OTHER
 8	shinapash 	shinapash	CONJ	_	_	16	cc	_	CSID=KC|Lang=qu
 9	na	na	PART	_	Polarity=Neg	10	advmod:neg	_	CSID=KC|Lang=qu
 10	alli	alli	ADJ	_	_	11	amod	_	CSID=KC|Lang=qu
 11	shimikuna	shimi	NOUN	_	Number=Plur	12	nsubj	_	CSID=KC|Lang=qu
-12	tiyashkamanta	tiya	VERB	_	Case=Abl|VerbForm=Part	16	advcl	_	CSID=KC|Lang=qu
+12	tiyashkamanta	tiya	VERB	_	Case=Abl|VerbForm=Part	16	obl	_	CSID=KC|Lang=qu
 13	Jaboneropa	Jabonero	PROPN	_	Case=Gen	14	nmod	_	CSID=MIXED|CSPoint=Jabonero§pa|Lang=qqe
-14	ayllullakta	ayllullakta	NOUN	_	_	15	obj	_	CSID=KC|Lang=qu
+14	ayllullakta	ayllullakta	NOUN	_	_	15	ccomp	_	CSID=KC|Lang=qu
 15	nishpa	ni	VERB	_	VerbForm=Conv	16	advcl	_	CSID=KC|Lang=qu
 16	riksinkuna	riksi	VERB	_	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	CSID=KC|Lang=qu|SpaceAfter=No
-17	.	.	PUNCT	_	_	5	punct	_	CSID=KC|Lang=qu
+17	.	.	PUNCT	_	_	5	punct	_	CSID=OTHER
 
 # sent_id = 1_5
 # sent = Ña imamanta shina riksikta willakrinimi.
@@ -75,8 +75,8 @@
 2	imamanta	ima	PRON	_	Case=Abl|PronType=Int	4	obl	_	CSID=KC|Lang=qu
 3	shina	shina	ADV	_	_	4	advmod	_	CSID=KC|Lang=qu
 4	riksikta	riksi	VERB	_	Case=Acc|VerbForm=NomAg	5	obj	_	CSID=KC|Lang=qu
-5	willakrinimi	willa	VERB	_	Aspect=Prosp|Info=Foc|Number=Sing|Person=1|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-6	.	.	PUNCT	_	_	5	punct	_	CSID=KC|Lang=qu
+5	willakrinimi	willa	VERB	_	Aspect=Prosp|Info=Foc|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	CSID=OTHER
 
 # sent_id = 1_6
 # sent = Jaboneropak ayllullaktapi
@@ -91,7 +91,7 @@
 # trans = Historias de la pandemia
 # start = 31720
 # end = 34080
-1	Pandemiamanta	pandemia	NOUN	_	Case=Abl	2	nmod	_	CSID=MIXED|CSPoint=pandemia§manta|Lang=qqe
+1	Pandemiamanta	pandemia	NOUN	_	Case=Abl|Gender=Fem|Number=Sing	2	nmod	_	CSID=MIXED|CSPoint=pandemia§manta|Lang=qqe
 2	rimaykuna	rima	VERB	_	Number=Plur|VerbForm=Vnoun	0	root	_	CSID=KC|Lang=qu
 
 # sent_id = 1_8
@@ -99,8 +99,8 @@
 # trans = Capítulo uno
 # start = 34140
 # end = 35310
-1	Shuk	shuk	NUM	_	_	2	nummod	_	CSID=KC|Lang=qu
-2	capítulo	capítulo	NOUN	_	_	0	root	_	CSID=ES|Lang=es
+1	Shuk	shuk	NUM	_	NumType=Card	2	nummod	_	CSID=KC|Lang=qu
+2	capítulo	capítulo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	CSID=ES|Lang=es
 
 # sent_id = 1_9
 # sent = Millay ayapa marcawan
@@ -116,10 +116,10 @@
 # trans = ¡Doña Gumersinda! Vecina, ¿cómo ha estado?
 # start = 40390
 # end = 43880
-1	Mashi	mashi	NOUN	_	_	2	appos	_	CSID=KC|Lang=qu
-2	Gumersinda	Gumersinda	PROPN	_	_	5	vocative	_	CSID=ES|Lang=es|SpaceAfter=No
+1	Mashi	mashi	NOUN	_	_	4	vocative	_	CSID=KC|Lang=qu
+2	Gumersinda	Gumersinda	PROPN	_	_	1	flat	_	CSID=ES|Lang=es|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	CSID=OTHER
-4	imanallatak	imanalla	ADV	_	Info=Foc	0	root	_	CSID=KC|Lang=qu
+4	imanallatak	imanalla	ADV	_	Info=Foc|QuestType=Open	0	root	_	CSID=KC|Lang=qu
 5	kapashkanki	ka	AUX	_	Number=Sing|Person=2|Polite=Form|VerbForm=Part	4	cop	_	CSID=KC|Lang=qu|SpaceAfter=No
 6	?	?	PUNCT	_	_	5	punct	_	CSID=OTHER
 
@@ -143,10 +143,10 @@
 # end = 48560
 1	Ima	ima	PRON	_	PronType=Int	2	obj	_	CSID=KC|Lang=qu
 2	nishpa	ni	VERB	_	VerbForm=Conv	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	CSID=OTHER
+3	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER
 4	ima	ima	PRON	_	PronType=Int	5	obj	_	CSID=KC|Lang=qu
-5	nishpa	ni	VERB	_	VerbForm=Conv	2	reparandum:repeat	_	CSID=KC|Lang=qu|SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER
+5	nishpa	ni	VERB	_	VerbForm=Conv	2	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	CSID=OTHER
 7	mashi	mashi	NOUN	_	_	2	vocative	_	CSID=KC|Lang=qu|SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	CSID=OTHER
 
@@ -156,13 +156,13 @@
 # start = 48570
 # end = 54860
 1	Rikuway	riku	VERB	_	Mood=Imp|Number=Sing|Number[obj]=Sing|Person=2|Person[obj]=1|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu
-2	imashinatak	ima	PRON	_	Case=Equ|Info=Foc|PronType=Int	1	ccomp	_	CSID=KC|Lang=qu
+2	imashinatak	ima	PRON	_	Case=Equ|Info=Foc|PronType=Int|QuestType=Open	1	ccomp	_	CSID=KC|Lang=qu
 3	kani	ka	AUX	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	CSID=KC|Lang=qu|SpaceAfter=No
-4	,	,	PUNCT	_	_	1	punct	_	CISD=OTHER|CSID=KC|Lang=qu
+4	,	,	PUNCT	_	_	6	punct	_	CISD=OTHER|CSID=KC|Lang=qu
 5	chushak	chushak	ADJ	_	_	6	amod	_	CSID=KC|Lang=qu
 6	makiwan	maki	NOUN	_	Case=Ins	1	parataxis	_	CSID=KC|Lang=qu
 7	kani	ka	AUX	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	CSID=KC|Lang=qu|SpaceAfter=No
-8	,	,	PUNCT	_	_	7	punct	_	CSID=OTHER
+8	,	,	PUNCT	_	_	12	punct	_	CSID=OTHER
 9	kaypika	kay	PRON	_	Case=Loc|Info=Top|PronType=Dem	12	obl	_	CSID=KC|Lang=qu
 10	nimata	nima	PRON	_	Case=Acc|PronType=Neg	12	obj	_	CSID=KC|Lang=qu
 11	mana	mana	PART	_	Polarity=Neg	12	advmod:neg	_	CSID=KC|Lang=qu
@@ -177,7 +177,7 @@
 1	Kay	kay	DET	_	_	3	det	_	CSID=KC|Lang=qu
 2	millay	millay	ADJ	_	_	3	amod	_	CSID=KC|Lang=qu
 3	unkuywan	unku	VERB	_	Case=Ins|VerbForm=Vnoun	5	obl	_	CSID=KC|Lang=qu
-4	tukuyta	tukuy	PRON	_	PronType=Tot	5	obj	_	CSID=KC|Lang=qu
+4	tukuyta	tukuy	PRON	_	Case=Acc|PronType=Tot	5	obj	_	CSID=KC|Lang=qu
 5	tukuchirkani	tuku	VERB	_	Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Cau	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	CSID=OTHER
 
@@ -187,20 +187,20 @@
 # start = 57740
 # end = 65290
 1	Ah	ah	INTJ	_	_	2	discourse	_	CSID=KC|Lang=qu
-2	mashi	mashi	NOUN	_	_	15	vocative	_	CSID=KC|Lang=qu|SpaceAfter=No
+2	mashi	mashi	NOUN	_	_	4	vocative	_	CSID=KC|Lang=qu|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	CSID=OTHER
-4	ninkichu	ni	VERB	_	Info=Foc|Mood=Int|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	parataxis	_	CSID=KC|Lang=qu
+4	ninkichu	ni	VERB	_	Info=Foc|Mood=Int|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu
 5	mashi	mashi	NOUN	_	_	4	vocative	_	CSID=KC|Lang=qu
-6	Gumer	Gumer	PROPN	_	_	5	appos	_	CSID=ES|Lang=es|SpaceAfter=No
-7	,	,	PUNCT	_	_	6	punct	_	CSID=OTHER
-8	kikinpak	kikin	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	9	nmod	_	CSID=KC|Lang=qu
-9	katuna	katu	VERB	_	VerbForm=Inf	10	nmod	_	CSID=KC|Lang=qu
+6	Gumer	Gumer	PROPN	_	_	5	flat	_	CSID=ES|Lang=es|SpaceAfter=No
+7	,	,	PUNCT	_	_	12	punct	_	CSID=OTHER
+8	kikinpak	kikin	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	10	nmod	_	CSID=KC|Lang=qu
+9	katuna	katu	VERB	_	VerbForm=Inf	10	acl	_	CSID=KC|Lang=qu
 10	ukupi	uku	NOUN	_	Case=Gen	12	obl	_	CSID=KC|Lang=qu
 11	mana	mana	PART	_	Polarity=Neg	12	advmod:neg	_	CSID=KC|Lang=qu
-12	katurikpika	katu	VERB	_	Info=Top|VerbForm=Conv|Voice=Rfl	15	advcl	_	CSID=KC|Lang=qu|SpaceAfter=No
-13	,	,	PUNCT	_	_	12	punct	_	CSID=KC|Lang=qu
+12	katurikpika	katu	VERB	_	Info=Top|Switch=Diff|VerbForm=Conv|Voice=Rfl	15	advcl	_	CSID=KC|Lang=qu|SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	CSID=KC|Lang=qu
 14	maypishi	may	PRON	_	Case=Loc|Evident=Nfh|PronType=Dem	15	obl	_	CSID=KC|Lang=qu
-15	katurinka	katu	VERB	_	Person=3|Tense=Fut|VerbForm=Fin|Voice=Rfl	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+15	katurinka	katu	VERB	_	Person=3|Tense=Fut|VerbForm=Fin|Voice=Rfl	4	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
 16	?	?	PUNCT	_	_	15	punct	_	CSID=KC|Lang=qu
 
 # sent_id = 1_16
@@ -208,9 +208,9 @@
 # trans = Estamos jorobados.
 # start = 66880
 # end = 68880
-1	Llakipachama	llaki	NOUN	_	Degree=Abs|Info=Foc	0	root	_	CSID=KC|Lang=qu
+1	Llakipachama	llaki	NOUN	_	Degree=Abs|Info=Foc|Polarity=Pos	0	root	_	CSID=KC|Lang=qu
 2	kanchik	ka	AUX	_	Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	cop	_	CSID=KC|Lang=qu|SpaceAfter=No
-3	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
+3	,	,	PUNCT	_	_	4	punct	_	CSID=OTHER
 4	mashi	mashi	NOUN	_	_	1	vocative	_	CSID=KC|Lang=qu|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	CSID=OTHER
 
@@ -224,7 +224,7 @@
 3	tamalkuta	tamal	NOUN	_	Case=Acc|Degree=Dim	5	obj	_	CSID=MIXED|CSPoint=tamal§kuta|Lang=qqe
 4	chishiman	chishi	NOUN	_	Case=Dat	5	obl	_	CSID=KC|Lang=qu
 5	allichipanki	allichi	VERB	_	Number=Sing|Person=2|Polite=Form|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER
+6	,	,	PUNCT	_	_	7	punct	_	CSID=OTHER
 7	mashi	mashi	NOUN	_	_	5	vocative	_	CSID=KC|Lang=qu|SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	CSID=OTHER
 
@@ -234,9 +234,9 @@
 # start = 72440
 # end = 76150
 1	Ari	ari	INTJ	_	_	8	discourse	_	CSID=KC|Lang=qu
-2	ari	ari	INTJ	_	_	8	discourse	_	CSID=KC|Lang=qu
+2	ari	ari	INTJ	_	_	1	discourse	_	CSID=KC|Lang=qu
 3	mashi	mashi	NOUN	_	_	8	vocative	_	CSID=KC|Lang=qu
-4	Eusebio	Eusebio	PROPN	_	_	3	appos	_	CSID=ES|Lang=es|SpaceAfter=No
+4	Eusebio	Eusebio	PROPN	_	_	3	flat	_	CSID=ES|Lang=es|SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	CSID=KC|Lang=qu
 6	chayrak	chayrak	ADV	_	_	8	advmod	_	CSID=KC|Lang=qu
 7	shukkuta	shuk	NUM	_	Case=Acc|Degree=Dim|NumType=Card	8	obj	_	CSID=KC|Lang=qu
@@ -258,18 +258,18 @@
 8	millay	millay	ADJ	_	_	9	amod	_	CSID=KC|Lang=qu
 9	unkuyka	unku	VERB	_	Info=Top|VerbForm=Vnoun	11	nsubj	_	CSID=KC|Lang=qu
 10	mana	mana	PART	_	Polarity=Neg	11	advmod:neg	_	CSID=KC|Lang=qu
-11	kishpichikunchu	kishpichi	VERB	_	Aspect=Prog|Info=Foc|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-12	!	!	PUNCT	_	_	11	punct	_	CSID=KC|Lang=qu
+11	kishpichikunchu	kishpi	VERB	_	Aspect=Prog|Info=Foc|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Cau	5	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
+12	!	!	PUNCT	_	_	5	punct	_	CSID=KC|Lang=qu
 
 # sent_id = 1_20
 # sent = Gumersinda mashika alli, kuyak warmimi kan.
 # trans = Doña Gumersinda es una gran mujer.
 # start = 84980
 # end = 88980
-1	Gumersinda	Gumersinda	PROPN	_	_	2	nmod	_	CSID=ES|Lang=es
-2	mashika	mashi	NOUN	_	Info=Top	6	nsubj	_	CSID=KC|Lang=qu
+1	Gumersinda	Gumersinda	PROPN	_	_	6	nsubj	_	CSID=ES|Lang=es
+2	mashika	mashi	NOUN	_	Info=Top	1	flat	_	CSID=KC|Lang=qu
 3	alli	alli	ADJ	_	_	6	amod	_	CSID=KC|Lang=qu|SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER
+4	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER
 5	kuyak	kuya	VERB	_	VerbForm=NomAg	6	acl	_	CSID=KC|Lang=qu
 6	warmimi	warmi	NOUN	_	Info=Foc	0	root	_	CSID=KC|Lang=qu
 7	kan	ka	AUX	_	Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	CSID=KC|Lang=qu|SpaceAfter=No
@@ -280,8 +280,8 @@
 # trans = Ya tiene sus años.
 # start = 89170
 # end = 91310
-1	Ñami	ña	ADV	_	Info=Foc	4	advmod	_	CSID=KC|Lang=qu
-2	paypak	pay	PRON	_	Case=Gen	3	nmod	_	CSID=KC|Lang=qu
+1	Ñami	ña	ADV	_	Info=Foc|Polarity=Pos	4	advmod	_	CSID=KC|Lang=qu
+2	paypak	pay	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nmod	_	CSID=KC|Lang=qu
 3	watakunata	wata	NOUN	_	Case=Acc|Number=Plur	4	obj	_	CSID=KC|Lang=qu
 4	charin	chari	VERB	_	Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	CSID=OTHER
@@ -293,15 +293,15 @@
 # end = 97590
 1	Mana	mana	PART	_	Polarity=Neg	2	advmod:neg	_	CSID=KC|Lang=qu
 2	huchayuk	huchayuk	ADJ	_	_	9	amod	_	CSID=KC|Lang=qu|SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	CSID=OTHER
-4	pichana	pichana	NOUN	_	_	5	nmod	_	CSID=KC|Lang=qu
+3	,	,	PUNCT	_	_	9	punct	_	CSID=OTHER
+4	pichana	pichana	NOUN	_	_	5	acl	_	CSID=KC|Lang=qu
 5	kaspishina	kaspi	NOUN	_	Case=Equ	7	obl	_	CSID=KC|Lang=qu
 6	alli	alli	ADJ	_	_	7	advmod	_	CSID=KC|Lang=qu
 7	shayarishka	shaya	VERB	_	VerbForm=Part|Voice=Rfl	9	acl	_	CSID=KC|Lang=qu
-8	recta	recta	ADJ	_	Gender=Fem	9	amod	_	CSID=ES|Lang=es
-9	warmimi	warmi	NOUN	_	Info=Foc	0	root	_	CSID=KC|Lang=qu
+8	recta	recto	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	CSID=ES|Lang=es
+9	warmimi	warmi	NOUN	_	Info=Foc|Polarity=Pos	0	root	_	CSID=KC|Lang=qu
 10	kan	ka	AUX	_	Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	CSID=KC|Lang=qu|SpaceAfter=No
-11	.	.	PUNCT	_	_	10	punct	_	CSID=OTHER
+11	.	.	PUNCT	_	_	9	punct	_	CSID=OTHER
 
 # sent_id = 1_23
 # sent = Shinapash kay pandemiawanka, ah imacha, imashina shamukpi rikushpa katinakunchik.
@@ -310,14 +310,14 @@
 # end = 104910
 1	Shinapash	shinapash	CCONJ	_	_	11	cc	_	CSID=KC|Lang=qu
 2	kay	kay	DET	_	_	3	det	_	CSID=KC|Lang=qu
-3	pandemiawanka	pandemia	NOUN	_	Case=Ins|Info=Top	11	obl	_	CSID=MIXED|CSPoint=pandemia§wanka|Lang=qqe|SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER
+3	pandemiawanka	pandemia	NOUN	_	Case=Ins|Info=Top|Number=Sing	11	obl	_	CSID=MIXED|CSPoint=pandemia§wanka|Lang=qqe|SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	CSID=OTHER
 5	ah	ah	INTJ	_	_	6	discourse	_	CSID=KC|Lang=qu
 6	imacha	ima	PRON	_	Mood=Dub|PronType=Int	11	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	CSID=OTHER
 8	imashina	ima	PRON	_	Case=Equ|PronType=Int	9	advmod	_	CSID=KC|Lang=qu
-9	shamukpi	shamu	VERB	_	VerbForm=Conv	10	advcl	_	CSID=KC|Lang=qu
-10	rikushpa	riku	VERB	_	VerbForm=Conv	11	advcl	_	CSID=KC|Lang=qu
+9	shamukpi	shamu	VERB	_	Case=Loc|VerbForm=NomAg	10	advcl	_	CSID=KC|Lang=qu
+10	rikushpa	riku	VERB	_	Switch=Same|VerbForm=Conv	11	advcl	_	CSID=KC|Lang=qu
 11	katinakunchik	kati	VERB	_	Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Rcp	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 12	.	.	PUNCT	_	_	11	punct	_	CSID=OTHER
 
@@ -328,17 +328,17 @@
 # end = 115190
 1	Rikuychik	riku	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	7	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	CSID=KC|Lang=qu
-3	rikuychik	riku	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	7	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
+3	rikuychik	riku	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	1	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	CSID=KC|Lang=qu
 5	chayta	chay	PRON	_	Case=Acc|PronType=Dem	6	obj	_	CSID=KC|Lang=qu
 6	chapamukukka	chapa	VERB	_	Aspect=Prog|Deixis=Ven|Info=Top|VerbForm=NomAg	7	nsubj	_	CSID=KC|Lang=qu
-7	Apoloniomi	Apolonio	PROPN	_	Info=Foc	0	root	_	CSID=MIXED|CSPoint=Apolonio§mi|Lang=qqe
+7	Apoloniomi	Apolonio	PROPN	_	Info=Foc|Polarity=Pos	0	root	_	CSID=MIXED|CSPoint=Apolonio§mi|Lang=qqe
 8	kan	ka	AUX	_	Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	CSID=KC|Lang=qu|SpaceAfter=No
-9	,	,	PUNCT	_	_	7	punct	_	CSID=KC|Lang=qu
+9	,	,	PUNCT	_	_	12	punct	_	CSID=KC|Lang=qu
 10	payka	pay	PRON	_	Number=Sing|Person=3|PronType=Prs	12	nsubj	_	CSID=KC|Lang=qu
 11	raku	raku	ADJ	_	_	12	amod	_	CSID=KC|Lang=qu
 12	runa	runa	NOUN	_	_	7	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
-13	,	,	PUNCT	_	_	12	punct	_	CSID=OTHER
+13	,	,	PUNCT	_	_	15	punct	_	CSID=OTHER
 14	antawakunawan	antawa	NOUN	_	Case=Ins|Number=Plur	15	obl	_	CSID=KC|Lang=qu
 15	llamkan	llamka	VERB	_	Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
 16	.	.	PUNCT	_	_	7	punct	_	CSID=OTHER
@@ -348,12 +348,12 @@
 # trans = Siempre con su ropa sucia, llena de grasa.
 # start = 115480
 # end = 119920
-1	Tukuy	tukuy	ADJ	_	_	2	amod	_	CSID=KC|Lang=qu
+1	Tukuy	tukuy	DET	_	_	2	det	_	CSID=KC|Lang=qu
 2	pachapi	pacha	NOUN	_	Case=Loc	8	obl	_	CSID=KC|Lang=qu
-3	mapa	mapa	ADJ	_	_	8	amod	_	CSID=KC|Lang=qu
-4	mapa	mapa	ADJ	_	_	3	compound:redup	_	CSID=KC|Lang=qu
+3	mapa	mapa	ADJ	_	_	4	compound:redup	_	CSID=KC|Lang=qu
+4	mapa	mapa	ADJ	_	_	5	amod	_	CSID=KC|Lang=qu
 5	wira	wira	NOUN	_	_	6	nmod	_	CSID=KC|Lang=qu
-6	hunta	hunta	ADJ	_	_	8	amod	_	CSID=KC|Lang=qu
+6	hunta	hunta	ADJ	_	_	7	amod	_	CSID=KC|Lang=qu
 7	churakunawan	churakuna	NOUN	_	Case=Ins	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	CSID=OTHER
 
@@ -362,12 +362,12 @@
 # trans = Como todo el mundo, está con poquísimo trabajo.
 # start = 119920
 # end = 123380
-1	Tukuykunashina	tukuy	PRON	_	Case=Equ|Number=Plur|PronType=Tot	6	obl	_	CSID=KC|Lang=qu|SpaceAfter=No
+1	Tukuykunashina	tukuy	PRON	_	Case=Equ|Number=Plur|PronType=Tot	5	obl	_	CSID=KC|Lang=qu|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
-4	ashalla	asha	ADJ	_	Degree=Dim	5	amod	_	CSID=KC|Lang=qu
-5	llamkayta	llamka	VERB	_	Case=Acc|VerbForm=Vnoun	6	obj	_	CSID=KC|Lang=qu
-6	charin	chari	VERB	_	Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-7	.	.	PUNCT	_	_	6	punct	_	CSID=OTHER
+3	ashalla	asha	ADJ	_	Degree=Dim	5	amod	_	CSID=KC|Lang=qu
+4	llamkayta	llamka	VERB	_	Case=Acc|VerbForm=Vnoun	5	obj	_	CSID=KC|Lang=qu
+5	charin	chari	VERB	_	Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	CSID=OTHER
 
 # sent_id = 1_27
 # sent = Kay llaktapika llamkay mana tiyashkamantami millay unkuytapash yalli llakichishka.
@@ -378,10 +378,10 @@
 2	llaktapika	llakta	NOUN	_	Case=Loc|Info=Top	9	obl	_	CSID=KC|Lang=qu
 3	llamkay	llamka	VERB	_	VerbForm=Vnoun	5	nsubj	_	CSID=KC|Lang=qu
 4	mana	mana	PART	_	Polarity=Neg	5	advmod:neg	_	CSID=KC|Lang=qu
-5	tiyashkamantami	tiya	VERB	_	Case=Abl|Info=Foc|VerbForm=Part	9	advcl	_	CSID=KC|Lang=qu
+5	tiyashkamantami	tiya	VERB	_	Case=Abl|Info=Foc|Polarity=Pos|VerbForm=Part	9	obl	_	CSID=KC|Lang=qu
 6	millay	millay	ADJ	_	_	7	amod	_	CSID=KC|Lang=qu
-7	unkuytapash	unku	VERB	_	Case=Acc|Focus=Addit|VerbForm=Vnoun	9	obl	_	CSID=KC|Lang=qu
-8	yalli	yalli	ADP	_	_	7	case	_	CSID=KC|Lang=qu
+7	unkuytapash	unku	VERB	_	Case=Acc|Focus=Addit|VerbForm=Vnoun	8	nmod	_	CSID=KC|Lang=qu
+8	yalli	yalli	ADP	_	_	9	advmod	_	CSID=KC|Lang=qu
 9	llakichishka	llaki	VERB	_	Person=3|VerbForm=Part|Voice=Cau	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	CSID=OTHER
 
@@ -390,23 +390,23 @@
 # trans = Me contaron, yo no sé si será, pero me contaron que Apolonio sale por la noche a regar tachuelas en la calle.
 # start = 130230
 # end = 142950
-1	Willachiwarkami	willa	VERB	_	Info=Foc|Number[obj]=Sing|Person=3|Person[obj]=1|Tense=Past|Voice=Cau	0	root	_	CSID=KC|Lang=qu
-2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER|SpaceAfter=No
+1	Willachiwarkami	willa	VERB	_	Info=Foc|Number[obj]=Sing|Person=3|Person[obj]=1|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Cau	0	root	_	CSID=KC|Lang=qu
+2	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER|SpaceAfter=No
 3	shinacha	shina	ADV	_	Mood=Dub	1	discourse	_	CSID=KC|Lang=qu
 4	imacha	ima	PRON	_	Mood=Dub|PronType=Int	3	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER
 6	shinapash	shinapash	CCONJ	_	_	8	cc	_	CSID=KC|Lang=qu|SpaceAfter=No
-7	kashna	kashna	ADV	_	_	8	advmod	_	CSID=KC|Lang=qu
-8	ninakunmi	ni	VERB	_	Info=Foc|Person=3|Tense=Pres|VerbForm=Fin|Voice=Rcp	1	conj	_	CSID=KC|Lang=qu
-9	,	,	PUNCT	_	_	8	punct	_	CSID=OTHER
+7	kashna	kashna	ADJ	_	_	8	advmod	_	CSID=KC|Lang=qu
+8	ninakunmi	ni	VERB	_	Aspect=Prog|Info=Foc|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	conj	_	CSID=KC|Lang=qu
+9	,	,	PUNCT	_	_	10	punct	_	CSID=OTHER
 10	uyankichik	uya	VERB	_	Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	8	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	CSID=OTHER
-12	Apolonio	Apolonio	PROPN	_	_	13	nmod	_	CSID=ES|Lang=es
-13	runaka	runa	NOUN	_	Info=Top	18	nsubj	_	CSID=KC|Lang=qu
+12	Apolonio	Apolonio	PROPN	_	_	18	nsubj	_	CSID=ES|Lang=es
+13	runaka	runa	NOUN	_	Info=Top	12	flat	_	CSID=KC|Lang=qu
 14	tutakunami	tuta	NOUN	_	Info=Foc|Number=Plur	18	obl	_	CSID=KC|Lang=qu
 15	ñanpi	ñan	NOUN	_	Case=Loc	17	obl	_	CSID=KC|Lang=qu
-16	tachuelakunata	tachuela	NOUN	_	Case=Acc|Number=Plur	17	obj	_	CSID=MIXED|CSPoint=tachuela§kunata|Lang=qqe
-17	shitankapak	shita	VERB	_	Mood=Prp|VerbForm=Conv	18	advcl	_	CSID=KC|Lang=qu
+16	tachuelakunata	tachuela	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	17	obj	_	CSID=MIXED|CSPoint=tachuela§kunata|Lang=qqe
+17	shitankapak	shita	VERB	_	Mood=Prp|Switch=Same|VerbForm=Conv	18	advcl	_	CSID=KC|Lang=qu
 18	llukshin	llukshi	VERB	_	Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	CSID=KC|Lang=qu
 19	nin	ni	VERB	_	Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
 20	.	.	PUNCT	_	_	8	punct	_	CSID=OTHER
@@ -417,19 +417,19 @@
 # start = 143460
 # end = 151360
 1	Antawakunapa	antawa	NOUN	_	Case=Gen|Number=Plur	2	nmod	_	CSID=KC|Lang=qu
-2	llantakuna	llanta	NOUN	_	Number=Plur	3	nsubj	_	CSID=KC|Lang=qu
+2	llantakuna	llanta	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	CSID=MIXED|CSPoint=llanta§kuna|Lang=qqe
 3	tukyakpika	tukya	VERB	_	Info=Top|Switch=Diff|VerbForm=Conv	6	advcl	_	CSID=KC|Lang=qu
-4	payka	pay	PRON	_	Number=Sing|Person=3|PronType=Prs	12	nsubj	_	CSID=KC|Lang=qu
+4	payka	pay	PRON	_	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	CSID=KC|Lang=qu
 5	allichishpa	allichi	VERB	_	Switch=Same|VerbForm=Conv	6	advcl	_	CSID=KC|Lang=qu
 6	katin	kati	VERB	_	Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	CSID=KC|Lang=qu
 7	nin	ni	VERB	_	Person=3|Tense=Past|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu
-8	,	,	PUNCT	_	_	12	punct	_	CSID=OTHER
+8	,	,	PUNCT	_	_	14	punct	_	CSID=OTHER
 9	shinacha	shina	ADV	_	Mood=Dub	7	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
 10	imacha	ima	PRON	_	Mood=Dub|PronType=Int	9	discourse	_	CSID=KC|Lang=qu
 11	,	,	PUNCT	_	_	9	punct	_	CSID=OTHER|SpaceAfter=No
 12	shinapash	shinapash	CCONJ	_	_	14	cc	_	CSID=KC|Lang=qu
-13	kashna	kashna	ADV	_	_	14	advmod	_	CSID=KC|Lang=qu
-14	nin	ni	VERB	_	Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
+13	kashna	kashna	ADJ	_	_	14	advmod	_	CSID=KC|Lang=qu
+14	nin	ni	VERB	_	Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	CSID=KC|Lang=qu|SpaceAfter=No
 15	.	.	PUNCT	_	_	7	punct	_	CSID=OTHER
 
 # sent_id = 1_30
@@ -454,7 +454,7 @@
 # trans = ¿cómo va esa vida?
 # start = 154910
 # end = 156670
-1	Imashinatak	ima	PRON	_	Case=Equ|Info=Foc|PronType=Int	2	advmod	_	CSID=KC|Lang=qu
+1	Imashinatak	ima	PRON	_	Case=Equ|Info=Foc|PronType=Int|QuestType=Open	2	advmod	_	CSID=KC|Lang=qu
 2	kawsakunki	kawsa	VERB	_	Aspect=Prog|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 3	?	?	PUNCT	_	_	2	punct	_	CSID=OTHER
 
@@ -465,9 +465,9 @@
 # end = 159080
 1	Kaypi	kay	PRON	_	Case=Loc|PronType=Dem	2	obl	_	CSID=KC|Lang=qu
 2	shinalla	shina	ADV	_	Focus=Restr	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	CSID=OTHER
-4	mashi	mashi	NOUN	_	_	5	appos	_	CSID=KC|Lang=qu
-5	Eusebio	Eusebio	PROPN	_	_	2	vocative	_	CSID=ES|Lang=es|SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	CSID=OTHER
+4	mashi	mashi	NOUN	_	_	2	vocative	_	CSID=KC|Lang=qu
+5	Eusebio	Eusebio	PROPN	_	_	4	flat	_	CSID=ES|Lang=es|SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	CSID=OTHER
 
 # sent_id = 1_34
@@ -477,7 +477,7 @@
 # end = 160980
 1	Imashinalla	ima	PRON	_	Case=Equ|Focus=Restr|PronType=Int	0	root	_	CSID=KC|Lang=qu
 2	mashi	mashi	NOUN	_	_	1	vocative	_	CSID=KC|Lang=qu|SpaceAfter=No
-3	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
+3	,	,	PUNCT	_	_	4	punct	_	CSID=OTHER
 4	imashinalla	ima	PRON	_	Case=Equ|Focus=Restr|PronType=Int	1	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	CSID=OTHER
 
@@ -488,7 +488,7 @@
 # end = 163950
 1	Ñukaka	ñuka	PRON	_	Info=Topic|Number=Sing|Person=1	3	nsubj	_	CSID=KC|Lang=qu
 2	mana	mana	PART	_	Polarity=Neg	3	advmod:neg	_	CSID=KC|Lang=qu
-3	wakarinichu	waka	VERB	_	Info=Foc|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|Voice=Rfl	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+3	wakarinichu	waka	VERB	_	Info=Foc|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Rfl	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
 
 # sent_id = 1_36
@@ -497,21 +497,21 @@
 # start = 164180
 # end = 168010
 1	Wakin	wakin	DET	_	_	2	det	_	CSID=KC|Lang=qu
-2	llantakunata	llanta	NOUN	_	Case=Acc|Number=Plur	3	obj	_	CSID=MIXED|CSPoint=llanta§kunata|Lang=qqe
-3	charinkapak	chari	VERB	_	Mood=Prp|VerbForm=Conv	6	advcl	_	CSID=KC|Lang=qu
+2	llantakunata	llanta	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	CSID=MIXED|CSPoint=llanta§kunata|Lang=qqe
+3	charinkapak	chari	VERB	_	Mood=Prp|Switch=Same|VerbForm=Conv	6	advcl	_	CSID=KC|Lang=qu
 4	pachamamapa	pachamama	NOUN	_	Case=Gen	6	obl	_	CSID=KC|Lang=qu
 5	alli	alli	ADJ	_	_	6	advmod	_	CSID=KC|Lang=qu
-6	yanapawashkami	yanapa	VERB	_	Info=Foc|Number[obj]=Sing|Person=3|Person[obj]=1|VerbForm=Part	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+6	yanapawashkami	yanapa	VERB	_	Info=Foc|Number[obj]=Sing|Person=3|Person[obj]=1|Polarity=Pos|VerbForm=Part	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	CSID=OTHER
 
 # sent_id = 1_37
 # sent = Imashina ninki, pachakamak?
-# trans = ¿Cómo dices?¿Dios?
+# trans = ¿Cómo dices? ¿Dios?
 # start = 168110
 # end = 170350
 1	Imashina	ima	PRON	_	Case=Equ|PronType=Int	2	obl	_	CSID=KC|Lang=qu
 2	ninki	ni	VERB	_	Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	CSID=OTHER
+3	,	,	PUNCT	_	_	4	punct	_	CSID=OTHER
 4	pachakamak	pachakamak	NOUN	_	_	2	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
 5	?	?	PUNCT	_	_	2	punct	_	CSID=OTHER
 
@@ -520,11 +520,11 @@
 # trans = ¿O el diablo? ¿Quién?
 # start = 170350
 # end = 172210
-1	O	o	CCONJ	_	_	4	cc	_	CSID=KC|Lang=qu
-2	mana	mana	PART	_	Polarity=Neg	3	advmod:neg	_	CSID=KC|Lang=qu
-3	kashpa	ka	VERB	_	Switch=Same|VerbForm=Conv	4	advcl	_	CSID=KC|Lang=qu
+1	O	o	CCONJ	_	_	4	cc	_	CSID=ES|Lang=es
+2	mana	mana	PART	_	Polarity=Neg	4	advcl	_	CSID=KC|Lang=qu
+3	kashpa	ka	AUX	_	Switch=Same|VerbForm=Conv	2	cop	_	CSID=KC|Lang=qu
 4	supay	supay	NOUN	_	_	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-5	,	,	PUNCT	_	_	4	punct	_	CSID=OTHER
+5	,	,	PUNCT	_	_	6	punct	_	CSID=OTHER
 6	pi	pi	PRON	_	PronType=Int	4	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
 7	?	?	PUNCT	_	_	4	punct	_	CSID=OTHER
 
@@ -535,7 +535,7 @@
 # end = 174320
 1	Imashina	ima	PRON	_	Case=Equ|PronType=Int	2	obl	_	CSID=KC|Lang=qu
 2	ninki	ni	VERB	_	Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	CSID=OTHER
+3	,	,	PUNCT	_	_	4	punct	_	CSID=OTHER
 4	mashi	mashi	NOUN	_	_	2	vocative	_	CSID=KC|Lang=qu|SpaceAfter=No
 5	?	?	PUNCT	_	_	2	punct	_	CSID=OTHER
 
@@ -559,7 +559,7 @@
 1	Nortemanta	norte	NOUN	_	Case=Abl	2	nmod	_	CSID=MIXED|CSPoint=Norte§manta|Lang=qqe
 2	mashikuna	mashi	NOUN	_	Number=Plur	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER|SpaceAfter=No
-4	surmanta	sur	NOUN	_	Case=Abl	5	nmod	_	CSID=KC|Lang=qu
+4	surmanta	sur	NOUN	_	Case=Abl	5	nmod	_	CSID=MIXED|CSPoint=sur§manta|Lang=qqe
 5	mashikunapash	mashi	NOUN	_	Focus=Addit|Number=Plur	2	conj	_	CSID=KC|Lang=qu
 6	,	,	PUNCT	_	_	8	punct	_	CSID=OTHER
 7	Amazoníamanta	Amazonía	PROPN	_	Case=Abl	8	nmod	_	CSID=MIXED|CSPoint=Amazonía§manta|Lang=qqe|SpaceAfter=No
@@ -568,7 +568,7 @@
 10	wawki	wawki	NOUN	_	_	11	compound	_	CSID=KC|Lang=qu
 11	panikunapash	pani	NOUN	_	Focus=Addit|Number=Plur	8	conj	_	CSID=KC|Lang=qu|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	CSID=OTHER
-13	Costamantakunapash	Costamanta	NOUN	_	Focus=Addit|Number=Plur	2	conj	_	CSID=KC|Lang=qu|SpaceAfter=No
+13	Costamantakunapash	Costamanta	NOUN	_	Focus=Addit|Number=Plur	2	conj	_	CSID=MIXED|CSPoint=Costa§mantakunapash|Lang=qqe|SpaceAfter=No
 14	.	.	PUNCT	_	_	2	punct	_	CSID=OTHER
 
 # sent_id = 1_42
@@ -576,29 +576,29 @@
 # trans = Don Eusebio, ¡tengo arepas bien calienticas!
 # start = 189130
 # end = 195810
-1	Mashi	mashi	NOUN	_	_	2	appos	_	CSID=KC|Lang=qu|SpaceAfter=No
-2	Eusebio	Eusebio	PROPN	_	_	10	vocative	_	CSID=ES|Lang=es
+1	Mashi	mashi	NOUN	_	_	10	vocative	_	CSID=KC|Lang=qu|SpaceAfter=No
+2	Eusebio	Eusebio	PROPN	_	_	1	flat	_	CSID=ES|Lang=es
 3	,	,	PUNCT	_	_	2	punct	_	CSID=OTHER
-4	mashi	mashi	NOUN	_	_	5	vocative	_	CSID=KC|Lang=qu
-5	Eusebio	Eusebio	PROPN	_	_	10	vocative	_	CSID=ES|Lang=es
-6	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER
-7	kunuklla	kunuk	ADJ	_	Focus=Restr	8	amod	_	CSID=KC|Lang=qu|SpaceAfter=No
+4	mashi	mashi	NOUN	_	_	1	discourse	_	CSID=KC|Lang=qu
+5	Eusebio	Eusebio	PROPN	_	_	4	flat	_	CSID=ES|Lang=es
+6	,	,	PUNCT	_	_	4	punct	_	CSID=OTHER
+7	kunuklla	kunuk	ADJ	_	Focus=Restr	9	amod	_	CSID=KC|Lang=qu|SpaceAfter=No
 8	sara	sara	NOUN	_	_	9	nmod	_	CSID=KC|Lang=qu
 9	tantakuta	tanta	NOUN	_	Case=Acc|Degree=Dim	10	obj	_	CSID=KC|Lang=qu
 10	katukuni	katu	VERB	_	Aspect=Prog|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-11	,	,	PUNCT	_	_	11	punct	_	CSID=OTHER
-12	manachu	mana	PART	_	Info=Foc|Polarity=Neg	13	advmod:neg	_	CSID=KC|Lang=qu
+11	,	,	PUNCT	_	_	13	punct	_	CSID=OTHER
+12	manachu	mana	PART	_	Info=Foc|Polarity=Neg|QuestType=Polar	13	advmod:neg	_	CSID=KC|Lang=qu
 13	munanki	muna	VERB	_	Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
-14	?	?	PUNCT	_	_	15	punct	_	CSID=MIXED
+14	?	?	PUNCT	_	_	13	punct	_	CSID=MIXED
 
 # sent_id = 1_43
 # sent = Shukkuta, shukkuta mashi karaway.
 # trans = Unito, unito véndame.
 # start = 195870
 # end = 197790
-1	Shukkuta	shuk	NUM	_	Case=Acc|Degree=Dim|NumType=Card	5	obj	_	CSID=KC|Lang=qu|SpaceAfter=No
-2	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER
-3	shukkuta	shuk	NUM	_	Case=Acc|Degree=Dim|NumType=Card	1	discourse	_	CSID=KC|Lang=qu
+1	Shukkuta	shuk	NUM	_	Case=Acc|Degree=Dim|NumType=Card	3	reparandum	_	CSID=KC|Lang=qu|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
+3	shukkuta	shuk	NUM	_	Case=Acc|Degree=Dim|NumType=Card	5	obj	_	CSID=KC|Lang=qu
 4	mashi	mashi	NOUN	_	_	5	vocative	_	CSID=KC|Lang=qu
 5	karaway	kara	VERB	_	Mood=Imp|Number=Sing|Number[obj]=Sing|Person=2|Person[obj]=1|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	CSID=OTHER
@@ -615,9 +615,9 @@
 5	,	,	PUNCT	_	_	8	punct	_	CSID=OTHER
 6	Perúmanta	Perú	PROPN	_	Case=Abl	8	nmod	_	CSID=MIXED|CSPoint=Perú§manta|Lang=qqe
 7	wawki	wawki	NOUN	_	_	8	compound	_	CSID=KC|Lang=qu
-8	panikunami	pani	NOUN	_	Info=Foc|Number=Plur	2	conj	_	CSID=KC|Lang=qu
+8	panikunami	pani	NOUN	_	Info=Foc|Number=Plur|Polarity=Pos	2	conj	_	CSID=KC|Lang=qu
 9	chayamushka	chaya	VERB	_	Deixis=Ven|Person=3|VerbForm=Part	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-10	.	.	PUNCT	_	_	7	punct	_	CSID=OTHER
+10	.	.	PUNCT	_	_	9	punct	_	CSID=OTHER
 
 # sent_id = 1_45
 # sent = Shamuychik, kayta shamuychik, shuk ñankunata rikuchinkapak munani.
@@ -629,11 +629,11 @@
 3	kayta	kay	PRON	_	Case=Acc|PronType=Dem	4	obl	_	CSID=KC|Lang=qu
 4	shamuychik	shamu	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	1	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
 5	,	,	PUNCT	_	_	9	punct	_	CSID=OTHER
-6	shuk	shuk	NUM	_	NumType=Card	7	nummod	_	CSID=KC|Lang=qu
+6	shuk	shuk	DET	_	_	7	det	_	CSID=KC|Lang=qu
 7	ñankunata	ñan	NOUN	_	Case=Acc|Number=Plur	8	obj	_	CSID=KC|Lang=qu
-8	rikuchinkapak	riku	VERB	_	Mood=Prp|VerbForm=Conv|Voice=Cau	9	advcl	_	CSID=KC|Lang=qu
+8	rikuchinkapak	riku	VERB	_	Mood=Prp|Switch=Same|VerbForm=Conv|Voice=Cau	9	advcl	_	CSID=KC|Lang=qu
 9	munani	muna	VERB	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
-10	.	.	PUNCT	_	_	7	punct	_	CSID=OTHER
+10	.	.	PUNCT	_	_	1	punct	_	CSID=OTHER
 
 # sent_id = 1_46
 # sent = Chay takikunaka chay wasimantami uyarikun.
@@ -643,7 +643,7 @@
 1	Chay	chay	DET	_	_	2	det	_	CSID=KC|Lang=qu
 2	takikunaka	taki	NOUN	_	Info=Top|Number=Plur	5	nsubj	_	CSID=KC|Lang=qu
 3	chay	chay	DET	_	_	4	det	_	CSID=KC|Lang=qu
-4	wasimantami	wasi	NOUN	_	Case=Abl|Info=Foc	5	obl	_	CSID=KC|Lang=qu
+4	wasimantami	wasi	NOUN	_	Case=Abl|Info=Foc|Polarity=Pos	5	obl	_	CSID=KC|Lang=qu
 5	uyarikun	uya	VERB	_	Aspect=Prog|Person=3|Tense=Pres|VerbForm=Fin|Voice=Rfl	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	CSID=OTHER
 
@@ -653,17 +653,17 @@
 # start = 217370
 # end = 222760
 1	Rikuychik	riku	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	9	discourse	_	CSID=KC|Lang=qu
-2	,	,	PUNCT	_	_	9	punct	_	CSID=OTHER|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER|SpaceAfter=No
 3	chayta	chay	PRON	_	Case=Acc|PronType=Dem	4	obj	_	CSID=KC|Lang=qu
-4	rikuychik	riku	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	9	discourse	_	CSID=KC|Lang=qu
-5	,	,	PUNCT	_	_	9	punct	_	CSID=OTHER|SpaceAfter=No
-6	chay	chay	DET	_	_	7	det	_	CSID=KC|Lang=qu
+4	rikuychik	riku	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	1	discourse	_	CSID=KC|Lang=qu
+5	,	,	PUNCT	_	_	4	punct	_	CSID=OTHER|SpaceAfter=No
+6	chay	chay	DET	_	_	8	det	_	CSID=KC|Lang=qu
 7	waminsi	waminsi	ADJ	_	_	8	amod	_	CSID=KC|Lang=qu|SpaceAfter=No
 8	wasita	wasi	NOUN	_	Case=Acc	9	obj	_	CSID=KC|Lang=qu
 9	rikunkichik	riku	VERB	_	Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-10	,	,	PUNCT	_	_	9	punct	_	CSID=OTHER
-11	ay	ay	INTJ	_	_	9	discourse	_	CSID=KC|Lang=qu
-12	,	,	PUNCT	_	_	9	punct	_	CSID=OTHER
+10	,	,	PUNCT	_	_	11	punct	_	CSID=OTHER
+11	ari	ari	INTJ	_	_	13	discourse	_	CSID=KC|Lang=qu
+12	,	,	PUNCT	_	_	13	punct	_	CSID=OTHER
 13	chay	chay	PRON	_	PronType=Dem	9	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
 14	.	.	PUNCT	_	_	9	punct	_	CSID=OTHER
 
@@ -672,15 +672,15 @@
 # trans = Eh, tú, amigo, ¿qué pasa contigo, ah?, ¿por qué me señalas?
 # start = 224170
 # end = 229090
-1	Kan	kan	PRON	_	Number=Sing|Person=2	6	vocative	_	CSID=KC|Lang=qu
-2	,	,	PUNCT	_	_	6	punct	_	CSID=OTHER|SpaceAfter=No
+1	Kan	kan	PRON	_	Number=Sing|Person=2|PronType=Prs	6	vocative	_	CSID=KC|Lang=qu
+2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER|SpaceAfter=No
 3	wawki	wawki	NOUN	_	_	6	vocative	_	CSID=KC|Lang=qu|SpaceAfter=No
-4	,	,	PUNCT	_	_	6	punct	_	CSID=OTHER
-5	imatak	ima	PRON	_	Info=Foc|PronType=Int	6	nsubj	_	CSID=KC|Lang=qu|SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER
+5	imatak	ima	PRON	_	Info=Foc|PronType=Int|QuestType=Open	6	nsubj	_	CSID=KC|Lang=qu|SpaceAfter=No
 6	tukushka	tuku	VERB	_	Person=3|VerbForm=Part	0	root	_	CSID=KC|Lang=qu
-7	,	,	PUNCT	_	_	6	punct	_	CSID=OTHER
+7	,	,	PUNCT	_	_	8	punct	_	CSID=OTHER
 8	ah	ah	INTJ	_	_	6	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
-9	,	,	PUNCT	_	_	6	punct	_	CSID=OTHER
+9	,	,	PUNCT	_	_	12	punct	_	CSID=OTHER
 10	ima	ima	PRON	_	PronType=Int	11	obj	_	CSID=KC|Lang=qu
 11	nishpatak	ni	VERB	_	Info=Foc|VerbForm=Conv	12	advcl	_	CSID=KC|Lang=qu
 12	rikuchiwakunki	riku	VERB	_	Aspect=Prog|Number=Sing|Number[obj]=Sing|Person=2|Person[obj]=1|Tense=Pres|VerbForm=Fin|Voice=Cau	6	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
@@ -692,15 +692,15 @@
 # start = 229220
 # end = 234810
 1	Nimatak	nima	PRON	_	PronType=Neg	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER|SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER|SpaceAfter=No
 3	wampra	wampra	_	_	_	1	vocative	_	CSID=KC|Lang=qu
-4	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER|SpaceAfter=No
-5	ñukanchikka	ñukanchik	PRON	_	Info=Top|Number=Plur|Person=1|PronType=Prs	9	reparandum	_	CSID=KC|Lang=qu
-6	,	,	PUNCT	_	_	9	punct	_	CSID=OTHER
-7	ama	ama	PART	_	Polarity=Neg	9	advmod:neg	_	CSID=KC|Lang=qu|SpaceAfter=No
-8	ama	ama	PART	_	Polarity=Neg	7	discourse	_	CSID=KC|Lang=qu
+4	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER|SpaceAfter=No
+5	ñukanchikka	ñukanchik	PRON	_	Info=Top|Number=Plur|Person=1|PronType=Prs	11	reparandum	_	CSID=KC|Lang=qu
+6	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER
+7	ama	ama	PART	_	Polarity=Neg	8	reparandum	_	CSID=KC|Lang=qu|SpaceAfter=No
+8	ama	ama	PART	_	Polarity=Neg	9	advmod:neg	_	CSID=KC|Lang=qu
 9	llakiyarikuychu	llakiya	VERB	_	Aspect=Prog|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Rfl	1	parataxis	_	CSID=KC|Lang=qu
-10	,	,	PUNCT	_	_	12	punct	_	CSID=OTHER
+10	,	,	PUNCT	_	_	13	punct	_	CSID=OTHER
 11	ñukanchikka	ñukanchik	PRON	_	Info=Top|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	CSID=KC|Lang=qu
 12	yankata	yanka	ADJ	_	Case=Acc	13	advmod	_	CSID=KC|Lang=qu
 13	rimanakunchik	rima	VERB	_	Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Rcp	1	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
@@ -712,18 +712,18 @@
 # start = 234830
 # end = 239490
 1	Puriy	puri	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu
-2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
+2	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER
 3	puriy	puri	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	1	discourse	_	CSID=KC|Lang=qu
-4	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER|SpaceAfter=No
+4	,	,	PUNCT	_	_	8	punct	_	CSID=OTHER|SpaceAfter=No
 5	nimapash	nima	PRON	_	Focus=Addit|PronType=Neg	8	nsubj	_	CSID=KC|Lang=qu
 6	kaykunaman	kay	PRON	_	Case=Dat|Number=Plur|PronType=Dem	8	obl	_	CSID=KC|Lang=qu|SpaceAfter=No
 7	mana	mana	PART	_	Polarity=Neg	8	advmod:neg	_	CSID=KC|Lang=qu
 8	chinkashkachu	chinka	VERB	_	Info=Foc|Person=3|Polarity=Neg|VerbForm=Part	1	parataxis	_	CSID=KC|Lang=qu
-9	,	,	PUNCT	_	_	12	punct	_	CSID=OTHER|SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	CSID=OTHER|SpaceAfter=No
 10	puriy	puri	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	1	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	CSID=OTHER
-12	puriy	puri	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	1	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
-13	.	.	PUNCT	_	_	7	punct	_	CSID=OTHER
+12	puriy	puri	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	10	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
+13	.	.	PUNCT	_	_	1	punct	_	CSID=OTHER
 
 # sent_id = 1_51
 # sent = Ay, kay pacha wamprakuna.
@@ -746,13 +746,13 @@
 2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER|SpaceAfter=No
 3	kaynamanta	kayna	NOUN	_	Case=Abl	6	nmod	_	CSID=KC|Lang=qu
 4	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER
-5	kayamanta	kaya	NOUN	_	Case=Abl	3	conj	_	CSID=KC|Lang=qu
+5	kayamanta	kaya	NOUN	_	Case=Abl	3	parataxis	_	CSID=KC|Lang=qu
 6	wamprakuna	wampra	NOUN	_	Number=Plur	13	nsubj	_	CSID=KC|Lang=qu
-7	,	,	PUNCT	_	_	12	punct	_	CSID=OTHER|SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	CSID=OTHER|SpaceAfter=No
 8	ñukanchik	ñukanchik	PRON	_	Number=Plur|Person=1	9	nsubj	_	CSID=KC|Lang=qu
 9	wamprakuna	wampra	NOUN	_	Number=Plur	11	acl	_	CSID=KC|Lang=qu
 10	kashka	ka	AUX	_	VerbForm=Part	9	cop	_	CSID=KC|Lang=qu
-11	pachakunapash	pacha	NOUN	_	Focus=Addit|Number=Plur	6	conj	_	CSID=KC|Lang=qu
+11	pachakunapash	pacha	NOUN	_	Focus=Addit|Number=Plur	13	obl	_	CSID=KC|Lang=qu
 12	shinallatak	shina	ADV	_	Reflex=Yes	13	advmod	_	CSID=KC|Lang=qu
 13	millaykuna	millay	ADJ	_	Number=Plur	0	root	_	CSID=KC|Lang=qu
 14	karkanchik	ka	AUX	_	Number=Plur|Person=1|Tense=Past|VerbForm=Fin	13	cop	_	CSID=KC|Lang=qu|SpaceAfter=No
@@ -774,9 +774,9 @@
 # trans = Miren, miren, si no me equivoco, en esa casa rosada están bailando.
 # start = 256740
 # end = 262400
-1	Rikuychik	riku	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	11	discourse	_	CSID=KC|Lang=qu
-2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER|SpaceAfter=No
-3	rikuychik	riku	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	11	discourse	_	CSID=KC|Lang=qu
+1	Rikuychik	riku	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu
+2	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER|SpaceAfter=No
+3	rikuychik	riku	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	1	discourse	_	CSID=KC|Lang=qu
 4	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER
 5	mana	mana	PART	_	Polarity=Neg	6	advmod:neg	_	CSID=KC|Lang=qu|SpaceAfter=No
 6	pantashpaka	panta	VERB	_	Info=Top|Switch=Same|VerbForm=Conv	11	advcl	_	CSID=KC|Lang=qu|SpaceAfter=No
@@ -784,8 +784,8 @@
 8	chay	chay	DET	_	_	10	det	_	CSID=KC|Lang=qu
 9	waminsi	waminsi	ADJ	_	_	10	amod	_	CSID=KC|Lang=qu
 10	wasipika	wasi	NOUN	_	Case=Loc|Info=Top	11	obl	_	CSID=KC|Lang=qu
-11	tushunakunmi	tushu	VERB	_	Person=3|Tense=Pres|VerbForm=Fin|Voice=Rcp	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-12	.	.	PUNCT	_	_	11	punct	_	CSID=OTHER
+11	tushunakunmi	tushu	VERB	_	Aspect=Prog|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
+12	.	.	PUNCT	_	_	1	punct	_	CSID=OTHER
 
 # sent_id = 1_55
 # sent = Ñukawan shamuychik, ari ari shamuychik, hakuchik, upalla chapakrishunchik.
@@ -794,13 +794,13 @@
 # end = 267580
 1	Ñukawan	ñuka	PRON	_	Case=Ins|Number=Sing|Person=1|PronType=Prs	2	obl	_	CSID=KC|Lang=qu
 2	shamuychik	shamu	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	CSID=OTHER
-4	ari	ari	INTJ	_	_	2	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
-5	ari	ari	INTJ	_	_	2	discourse	_	CSID=KC|Lang=qu
+3	,	,	PUNCT	_	_	6	punct	_	CSID=OTHER
+4	ari	ari	INTJ	_	_	6	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
+5	ari	ari	INTJ	_	_	6	discourse	_	CSID=KC|Lang=qu
 6	shamuychik	shamu	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	2	discourse	_	CSID=KC|Lang=qu
-7	,	,	PUNCT	_	_	6	punct	_	CSID=OTHER
+7	,	,	PUNCT	_	_	8	punct	_	CSID=OTHER
 8	hakuchik	hakuchik	INTJ	_	_	2	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
-9	,	,	PUNCT	_	_	8	punct	_	CSID=OTHER
+9	,	,	PUNCT	_	_	11	punct	_	CSID=OTHER
 10	upalla	upalla	ADV	_	_	11	advmod	_	CSID=KC|Lang=qu
 11	chapakrishunchik	chapa	VERB	_	Aspect=Prosp|Mood=Imp|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	2	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	CSID=OTHER
@@ -833,12 +833,12 @@
 # end = 281530
 1	Kaypika	kay	PRON	_	Case=Loc|Info=Top|PronType=Dem	8	obl	_	CSID=KC|Lang=qu
 2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER|SpaceAfter=No
-3	mana	mana	PART	_	Polarity=Neg	3	advmod:neg	_	CSID=KC|Lang=qu|SpaceAfter=No
+3	mana	mana	PART	_	Polarity=Neg	4	orphan	_	CSID=KC|Lang=qu|SpaceAfter=No
 4	pipash	pi	PRON	_	Focus=Addit|PronType=Int	8	nsubj	_	CSID=KC|Lang=qu
 5	,	,	PUNCT	_	_	4	punct	_	CSID=OTHER
 6	mana	mana	PART	_	Polarity=Neg	7	advmod:neg	_	CSID=KC|Lang=qu
 7	urmashpaka	urma	VERB	_	Info=Top|Switch=Same|VerbForm=Conv	8	advcl	_	CSID=KC|Lang=qu
-8	lluchkanmi	lluchka	VERB	_	Info=Foc|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+8	lluchkanmi	lluchka	VERB	_	Info=Foc|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	CSID=OTHER
 
 # sent_id = 1_59
@@ -863,16 +863,16 @@
 3	,	,	PUNCT	_	_	2	punct	_	CSID=OTHER|SpaceAfter=No
 4	chay	chay	DET	_	_	5	det	_	CSID=KC|Lang=qu
 5	wasika	wasi	NOUN	_	Info=Top	7	nsubj	_	CSID=KC|Lang=qu
-6	alli	alli	ADJ	_	_	7	advmod	_	CSID=KC|Lang=qu
-7	ayllukunapakmi	ayllu	NOUN	_	Case=Gen|Info=Foc|Number=Plur	0	root	_	CSID=KC|Lang=qu
+6	alli	alli	ADJ	_	_	7	amod	_	CSID=KC|Lang=qu
+7	ayllukunapakmi	ayllu	NOUN	_	Case=Gen|Info=Foc|Number=Plur|Polarity=Pos	0	root	_	CSID=KC|Lang=qu
 8	kan	ka	AUX	_	Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	CSID=KC|Lang=qu|SpaceAfter=No
-9	,	,	PUNCT	_	_	7	punct	_	CSID=OTHER
+9	,	,	PUNCT	_	_	16	punct	_	CSID=OTHER
 10	shinapash	shinapash	CCONJ	_	_	16	cc	_	CSID=KC|Lang=qu
 11	runakunaka	runa	NOUN	_	Info=Top|Number=Plur	16	nsubj	_	CSID=KC|Lang=qu
-12	shuk	shuk	NUM	_	NumType=Card	13	nummod	_	CSID=KC|Lang=qu
-13	dólar	dólar	NOUN	_	_	14	nmod	_	CSID=ES|Lang=es
+12	shuk	shuk	DET	_	_	14	det	_	CSID=KC|Lang=qu
+13	dólar	dólar	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	CSID=ES|Lang=es
 14	kullkita	kullki	NOUN	_	Case=Acc	15	obj	_	CSID=KC|Lang=qu
-15	tantachinamanta	tanta	VERB	_	Case=Abl|VerbForm=Inf|Voice=Cau	16	advcl	_	CSID=KC|Lang=qu
+15	tantachinamanta	tanta	VERB	_	Case=Abl|VerbForm=Inf|Voice=Cau	16	obl	_	CSID=KC|Lang=qu
 16	musparinakun	muspa	VERB	_	Person=3|Tense=Pres|VerbForm=Fin|Voice=RflRcp	7	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
 17	.	.	PUNCT	_	_	7	punct	_	CSID=OTHER
 
@@ -881,16 +881,16 @@
 # trans = ¿Quién organizó esta rumba?
 # start = 298010
 # end = 302130
-1	Uyaychik	uya	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	9	discourse	_	CSID=KC|Lang=qu
-2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER|SpaceAfter=No
-3	uyaychik	uya	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	9	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER
-5	pitak	pi	PRON	_	Info=Foc|PronType=Int	9	nsubj	_	CSID=KC|Lang=qu
+1	Uyaychik	uya	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu
+2	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER|SpaceAfter=No
+3	uyaychik	uya	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	1	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
+4	,	,	PUNCT	_	_	9	punct	_	CSID=OTHER
+5	pitak	pi	PRON	_	Info=Foc|PronType=Int|QuestType=Open	9	nsubj	_	CSID=KC|Lang=qu
 6	kay	kay	DET	_	_	7	det	_	CSID=KC|Lang=qu
 7	raymikunata	raymi	NOUN	_	Case=Acc|Number=Plur	8	obj	_	CSID=KC|Lang=qu
 8	rurachun	rura	VERB	_	Mood=Prp|Switch=Diff|VerbForm=Conv	9	advcl	_	CSID=KC|Lang=qu
-9	sakirka	saki	VERB	_	Person=3|Tense=Past|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-10	?	?	PUNCT	_	_	9	punct	_	CSID=OTHER
+9	sakirka	saki	VERB	_	Person=3|Tense=Past|VerbForm=Fin	1	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
+10	?	?	PUNCT	_	_	1	punct	_	CSID=OTHER
 
 # sent_id = 1_62
 # sent = Tukuykuna pirkaman sakiriychik!
@@ -899,7 +899,7 @@
 # end = 304140
 1	Tukuykuna	tukuy	PRON	_	Number=Plur|PronType=Tot	3	vocative	_	CSID=KC|Lang=qu
 2	pirkaman	pirka	NOUN	_	Case=Dat	3	obl	_	CSID=KC|Lang=qu
-3	sakiriychik	saki	VERB	_	Mood=Imp|Number=Plur|Person=2VerbForm=Fin|Voice=Rfl	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+3	sakiriychik	saki	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Rfl	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 4	!	!	PUNCT	_	_	3	punct	_	CSID=OTHER
 
 # sent_id = 1_63
@@ -907,7 +907,7 @@
 # trans = He dicho todos.
 # start = 304140
 # end = 305630
-1	Tukuykuna	tukuy	PRON	_	Number=Plur|Prontype=Tot	2	obj	_	CSID=KC|Lang=qu
+1	Tukuykuna	tukuy	PRON	_	Number=Plur|Prontype=Tot	2	ccomp	_	CSID=KC|Lang=qu
 2	nirkani	ni	VERB	_	Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	CSID=OTHER
 
@@ -916,10 +916,10 @@
 # trans = Pero, señor policía, solo estamos en una fiesta familiar.
 # start = 305670
 # end = 308950
-1	Policía	policía	NOUN	_	_	2	nmod	_	CSID=ES|Lang=es
-2	pushak	pusha	VERB	_	VerbForm=NomAg	6	vocative	_	CSID=KC|Lang=qu|SpaceAfter=No
+1	Policía	policía	NOUN	_	_	6	vocative	_	CSID=ES|Lang=es
+2	pushak	pusha	VERB	_	VerbForm=NomAg	1	flat	_	CSID=KC|Lang=qu|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	CSID=OTHER
-4	shuk	shuk	NUM	_	NumType=Card	5	nummod	_	CSID=KC|Lang=qu
+4	shuk	shuk	DET	_	_	6	det	_	CSID=KC|Lang=qu
 5	ayllupak	ayllu	NOUN	_	Case=Gen	6	nmod	_	CSID=KC|Lang=qu
 6	raymipillami	raymi	NOUN	_	Case=Loc|Info=Foc	0	root	_	CSID=KC|Lang=qu
 7	kanchik	ka	AUX	_	Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	CSID=KC|Lang=qu|SpaceAfter=No
@@ -932,14 +932,14 @@
 # end = 313660
 1	Kikin	kikin	PRON	_	Number=Sing|Person=2|Polite=Form	4	vocative	_	CSID=KC|Lang=qu
 2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER|SpaceAfter=No
-3	manachu	mana	PART	_	Info=Foc|Polarity=Neg	4	advmod:neg	_	CSID=KC|Lang=qu
+3	manachu	mana	PART	_	Info=Foc|Polarity=Neg|QuestType=Polar	4	advmod:neg	_	CSID=KC|Lang=qu
 4	yachanki	yacha	VERB	_	Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-5	,	,	PUNCT	_	_	4	punct	_	CSID=OTHER
+5	,	,	PUNCT	_	_	9	punct	_	CSID=OTHER
 6	mana	mana	PART	_	Polarity=Neg	9	advmod:neg	_	CSID=KC|Lang=qu
 7	chuskupura	chusku	NUM	_	NumType=Sets	8	advmod	_	CSID=KC|Lang=qu
-8	tantanakushka	tanta	VERB	_	VerbForm=Part|Voice=Rcp	9	advcl	_	CSID=KC|Lang=qu
-9	purinachu	puri	VERB	_	Info=Foc|VerbForm=Inf	4	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
-10	?	?	PUNCT	_	_	9	punct	_	CSID=KC|Lang=qu
+8	tantanakushka	tanta	VERB	_	VerbForm=Part|Voice=Rcp	9	xcomp	_	CSID=KC|Lang=qu
+9	purinachu	puri	VERB	_	Info=Foc|VerbForm=Inf	4	ccomp	_	CSID=KC|Lang=qu|SpaceAfter=No
+10	?	?	PUNCT	_	_	4	punct	_	CSID=KC|Lang=qu
 
 # sent_id = 1_66
 # sent = Shinapash shimitapash mana killparishka kankichik.
@@ -950,7 +950,7 @@
 2	shimitapash	shimi	NOUN	_	Case=Acc|Focus=Addit	4	obj	_	CSID=KC|Lang=qu
 3	mana	mana	PART	_	Polarity=Neg	4	advmod:neg	_	CSID=KC|Lang=qu
 4	killparishka	killpa	VERB	_	VerbForm=Part|Voice=Rfl	0	root	_	CSID=KC|Lang=qu
-5	kankichik	ka	AUX	_	Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	cop	_	CSID=KC|Lang=qu|SpaceAfter=No
+5	kankichik	ka	AUX	_	Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	CSID=KC|Lang=qu|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	CSID=OTHER
 
 # sent_id = 1_67
@@ -960,7 +960,7 @@
 # end = 318680
 1	Ari	ari	INTJ	_	_	3	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
-3	yachanimi	yacha	VERB	_	Info=Foc|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+3	yachanimi	yacha	VERB	_	Info=Foc|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
 
 # sent_id = 1_68
@@ -969,7 +969,7 @@
 # start = 319090
 # end = 320650
 1	Kaypika	kay	PRON	_	Case=Loc|Info=Top|PronType=Dem	2	obl	_	CSID=KC|Lang=qu
-2	turnarinchikmi	turna	VERB	_	Info=Foc|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Rfl	0	root	_	CSID=MIXED|CSPoint=turna§rinchikmi|Lang=qqe|SpaceAfter=No
+2	turnarinchikmi	turna	VERB	_	Info=Foc|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Rfl	0	root	_	CSID=MIXED|CSPoint=turna§rinchikmi|Lang=qqe|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	CSID=OTHER
 
 # sent_id = 1_69
@@ -979,10 +979,10 @@
 # end = 323875
 1	Chusku	chusku	NUM	_	NumType=Card	2	nsubj	_	CSID=KC|Lang=qu
 2	yaykun	yayku	VERB	_	Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu
-3	,	,	PUNCT	_	_	2	punct	_	CSID=OTHER|SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER|SpaceAfter=No
 4	chusku	chusku	NUM	_	NumType=Card	5	nsubj	_	CSID=KC|Lang=qu
 5	llukshin	llukshi	VERB	_	Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER
+6	,	,	PUNCT	_	_	7	punct	_	CSID=OTHER
 7	chayka	chay	PRON	_	Info=Top|PronType=Dem	2	advmod	_	CSID=KC|Lang=qu|SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	CSID=OTHER
 
@@ -992,9 +992,9 @@
 # start = 323880
 # end = 325560
 1	Kayna	kayna	NOUN	_	_	2	advmod	_	CSID=KC|Lang=qu
-2	wacharishka	wacha	VERB	_	Person=3|VerbForm=Part|Voice=Rfl	3	comp	_	CSID=KC|Lang=qu
+2	wacharishka	wacha	VERB	_	VerbForm=Part|Voice=Rfl	3	comp	_	CSID=KC|Lang=qu
 3	yawankichu	ya	VERB	_	Info=Foc|Mood=Int|Number=Sing|Number[obj]=Sing|Person=2|Person[obj]=1|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu
-4	imatak	ima	PRON	_	Info=Foc|PronType=Int	3	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
+4	imatak	ima	PRON	_	Info=Foc|PronType=Int|QuestType=Open	3	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
 5	?	?	PUNCT	_	_	3	punct	_	CSID=OTHER
 
 # sent_id = 1_71
@@ -1003,7 +1003,7 @@
 # start = 325560
 # end = 326980
 1	Pirkaman	pirka	NOUN	_	Case=Dat	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
+2	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER
 3	tukuykuna	tukuy	PRON	_	Number=Plur|PronType=Tot	1	vocative	_	CSID=KC|Lang=qu|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	CSID=OTHER
 
@@ -1041,11 +1041,11 @@
 # end = 334320
 1	Wata	wata	NOUN	_	_	2	nsubj	_	CSID=KC|Lang=qu
 2	paktay	pakta	VERB	_	VerbForm=Vnoun	3	nmod	_	CSID=KC|Lang=qu
-3	raymipimi	raymi	NOUN	_	Case=Loc|Info=Foc	0	root	_	CSID=KC|Lang=qu
+3	raymipimi	raymi	NOUN	_	Case=Loc|Info=Foc|Polarity=Pos	0	root	_	CSID=KC|Lang=qu
 4	kanchik	ka	AUX	_	Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	CSID=KC|Lang=qu|SpaceAfter=No
-5	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER
-6	policía	policía	NOUN	_	_	7	nmod	_	CSID=ES|Lang=es
-7	pushak	pusha	VERB	_	VerbForm=NomAg	3	vocative	_	CSID=KC|Lang=qu|SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	CSID=OTHER
+6	policía	policía	NOUN	_	_	3	vocative	_	CSID=ES|Lang=es
+7	pushak	pusha	VERB	_	VerbForm=NomAg	6	flat	_	CSID=KC|Lang=qu|SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
 
 # sent_id = 1_76
@@ -1053,7 +1053,7 @@
 # trans = ¿O ya no se pueden celebrar los cumpleaños?
 # start = 334320
 # end = 337570
-1	Manachu	mana	PART	_	Info=Foc|Polarity=Neg	6	advmod:neg	_	CSID=KC|Lang=qu
+1	Manachu	mana	PART	_	Info=Foc|Polarity=Neg|QuestType=Polar	6	advmod:neg	_	CSID=KC|Lang=qu
 2	wata	wata	NOUN	_	_	3	nsubj	_	CSID=KC|Lang=qu
 3	paktay	pakta	VERB	_	VerbForm=Vnoun	4	nmod	_	CSID=KC|Lang=qu
 4	raymikunata	raymi	NOUN	_	Case=Acc|Number=Plur	5	obj	_	CSID=KC|Lang=qu
@@ -1066,17 +1066,17 @@
 # trans = Durante la pandemia, todo el mundo se queda con la edad que tiene, ¿entiende?
 # start = 337580
 # end = 343970
-1	Pandemia	pandemia	NOUN	_	_	2	nmod	_	CSID=ES|Lang=es
+1	Pandemia	pandemia	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	CSID=ES|Lang=es
 2	pachakunapika	pacha	NOUN	_	Case=Loc|Info=Top|Number=Plur	8	obl	_	CSID=KC|Lang=qu|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	CSID=OTHER|SpaceAfter=No
-4	tukuykunami	tukuy	PRON	_	Info=Foc|Number=Plur|PronType=Tot	8	nsubj	_	CSID=KC|Lang=qu
-5	chay	chay	DET	_	_	6	det	_	CSID=KC|Lang=qu
+4	tukuykunami	tukuy	PRON	_	Info=Foc|Number=Plur|Polarity=Pos|PronType=Tot	8	nsubj	_	CSID=KC|Lang=qu
+5	chay	chay	DET	_	_	7	det	_	CSID=KC|Lang=qu
 6	wata	wata	NOUN	_	_	7	obj	_	CSID=KC|Lang=qu
 7	charishkawan	chari	VERB	_	Case=Ins|VerbForm=Part	8	obl	_	CSID=KC|Lang=qu
 8	sakirinchik	saki	VERB	_	Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Rfl	0	root	_	CSID=KC|Lang=qu
-9	,	,	PUNCT	_	_	8	punct	_	CSID=OTHER
-10	uyaychik	uya	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	8	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
-11	,	,	PUNCT	_	_	10	punct	_	CSID=OTHER
+9	,	,	PUNCT	_	_	10	punct	_	CSID=OTHER
+10	uyaychik	uya	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	8	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	CSID=OTHER
 12	mashikuna	mashi	NOUN	_	Number=Plur	8	vocative	_	CSID=KC|Lang=qu|SpaceAfter=No
 13	.	.	PUNCT	_	_	8	punct	_	CSID=OTHER
 
@@ -1087,16 +1087,16 @@
 # end = 346580
 1	Shinapash	shinapash	CCONJ	_	_	4	cc	_	CSID=KC|Lang=qu|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
-3	policía	policía	NOUN	_	_	4	nmod	_	CSID=ES|Lang=es
-4	pushak	pusha	VERB	_	VerbForm=NomAg	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-5	.	.	PUNCT	_	_	4	punct	_	CSID=OTHER
+3	policía	policía	NOUN	_	Gender=Fem|Number=Sing	0	root	_	CSID=ES|Lang=es
+4	pushak	pusha	VERB	_	VerbForm=NomAg	3	vocative	_	CSID=KC|Lang=qu|SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
 
 # sent_id = 1_79
 # sent = Ama kimiriychu.
 # trans = Y no se me acerque.
 # start = 346580
 # end = 347780
-1	Ama	ama	PART	_	_	2	advmod:neg	_	CSID=KC|Lang=qu
+1	Ama	ama	PART	_	Polarity=Neg	2	advmod:neg	_	CSID=KC|Lang=qu
 2	kimiriychu	kimi	VERB	_	Info=Foc|Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Rfl	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	CSID=OTHER
 
@@ -1106,7 +1106,7 @@
 # start = 347780
 # end = 349410
 1	Ishkay	ishkay	NUM	_	NumType=Card	2	nummod	_	CSID=KC|Lang=qu
-2	metropi	metro	NOUN	_	Case=Loc	3	obl	_	CSID=MIXED|CSPoint=metro§pi|Lang=qqe
+2	metropi	metro	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	3	obl	_	CSID=MIXED|CSPoint=metro§pi|Lang=qqe
 3	sakiriy	saki	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Rfl	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
 
@@ -1116,8 +1116,8 @@
 # start = 349410
 # end = 352030
 1	Hatun	hatun	ADJ	_	_	2	amod	_	CSID=KC|Lang=qu
-2	pushak	pusha	VERB	_	VerbForm=NomAg	3	nmod	_	CSID=KC|Lang=qu
-3	policíaman	policía	NOUN	_	Case=Dat	4	obl	_	CSID=MIXED|CSPoint=Policía§man|Lang=qqe
+2	pushak	pusha	VERB	_	VerbForm=NomAg	4	obl	_	CSID=KC|Lang=qu
+3	policíaman	policía	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	2	flat	_	CSID=MIXED|CSPoint=Policía§man|Lang=qqe
 4	willanki	willa	VERB	_	Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	CSID=OTHER
 
@@ -1127,9 +1127,9 @@
 # start = 352030
 # end = 353280
 1	Purishpa	puri	VERB	_	Switch=Same|VerbForm=Conv	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
+2	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER
 3	purishpa	puri	VERB	_	Switch=Same|VerbForm=Conv	1	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
-4	.	.	PUNCT	_	_	7	punct	_	CSID=OTHER
+4	.	.	PUNCT	_	_	1	punct	_	CSID=OTHER
 
 # sent_id = 1_83
 # sent = Shuyay, shuyay, policía pushak.
@@ -1137,11 +1137,11 @@
 # start = 353280
 # end = 355230
 1	Shuyay	shuya	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu
-2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER|SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER|SpaceAfter=No
 3	shuyay	shuya	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	1	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER
-5	policía	policía	NOUN	_	_	6	nmod	_	CSID=ES|Lang=es
-6	pushak	pusha	VERB	_	VerbForm=NomAg	1	vocative	_	CSID=KC|Lang=qu|SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER
+5	policía	policía	NOUN	_	Gender=Fem|Number=Sing	1	vocative	_	CSID=ES|Lang=es
+6	pushak	pusha	VERB	_	VerbForm=NomAg	5	flat	_	CSID=KC|Lang=qu|SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	CSID=OTHER
 
 # sent_id = 1_84
@@ -1150,7 +1150,7 @@
 # start = 362040
 # end = 363900
 1	Ñukaka	ñuka	PRON	_	Info=Top|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	CSID=KC|Lang=qu
-2	purikurinirakmi	puri	VERB	_	Aspect=Prog|Info=Foc|Number=Sing|Person=1|State=Cont|VerbForm=Fin|Voice=Rfl	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+2	purikurinirakmi	puri	VERB	_	Aspect=Prog|Info=Foc|Number=Sing|Person=1|Polarity=Pos|State=Cont|VerbForm=Fin|Voice=Rfl	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	CSID=OTHER
 
 # sent_id = 1_85
@@ -1159,9 +1159,9 @@
 # start = 363960
 # end = 368600
 1	Kunanka	kunan	NOUN	_	Info=Top	3	advmod	_	CSID=KC|Lang=qu
-2	alcaldíaman	alcaldía	NOUN	_	Case=Dat	3	obl	_	CSID=KC|Lang=qu
+2	alcaldíaman	alcaldía	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	CSID=MIXED|CSPoint=alcaldía§man|Lang=qqe
 3	rikrini	ri	VERB	_	Aspect=Prosp|Number=Sing|Person=1|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER
+4	,	,	PUNCT	_	_	8	punct	_	CSID=OTHER
 5	ñuka	ñuka	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nmod	_	CSID=KC|Lang=qu
 6	wasimanta	wasi	NOUN	_	Case=Abl	8	obl	_	CSID=KC|Lang=qu
 7	mana	mana	PART	_	Polarity=Neg	8	advmod:neg	_	CSID=KC|Lang=qu
@@ -1176,7 +1176,7 @@
 1	Chaypimi	chay	PRON	_	Case=Loc|Info=Foc|PronType=Dem	5	obl	_	CSID=KC|Lang=qu
 2	piñanakuy	piña	VERB	_	VerbForm=Vnoun|Voice=Rcp	5	nsubj	_	CSID=KC|Lang=qu|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	CSID=OTHER
-4	kapariykuna	kapari	VERB	_	Number=Plur|VerbForm=Vnoun	2	conj	_	CSID=KC|Lang=qu
+4	kapariykuna	kapari	VERB	_	Number=Plur|VerbForm=Vnoun	2	parataxis	_	CSID=KC|Lang=qu
 5	uyarin	uya	VERB	_	Person=3|Tense=Pres|VerbForm=Fin|Voice=Rfl	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	CSID=OTHER
 
@@ -1187,10 +1187,10 @@
 # end = 375750
 1	Ama	ama	PART	_	Polarity=Neg	2	advmod:neg	_	CSID=KC|Lang=qu
 2	chinkaychik	chinka	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu
-3	,	,	PUNCT	_	_	2	punct	_	CSID=OTHER|SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER|SpaceAfter=No
 4	ñukawan	ñuka	PRON	_	Case=Ins|Number=Sing|Person=1|PronType=Prs	5	obl	_	CSID=KC|Lang=qu
 5	shamuychik	shamu	VERB	_	Mood=Imp|Number=Plur|Person=2	2	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER
+6	,	,	PUNCT	_	_	7	punct	_	CSID=OTHER
 7	hakuchik	hakuchik	INTJ	_	_	2	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	CSID=OTHER
 
@@ -1199,7 +1199,7 @@
 # trans = Señora alcaldesa.
 # start = 375800
 # end = 377180
-1	Alcaldesa	alcaldesa	NOUN	_	_	0	root	_	CSID=ES|Lang=es
+1	Alcaldesa	alcaldesa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	CSID=ES|Lang=es
 2	pushak	pusha	VERB	_	VerbForm=NomAg	1	flat	_	CSID=KC|Lang=qu|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	CSID=OTHER
 
@@ -1219,7 +1219,7 @@
 1	Waminsi	waminsi	ADJ	_	_	2	amod	_	CSID=KC|Lang=qu
 2	waisipi	wasi	NOUN	_	Case=Loc	3	nmod	_	CSID=KC|Lang=qu
 3	raymimanta	raymi	NOUN	_	Case=Abl	4	obl	_	CSID=KC|Lang=qu
-4	yacharkankichu	yacha	VERB	_	Info=Foc|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+4	yacharkankichu	yacha	VERB	_	Info=Foc|Number=Sing|Person=2|QuestType=Polar|Tense=Past|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 5	?	?	PUNCT	_	_	4	punct	_	CSID=OTHER
 
 # sent_id = 1_91
@@ -1228,14 +1228,14 @@
 # start = 381330
 # end = 388000
 1	Ishkay	ishkay	NUM	_	NumType=Card	3	nummod	_	CSID=KC|Lang=qu
-2	chunka	chunka	NUM	_	NumType=Card	1	flat	_	CSID=KC|Lang=qu
+2	chunka	chunka	NUM	_	NumType=Card	1	compound	_	CSID=KC|Lang=qu
 3	hapiy	hapi	VERB	_	VerbForm=Vnoun	9	nsubj	_	CSID=KC|Lang=qu
-4	tukushkakuna	tuku	AUX	_	Number=Plur|Person=3|VerbForm=Part	3	aux	_	CSID=KC|Lang=qu
+4	tukushkakuna	tuku	AUX	_	Number=Plur|VerbForm=Part	3	aux	_	CSID=KC|Lang=qu
 5	shinallatak	shinallatak	ADV	_	_	8	advmod	_	CSID=KC|Lang=qu
 6	tankariymanta	tanka	VERB	_	Case=Abl|VerbForm=Vnoun|Voice=Rfl	8	obl	_	CSID=KC|Lang=qu
 7	ishkay	ishkay	NUM	_	NumType=Card	8	nummod	_	CSID=KC|Lang=qu
 8	chukrishkakunapash	chukri	VERB	_	Focus=Addit|Number=Plur|VerbForm=Part	3	conj	_	CSID=KC|Lang=qu
-9	tiyashkaka	tiya	VERB	_	Info=Top|VerbForm=Part	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+9	tiyashkaka	tiya	VERB	_	Emph=Yes|Person=3|VerbForm=Part	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	CSID=OTHER
 
 # sent_id = 1_92
@@ -1249,8 +1249,8 @@
 4	,	,	PUNCT	_	_	2	punct	_	CSID=OTHER|SpaceAfter=No
 5	mana	mana	PART	_	Polarity=Neg	6	advmod:neg	_	CSID=KC|Lang=qu|SpaceAfter=No
 6	hamuktanka	hamukta	VERB	_	Person=3|Tense=Fut|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu
-7	,	,	PUNCT	_	_	12	punct	_	CSID=OTHER
-8	mana	mana	PART	_	Polarity=Neg	11	advmod:neg	_	CSID=KC|Lang=qu
+7	,	,	PUNCT	_	_	9	punct	_	CSID=OTHER
+8	mana	mana	PART	_	Polarity=Neg	9	advmod:neg	_	CSID=KC|Lang=qu
 9	kasunchu	kasu	VERB	_	Info=Foc|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
 10	.	.	PUNCT	_	_	6	punct	_	CSID=OTHER
 
@@ -1284,7 +1284,7 @@
 3	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
 4	maykantak	maykan	PRON	_	Info=Foc|PronType=Int	0	root	_	CSID=KC|Lang=qu
 5	chay	chay	DET	_	_	6	det	_	CSID=KC|Lang=qu
-6	emekunaka	eme	NOUN	_	Info=Top|Number=Plur	4	nsubj	_	CSID=KC|Lang=qu|SpaceAfter=No
+6	emekunaka	eme	NOUN	_	Info=Top|Number=Plur	4	nsubj	_	CSID=MIXED|CSPoint=eme§kunaka|Lang=qqe|SpaceAfter=No
 7	?	?	PUNCT	_	_	4	punct	_	CSID=OTHER
 
 # sent_id = 1_96
@@ -1295,11 +1295,11 @@
 1	Mascarilla	mascarilla	NOUN	_	_	0	root	_	CSID=ES|Lang=es
 2	,	,	PUNCT	_	_	4	punct	_	CSID=OTHER|SpaceAfter=No
 3	maki	maki	NOUN	_	_	4	obj	_	CSID=KC|Lang=qu
-4	mayllariy	maylla	VERB	_	VerbForm=Vnoun|Voice=Rfl	1	conj	_	CSID=KC|Lang=qu|SpaceAfter=No
+4	mayllariy	maylla	VERB	_	VerbForm=Vnoun|Voice=Rfl	1	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	CSID=OTHER
 6	metro	metro	NOUN	_	_	7	obl	_	CSID=ES|Lang=es
-7	karulla	karu	ADJ	_	Focus=Restr	1	conj	_	CSID=KC|Lang=qu|SpaceAfter=No
-8	.	.	PUNCT	_	_	7	punct	_	CSID=OTHER
+7	karulla	karu	ADJ	_	Focus=Restr	1	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	CSID=OTHER
 
 # sent_id = 1_97
 # sent = Shinapash paykunapak munashkata ruran.
@@ -1327,8 +1327,8 @@
 # trans = Pero, señora alcaldesa, ¿no le parece muy drástico prohibir hasta los cumpleaños?
 # start = 408540
 # end = 414330
-1	Pushak	pusha	VERB	_	VerbForm=NomAg	6	vocative	_	CSID=KC|Lang=qu
-2	alcaldesa	alcaldesa	NOUN	_	_	1	flat	_	CSID=ES|Lang=es|SpaceAfter=No
+1	Pushak	pusha	VERB	_	VerbForm=NomAg	5	vocative	_	CSID=KC|Lang=qu
+2	alcaldesa	alcaldesa	NOUN	_	Gender=Fem|Number=Sing	1	flat	_	CSID=ES|Lang=es|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
 4	nachu	na	PART	_	Info=Foc|Polarity=Neg	5	advmod:neg	_	CSID=KC|Lang=qu
 5	yapalla	yapa	ADV	_	Focus=Restr	0	root	_	CSID=KC|Lang=qu
@@ -1338,8 +1338,8 @@
 9	raymikunatapash	raymi	NOUN	_	Case=Acc|Focus=Addit|Number=Plur	11	obj	_	CSID=KC|Lang=qu
 10	ama	ama	PART	_	Polarity=Neg	11	advmod:neg	_	CSID=KC|Lang=qu
 11	rurachun	rura	VERB	_	Mood=Prp|Switch=Diff	12	advcl	_	CSID=KC|Lang=qu
-12	nishpaka	ni	VERB	_	Info=Top|Switch=Same|VerbForm=Conv	5	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-13	?	?	PUNCT	_	_	15	punct	_	CSID=KC|Lang=qu
+12	nishpaka	ni	VERB	_	Info=Top|Switch=Same|VerbForm=Conv	5	advcl	_	CSID=KC|Lang=qu|SpaceAfter=No
+13	?	?	PUNCT	_	_	5	punct	_	CSID=KC|Lang=qu
 
 # sent_id = 1_100
 # sent = Millay unkuyta hapishpaka mana wata paktaykuna tiyankachu.
@@ -1360,9 +1360,9 @@
 # trans = Usted, señor periodista, convoque a los vecinos y vecinas.
 # start = 418990
 # end = 424010
-1	Kikin	kikin	PRON	_	_	9	vocative	_	CSID=KC|Lang=qu
+1	Kikin	kikin	PRON	_	Number=Sing|Person=2|Polite=Form|PronType=Prs	9	vocative	_	CSID=KC|Lang=qu
 2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER|SpaceAfter=No
-3	periodista	periodista	NOUN	_	_	9	vocative	_	CSID=ES|Lang=es
+3	periodista	periodista	NOUN	_	Number=Sing	9	vocative	_	CSID=ES|Lang=es
 4	pushak	pusha	VERB	_	VerbForm=NomAg	3	flat	_	CSID=KC|Lang=qu|SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER
 6	muyunti	muyunti	ADV	_	_	7	advmod	_	CSID=KC|Lang=qu
@@ -1378,7 +1378,7 @@
 # end = 427660
 1	Kay	kay	DET	_	_	2	det	_	CSID=KC|Lang=qu
 2	chishi	chishi	NOUN	_	_	5	obl	_	CSID=KC|Lang=qu
-3	importante	importante	ADJ	_	_	4	amod	_	CSID=ES|Lang=es
+3	importante	importante	ADJ	_	Number=Sing	4	amod	_	CSID=ES|Lang=es
 4	willachiykunata	willa	VERB	_	Case=Acc|Number=Plur|VerbForm=Vnoun|Voice=Cau	5	obj	_	CSID=KC|Lang=qu
 5	kukrinchik	ku	VERB	_	Aspect=Prosp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	CSID=OTHER
@@ -1388,10 +1388,10 @@
 # trans = Dieron el aviso y hasta el cura asistió.
 # start = 429610
 # end = 433110
-1	Kashna	kashna	ADV	_	_	2	advmod	_	CSID=KC|Lang=qu
+1	Kashna	kashna	ADJ	_	_	2	advmod	_	CSID=KC|Lang=qu
 2	willachikpika	willa	VERB	_	Info=Top|Switch=Diff|VerbForm=Conv|Voice=Cau	5	advcl	_	CSID=KC|Lang=qu
 3	tayta	tayta	NOUN	_	_	5	nsubj	_	CSID=KC|Lang=qu
-4	curapash	cura	NOUN	_	Focus=Addit	3	flat	_	CSID=MIXED|CSPoint=cura§pash|Lang=qqe
+4	curapash	cura	NOUN	_	Focus=Addit|Gender=Masc|Number=Sing	3	flat	_	CSID=MIXED|CSPoint=cura§pash|Lang=qqe
 5	chayamurka	chaya	VERB	_	Deixis=Ven|Person=3|Tense=Past|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	CSID=OTHER
 
@@ -1401,14 +1401,14 @@
 # start = 433110
 # end = 438930
 1	Tayta	tayta	NOUN	_	_	0	root	_	CSID=KC|Lang=qu
-2	curapash	cura	NOUN	_	Focus=Addit	1	flat	_	CSID=MIXED|CSPoint=cura§pash|Lang=qqe
+2	curapash	cura	NOUN	_	Focus=Addit|Gender=Masc|Number=Sing	1	flat	_	CSID=MIXED|CSPoint=cura§pash|Lang=qqe
 3	,	,	PUNCT	_	_	4	punct	_	CSID=OTHER|SpaceAfter=No
-4	pastorpash	pastor	NOUN	_	Focus=Addit	1	conj	_	CSID=MIXED|CSPoint=pastor§pash|Lang=qqe|SpaceAfter=No
+4	pastorpash	pastor	NOUN	_	Focus=Addit|Gender=Masc|Number=Sing	1	conj	_	CSID=MIXED|CSPoint=pastor§pash|Lang=qqe|SpaceAfter=No
 5	,	,	PUNCT	_	_	10	punct	_	CSID=OTHER
 6	kay	kay	DET	_	_	7	det	_	CSID=KC|Lang=qu
 7	ayllullaktapika	ayllullakta	NOUN	_	Case=Loc|Info=Top	10	obl	_	CSID=KC|Lang=qu
 8	ishkay	ishkay	NUM	_	NumType=Card	9	nummod	_	CSID=KC|Lang=qu
-9	iglesiami	iglesia	NOUN	_	Info=Foc	10	nsubj	_	CSID=MIXED|CSPoint=iglesia§mi|Lang=qqe
+9	iglesiami	iglesia	NOUN	_	Gender=Fem|Info=Foc|Number=Sing|Polarity=Pos	10	nsubj	_	CSID=MIXED|CSPoint=iglesia§mi|Lang=qqe
 10	tiyan	tiya	VERB	_	Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
 11	.	.	PUNCT	_	_	1	punct	_	CSID=OTHER
 
@@ -1419,7 +1419,7 @@
 # end = 444370
 1	Upalla	upalla	ADV	_	_	0	root	_	CSID=KC|Lang=qu
 2	kapaychik	ka	AUX	_	Mood=Imp|Number=Plur|Person=2|Polite=Form|VerbForm=Fin	1	cop	_	CSID=KC|Lang=qu|SpaceAfter=No
-3	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
+3	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER
 4	tukuy	tukuy	DET	_	_	5	det	_	CSID=KC|Lang=qu
 5	mashikuna	mashi	NOUN	_	Number=Plur	1	vocative	_	CSID=KC|Lang=qu|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	CSID=OTHER
@@ -1441,7 +1441,7 @@
 1	Tiyarinakuna	tiyarina	NOUN	_	Number=Plur	2	nsubj	_	CSID=KC|Lang=qu
 2	karulla	karu	ADJ	_	Focus=Restr	7	advcl	_	CSID=KC|Lang=qu
 3	kachun	ka	AUX	_	Mood=Prp|Switch=Diff|VerbForm=Conv	2	cop	_	CSID=KC|Lang=qu
-4	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER|SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	CSID=OTHER|SpaceAfter=No
 5	ashtawan	ashtawan	ADV	_	_	6	advmod	_	CSID=KC|Lang=qu
 6	karulla	karu	ADJ	_	Focus=Restr	0	root	_	CSID=KC|Lang=qu
 7	kapaychik	ka	AUX	_	Mood=Imp|Number=Plur|Person=2|Polite=Form|VerbForm=Fin	6	cop	_	CSID=KC|Lang=qu|SpaceAfter=No
@@ -1473,7 +1473,7 @@
 1	Ishkay	ishkay	NUM	_	NumType=Card	2	nummod	_	CSID=KC|Lang=qu
 2	willachikuna	willa	VERB	_	Number=Plur|VerbForm=Vnoun|Voice=Cau	3	obj	_	CSID=KC|Lang=qu
 3	charini	chari	VERB	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER
+4	,	,	PUNCT	_	_	6	punct	_	CSID=OTHER
 5	shuk	shuk	NUM	_	NumType=Card	6	nummod	_	CSID=KC|Lang=qu
 6	alli	alli	ADJ	_	_	3	parataxis	_	CSID=KC|Lang=qu
 7	,	,	PUNCT	_	_	10	punct	_	CSID=OTHER|SpaceAfter=No
@@ -1484,10 +1484,10 @@
 
 # sent_id = 1_111
 # sent = Maykanmantatak kallarisha?
-# trans = ¿por cuál comienzo?
+# trans = ¿Por cuál comienzo?
 # start = 460560
 # end = 462630
-1	Maykanmantatak	maykan	PRON	_	Case=Abl|Info=Foc|PronType=Int	2	obl	_	CSID=KC|Lang=qu
+1	Maykanmantatak	maykan	PRON	_	Case=Abl|Info=Foc|PronType=Int|QuestType=Open	2	obl	_	CSID=KC|Lang=qu
 2	kallarisha	kallari	VERB	_	Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 3	?	?	PUNCT	_	_	2	punct	_	CSID=KC|Lang=qu
 
@@ -1499,13 +1499,13 @@
 1	Mana	mana	PART	_	Polarity=Neg	2	advmod:neg	_	CSID=KC|Lang=qu
 2	allimanta	alli	ADJ	_	Case=Abl	3	obl	_	CSID=KC|Lang=qu
 3	kallariy	kallari	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu
-4	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER|SpaceAfter=No
-5	alcaldesa	alcaldesa	NOUN	_	_	3	vocative	_	CSID=ES|Lang=es|SpaceAfter=No
-6	,	,	PUNCT	_	_	12	punct	_	CSID=OTHER
+4	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER|SpaceAfter=No
+5	alcaldesa	alcaldesa	NOUN	_	Gender=Fem|Number=Sing	3	vocative	_	CSID=ES|Lang=es|SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	CSID=OTHER
 7	kaspiwan	kaspi	NOUN	_	Case=Ins	8	obl	_	CSID=KC|Lang=qu
 8	waktarishpa	wakta	VERB	_	Switch=Same|VerbForm=Conv|Voice=Rfl	9	advcl	_	CSID=KC|Lang=qu
 9	yacharishkami	yacha	VERB	_	Info=Foc|VerbForm=Part|Voice=Rfl	3	parataxis	_	CSID=KC|Lang=qu
-10	kanchik	ka	AUX	_	Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	cop	_	CSID=KC|Lang=qu|SpaceAfter=No
+10	kanchik	ka	AUX	_	Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	CSID=KC|Lang=qu|SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
 
 # sent_id = 1_113
@@ -1513,25 +1513,25 @@
 # trans = Bueno, pues, la mala es que el coronavirus no da tregua.
 # start = 468650
 # end = 473020
-1	Shinaka	shina	ADV	_	Info=Top	6	cc	_	CSID=KC|Lang=qu|SpaceAfter=No
+1	Shinaka	shina	ADV	_	Info=Top	6	advmod	_	CSID=KC|Lang=qu|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
 3	coronaviruska	coronavirus	NOUN	_	Info=Top	6	nsubj	_	CSID=MIXED|CSPoint=coronavirus§ka|Lang=qqe
 4	mana	mana	PART	_	Polarity=Neg	6	advmod:neg	_	CSID=KC|Lang=qu
-5	treguata	tregua	NOUN	_	Case=Acc	6	obj	_	CSID=MIXED|CSPoint=tregua§ta|Lang=qqe
+5	treguata	tregua	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	CSID=MIXED|CSPoint=tregua§ta|Lang=qqe
 6	kunchu	ku	VERB	_	Info=Foc|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-7	.	.	PUNCT	_	_	7	punct	_	CSID=OTHER
+7	.	.	PUNCT	_	_	6	punct	_	CSID=OTHER
 
 # sent_id = 1_114
 # sent = Hospitalmanta willachimun chunka kanchis mushuk contagiadokunami tiyan nishpa.
 # trans = El hospital nos reporta diecisiete nuevos contagiados
 # start = 473100
 # end = 480000
-1	Hospitalmanta	hospital	NOUN	_	Case=Abl	2	obl	_	CSID=MIXED|CSPoint=Hospital§manta|Lang=qqe
+1	Hospitalmanta	hospital	NOUN	_	Case=Abl|Gender=Masc|Number=Sing	2	obl	_	CSID=MIXED|CSPoint=Hospital§manta|Lang=qqe
 2	willachimun	willa	VERB	_	Deixis=Ven|Person=3|Tense=Pres|VerbForm=Fin|Voice=Cau	0	root	_	CSID=KC|Lang=qu
 3	chunka	chunka	NUM	_	NumType=Card	6	nummod	_	CSID=KC|Lang=qu
-4	kanchis	kanchis	NUM	_	NumType=Card	3	flat	_	CSID=KC|Lang=qu
+4	kanchis	kanchis	NUM	_	NumType=Card	3	compound	_	CSID=KC|Lang=qu
 5	mushuk	mushuk	ADJ	_	_	6	amod	_	CSID=KC|Lang=qu
-6	contagiadokunami	contagiado	NOUN	_	Info=Foc|Number=Plur	7	nsubj	_	CSID=MIXED|CSPoint=contagiado§kunami|Lang=qqe
+6	contagiadokunami	contagiado	NOUN	_	Gender=Masc|Info=Foc|Number=Plur|Polarity=Pos	7	nsubj	_	CSID=MIXED|CSPoint=contagiado§kunami|Lang=qqe
 7	tiyan	tiya	VERB	_	Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	CSID=KC|Lang=qu
 8	nishpa	ni	VERB	_	Switch=Same|VerbForm=Conv	2	advcl	_	CSID=KC|Lang=qu|SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	CSID=OTHER
@@ -1542,13 +1542,13 @@
 # start = 480140
 # end = 485820
 1	Mushuk	mushuk	ADJ	_	_	2	amod	_	CSID=KC|Lang=qu
-2	unkuymi	unku	VERB	_	Info=Foc|VerbForm=Vnoun	3	ccomp	_	CSID=KC|Lang=qu
+2	unkuymi	unku	VERB	_	Info=Foc|Polarity=Pos|VerbForm=Vnoun	3	ccomp	_	CSID=KC|Lang=qu
 3	nin	ni	VERB	_	Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu
-4	,	,	PUNCT	_	_	12	punct	_	CSID=OTHER
-5	shukpashmi	shuk	PRON	_	Focus=Addit|PronType=Ind	7	nsubj	_	CSID=KC|Lang=qu|SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	CSID=OTHER
+5	shukpashmi	shuk	PRON	_	Focus=Addit|Info=Foc|Polarity=Pos|PronType=Ind	6	nsubj	_	CSID=KC|Lang=qu|SpaceAfter=No
 6	wacharikun	wacha	VERB	_	Aspect=Prog|Person=3|Tense=Pres|VerbForm=Fin|Voice=Rfl	7	ccomp	_	CSID=KC|Lang=qu
 7	nin	ni	VERB	_	Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
-8	,	,	PUNCT	_	_	7	punct	_	CSID=OTHER
+8	,	,	PUNCT	_	_	10	punct	_	CSID=OTHER
 9	na	na	PART	_	Polarity=Neg	10	advmod:neg	_	CSID=KC|Lang=qu
 10	yachanchikchu	yacha	VERB	_	Info=Foc|Number=Plur|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
@@ -1560,7 +1560,7 @@
 # end = 490030
 1	Shinapash	shinapash	CCONJ	_	_	4	cc	_	CSID=KC|Lang=qu
 2	ashalla	asha	ADJ	_	Focus=Restr	3	amod	_	CSID=KC|Lang=qu
-3	respiradorkunatami	respirador	NOUN	_	Case=Acc|Info=Foc|Number=Plur	4	obj	_	CSID=MIXED|CSPoint=respirador§kunatami|Lang=qqe
+3	respiradorkunatami	respirador	NOUN	_	Case=Acc|Gender=Masc|Info=Foc|Number=Plur|Polarity=Pos	4	obj	_	CSID=MIXED|CSPoint=respirador§kunatami|Lang=qqe
 4	charinchik	chari	VERB	_	Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	CSID=OTHER
 
@@ -1593,14 +1593,14 @@
 # end = 503180
 1	Mana	mana	PART	_	Polarity=Neg	2	advmod:neg	_	CSID=KC|Lang=qu
 2	ashtakachu	ashtaka	ADJ	_	Info=Foc|Polarity=Neg	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	CSID=OTHER|SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER|SpaceAfter=No
 4	tukuy	tukuy	DET	_	_	5	det	_	CSID=KC|Lang=qu
 5	hampikkunapak	hampi	VERB	_	Case=Gen|Number=Plur|VerbForm=NomAg	2	obl	_	CSID=KC|Lang=qu
 6	,	,	PUNCT	_	_	7	punct	_	CSID=OTHER
-7	enfermerakunapak	enfermera	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	5	conj	_	CSID=MIXED|CSPoint=enfermera§kunapak|Lang=qqe|SpaceAfter=No
+7	enfermerakunapak	enfermera	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	5	parataxis	_	CSID=MIXED|CSPoint=enfermera§kunapak|Lang=qqe|SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	CSID=OTHER
 9	hampishpa	hampi	VERB	_	Switch=Same|VerbForm=Conv	10	advcl	_	CSID=KC|Lang=qu
-10	ñawpakkunapak	ñawpa	VERB	_	Case=Gen|Number=Plur|VerbForm=NomAg	5	conj	_	CSID=KC|Lang=qu|SpaceAfter=No
+10	ñawpakkunapak	ñawpa	VERB	_	Case=Gen|Number=Plur|VerbForm=NomAg	5	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	CSID=OTHER
 
 # sent_id = 1_120
@@ -1633,7 +1633,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
 3	ima	ima	DET	_	_	4	det	_	CSID=KC|Lang=qu
 4	horashi	hora	NOUN	_	Evident=Infer|Info=Foc	6	obl	_	CSID=MIXED|CSPoint=hora§shi|Lang=qqe
-5	vacunakunaka	vacuna	NOUN	_	Info=Top|Number=Plur	6	nsubj	_	CSID=MIXED|CSPoint=vacuna§kunaka|Lang=qqe
+5	vacunakunaka	vacuna	NOUN	_	Gender=Fem|Info=Top|Number=Plur	6	nsubj	_	CSID=MIXED|CSPoint=vacuna§kunaka|Lang=qqe
 6	chayamunka	chaya	VERB	_	Deixis=Ven|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 7	?	?	PUNCT	_	_	6	punct	_	CSID=OTHER
 
@@ -1642,26 +1642,26 @@
 # trans = Del Ministerio de Salud me confirman que pronto tendremos un lote de miles de vacunas.
 # start = 516420
 # end = 522570
-1	Ministerio	ministerio	NOUN	_	_	4	nmod	_	CSID=ES|Lang=es
+1	Ministerio	ministerio	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	CSID=ES|Lang=es
 2	de	de	ADP	_	_	3	case	_	CSID=ES|Lang=es
-3	salud	salud	NOUN	_	_	1	nmod	_	CSID=ES|Lang=es
+3	salud	salud	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	CSID=ES|Lang=es
 4	ukumanta	uku	NOUN	_	Case=Abl	5	obl	_	CSID=KC|Lang=qu
 5	willachishka	willa	VERB	_	Person=3|VerbForm=Part|Voice=Cau	0	root	_	CSID=KC|Lang=qu
 6	ashtaka	ashtaka	DET	_	_	7	det	_	CSID=KC|Lang=qu
 7	waranka	waranka	NUM	_	NumType=Card	8	nummod	_	CSID=KC|Lang=qu
-8	vacunatami	vacuna	NOUN	_	Case=Acc|Info=Foc	9	obj	_	CSID=MIXED|CSPoint=vacuna§tami|Lang=qqe
+8	vacunatami	vacuna	NOUN	_	Case=Acc|Gender=Fem|Info=Foc|Polarity=Pos	9	obj	_	CSID=MIXED|CSPoint=vacuna§tami|Lang=qqe
 9	charikrinchik	chari	VERB	_	Aspect=Prosp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	ccomp	_	CSID=KC|Lang=qu
 10	nishpa	ni	VERB	_	Switch=Same|VerbForm=Conv	5	advcl	_	CSID=KC|Lang=qu|SpaceAfter=No
 11	.	.	PUNCT	_	_	5	punct	_	CSID=OTHER
 
 # sent_id = 1_124
-# sent = Ashtawan mutsurinchik, shinapash
+# sent = Ashtawan mutsurinchik, shinapash.
 # trans = Siempre hacen falta más, pero.
 # start = 522870
 # end = 525120
 1	Ashtawan	ashtawan	ADV	_	_	2	advmod	_	CSID=KC|Lang=qu
 2	mutsurinchik	mutsu	VERB	_	Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Rfl	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	CSID=OTHER
+3	,	,	PUNCT	_	_	4	punct	_	CSID=OTHER
 4	shinapash	shinapash	CCONJ	_	_	2	cc	_	CSID=KC|Lang=qu
 
 # sent_id = 1_125
@@ -1671,10 +1671,10 @@
 # end = 528180
 1	Ama	ama	PART	_	Polarity=Neg	2	advmod:neg	_	CSID=KC|Lang=qu
 2	llakiychu	llaki	VERB	_	Info=Foc|Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu
-3	,	,	PUNCT	_	_	2	punct	_	CSID=OTHER|SpaceAfter=No
-4	alcaldesa	alcaldesa	NOUN	_	_	2	vocative	_	CSID=KC|Lang=qu|SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	CSID=OTHER|SpaceAfter=No
+4	alcaldesa	alcaldesa	NOUN	_	Gender=Fem|Number=Sing	2	vocative	_	CSID=KC|Lang=qu|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	CSID=OTHER
-6	puchunkami	puchu	VERB	_	Info=Foc|Person=3|Tense=Fut|VerbForm=Fin	2	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
+6	puchunkami	puchu	VERB	_	Info=Foc|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	2	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	CSID=OTHER
 
 # sent_id = 1_126
@@ -1682,7 +1682,7 @@
 # trans = ¿Qué dices?
 # start = 528200
 # end = 529240
-1	Imatak	ima	PRON	_	Info=Foc|PronType=Int	2	obj	_	CSID=KC|Lang=qu
+1	Imatak	ima	PRON	_	Info=Foc|PronType=Int|QuestType=Open	2	obj	_	CSID=KC|Lang=qu
 2	nikunki	ni	VERB	_	Aspect=Prog|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 3	?	?	PUNCT	_	_	2	punct	_	CSID=KC|Lang=qu
 
@@ -1702,7 +1702,7 @@
 # trans = Ni yo tampoco.
 # start = 533280
 # end = 534520
-1	Ñukapash	ñuka	PRON	_	Focus=Addit	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+1	Ñukapash	ñuka	PRON	_	Focus=Addit|Number=Sing|Person=1|PronType=Prs	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	CSID=OTHER
 
 # sent_id = 1_129
@@ -1712,7 +1712,7 @@
 # end = 537100
 1	Chaykunaka	chay	PRON	_	Info=Top|Number=Plur|PronType=Dem	3	nsubj	_	CSID=KC|Lang=qu
 2	supaypa	supay	NOUN	_	Case=Gen	3	nmod	_	CSID=KC|Lang=qu
-3	ruraykunami	rura	VERB	_	Info=Foc|Number=Plur|VerbForm=Vnoun	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+3	ruraykunami	rura	VERB	_	Info=Foc|Number=Plur|Polarity=Pos|VerbForm=Vnoun	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
 
 # sent_id = 1_130
@@ -1723,7 +1723,7 @@
 1	Kishpichiway	kishpi	VERB	_	Mood=Imp|Number=Sing|Number[obj]=Sing|Person=2|Person[obj]=1|VerbForm=Fin|Voice=Cau	5	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
 3	kankunaka	kan	PRON	_	Info=Top|Number=Plur|Person=2|PronType=Prs	5	nsubj	_	CSID=KC|Lang=qu
-4	imatatak	ima	PRON	_	Case=Acc|Info=Foc|PronType=Int	5	obj	_	CSID=KC|Lang=qu
+4	imatatak	ima	PRON	_	Case=Acc|Info=Foc|PronType=Int|QuestType=Open	5	obj	_	CSID=KC|Lang=qu
 5	nikunkichik	ni	VERB	_	Aspect=Prog|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 6	?	?	PUNCT	_	_	5	punct	_	CSID=KC|Lang=qu
 
@@ -1732,21 +1732,21 @@
 # trans = ¿Acaso usted no sabe, señora alcaldesa, que el covid es el resultado de la acumulación de pecados, que es una táctica de Satanás para desatar el pánico y controlar a la humanidad?
 # start = 541780
 # end = 553180
-1	Kikinka	kikin	PRON	_	Info=Top|Number=Sing|Person=2|PronType=Prs|Polite=Form	3	nsubj	_	CSID=KC|Lang=qu
+1	Kikinka	kikin	PRON	_	Info=Top|Number=Sing|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	CSID=KC|Lang=qu
 2	manachu	mana	PART	_	Info=Foc|Polarity=Neg	3	advmod:neg	_	CSID=KC|Lang=qu
 3	yachanki	yacha	VERB	_	Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu
 4	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER|SpaceAfter=No
 5	pushak	pusha	VERB	_	VerbForm=NomAg	3	vocative	_	CSID=KC|Lang=qu
-6	alcaldesa	alcaldesa	NOUN	_	_	5	flat	_	CSID=ES|Lang=es
+6	alcaldesa	alcaldesa	NOUN	_	Gender=Fem|Number=Sing	5	flat	_	CSID=ES|Lang=es
 7	,	,	PUNCT	_	_	11	punct	_	CSID=OTHER
-8	covid	covid	NOUN	_	_	9	nmod	_	CSID=ES|Lang=es|SpaceAfter=No
+8	covid	covid	NOUN	_	Gender=Masc	9	nmod	_	CSID=ES|Lang=es|SpaceAfter=No
 9	unkuyka	unku	VERB	_	Info=Top|VerbForm=Vnoun	11	nsubj	_	CSID=KC|Lang=qu
 10	huchakuna	hucha	NOUN	_	Number=Plur	11	nmod	_	CSID=KC|Lang=qu
 11	hunta	hunta	ADJ	_	_	3	ccomp	_	CSID=KC|Lang=qu
 12	kashkamanta	ka	AUX	_	Case=Abl|VerbForm=Part	11	cop	_	CSID=KC|Lang=qu
 13	,	,	PUNCT	_	_	15	punct	_	CSID=OTHER
 14	supaypak	supay	NOUN	_	Case=Gen	15	nmod	_	CSID=KC|Lang=qu
-15	ruraykunami	rura	VERB	_	Info=Foc|Number=Plur	3	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
+15	ruraykunami	rura	VERB	_	Info=Foc|Number=Plur|Polarity=Pos	3	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
 16	kan	ka	AUX	_	Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	CSID=KC|Lang=qu|SpaceAfter=No
 17	,	,	PUNCT	_	_	12	punct	_	CSID=OTHER
 19	tukuy	_	DET	_	_	20	det	_	CSID=KC|Lang=qu
@@ -1762,7 +1762,7 @@
 # end = 554545
 1	Ari	ari	INTJ	_	_	3	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
-3	shinami	shina	ADV	_	Info=Foc	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+3	shinami	shina	ADV	_	Info=Foc|Polarity=Pos	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
 
 # sent_id = 1_133
@@ -1772,7 +1772,7 @@
 # end = 557195
 1	Shinapash	shinapash	CCONJ	_	_	4	cc	_	CSID=KC|Lang=qu
 2	kikinka	kikin	PRON	_	Info=Top|Number=Sing|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	CSID=KC|Lang=qu
-3	imatak	ima	PRON	_	Info=Foc|PronType=Int	4	obj	_	CSID=KC|Lang=qu
+3	imatak	ima	PRON	_	Info=Foc|PronType=Int|QuestType=Open	4	obj	_	CSID=KC|Lang=qu
 4	ninki	ni	VERB	_	Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	CSID=OTHER
 
@@ -1782,8 +1782,8 @@
 # start = 557390
 # end = 560630
 1	Chay	chay	DET	_	_	2	det	_	CSID=KC|Lang=qu
-2	tonterastaka	tonteras	NOUN	_	Case=Acc|Info=Top	4	obj	_	CSID=KC|Lang=qu
-3	maymantatak	may	PRON	_	Case=Abl|Info=Foc|PronType=Int	4	obl	_	CSID=KC|Lang=qu
+2	tonterastaka	tontera	NOUN	_	Case=Acc|Gender=Fem|Info=Top|Number=Plur	4	obj	_	CSID=KC|Lang=qu
+3	maymantatak	may	PRON	_	Case=Abl|Info=Foc|PronType=Int|QuestType=Open	4	obl	_	CSID=KC|Lang=qu
 4	llukchirkanki	llukchi	VERB	_	Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 5	?	?	PUNCT	_	_	4	punct	_	CSID=KC|Lang=qu
 
@@ -1796,9 +1796,9 @@
 2	piñarishpa	piña	VERB	_	Switch=Same|VerbForm=Conv|Voice=Rfl	8	advcl	_	CSID=KC|Lang=qu|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	CSID=OTHER
 4	kikinpash	kikin	PRON	_	Focus=Addit|Number=Sing|Person=2|Polite=Form|PronType=Prs	8	nsubj	_	CSID=KC|Lang=qu
-5	nachu	na	PART	_	Info=Foc|Polarity=Neg	8	advmod:neg	_	CSID=KC|Lang=qu
+5	nachu	na	PART	_	Info=Foc|Polarity=Neg|QuestType=Polar	8	advmod:neg	_	CSID=KC|Lang=qu
 6	chay	chay	DET	_	_	7	det	_	CSID=KC|Lang=qu
-7	señalkunata	señal	NOUN	_	Case=Acc|Number=Plur	8	obj	_	CSID=KC|Lang=qu
+7	señalkunata	señal	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	CSID=MIXED|CSPoint=señal§kunata|Lang=qqe
 8	charinki	chari	VERB	_	Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	CSID=OTHER
 
@@ -1808,13 +1808,13 @@
 # start = 564810
 # end = 568610
 1	Ima	ima	DET	_	_	2	det	_	CSID=KC|Lang=qu
-2	marca	marca	NOUN	_	_	8	obj	_	CSID=ES|Lang=es
+2	marca	marca	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	CSID=ES|Lang=es
 3	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER|SpaceAfter=No
 4	ima	ima	DET	_	_	5	det	_	CSID=KC|Lang=qu
-5	señalkunata	señal	NOUN	_	Case=Acc|Number=Plur	2	conj	_	CSID=MIXED|CSPoint=señal§kunata|Lang=qqe|SpaceAfter=No
+5	señalkunata	señal	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	2	conj	_	CSID=MIXED|CSPoint=señal§kunata|Lang=qqe|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER
 7	yachay	yacha	VERB	_	VerbForm=Vnoun	8	advcl	_	CSID=KC|Lang=qu
-8	ushanichu	usha	VERB	_	Info=Foc|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+8	ushanichu	usha	VERB	_	Info=Foc|Number=Sing|Person=1|QuestType=Polar|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 9	?	?	PUNCT	_	_	8	punct	_	CSID=OTHER
 
 # sent_id = 1_137
@@ -1829,7 +1829,7 @@
 5	,	,	PUNCT	_	_	4	punct	_	CSID=OTHER
 6	millay	millay	ADJ	_	_	7	amod	_	CSID=KC|Lang=qu
 7	ayapak	aya	NOUN	_	Case=Gen	8	nmod	_	CSID=KC|Lang=qu
-8	señal	señal	NOUN	_	_	0	root	_	CSID=ES|Lang=es|SpaceAfter=No
+8	señal	señal	NOUN	_	Gender=Fem|Number=Sing	0	root	_	CSID=ES|Lang=es|SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	CSID=OTHER
 
 # sent_id = 1_138
@@ -1848,7 +1848,7 @@
 # start = 576950
 # end = 581740
 1	Chaytaka	chay	PRON	_	Case=Acc|Info=Foc|PronType=Dem	5	reparandum	_	CSID=KC|Lang=qu
-2	maymantatak	may	PRON	_	Case=Abl|Info=Foc|PronType=Int	6	obl	_	CSID=KC|Lang=qu
+2	maymantatak	may	PRON	_	Case=Abl|Info=Foc|PronType=Int|QuestType=Open	6	obl	_	CSID=KC|Lang=qu
 3	chay	chay	DET	_	_	5	det	_	CSID=KC|Lang=qu
 4	yanka	yanka	ADJ	_	_	5	amod	_	CSID=KC|Lang=qu
 5	willaykunata	willa	VERB	_	Case=Acc|Number=Plur|VerbForm=Vnoun	6	obj	_	CSID=KC|Lang=qu
@@ -1871,9 +1871,9 @@
 # start = 583800
 # end = 586690
 1	Shuk	shuk	NUM	_	NumType=Card	2	nummod	_	CSID=KC|Lang=qu
-2	monjami	monja	NOUN	_	Info=Foc	4	nsubj	_	CSID=MIXED|CSPoint=monja§mi|Lang=qqe
-3	celularpi	celular	NOUN	_	Case=Loc	4	obl	_	CSID=MIXED|CSPoint=celular§pi|Lang=qqe
-4	rimakurka	rima	VERB	_	Person=3|Tense=Past|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+2	monjami	monja	NOUN	_	Gender=Fem|Info=Foc|Number=Sing|Polarity=Pos	4	nsubj	_	CSID=MIXED|CSPoint=monja§mi|Lang=qqe
+3	celularpi	celular	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	4	obl	_	CSID=MIXED|CSPoint=celular§pi|Lang=qqe
+4	rimakurka	rima	VERB	_	Aspect=Prog|Person=3|Tense=Past|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	CSID=OTHER
 
 # sent_id = 1_142
@@ -1883,11 +1883,11 @@
 # end = 593700
 1	Willachikurka	willa	VERB	_	Aspect=Prog|Person=3|Tense=Past|VerbForm=Fin|Voice=Cau	0	root	_	CSID=KC|Lang=qu
 2	mana	mana	PART	_	Polarity=Neg	3	advmod:neg	_	CSID=KC|Lang=qu
-3	pandemiachu	pandemia	NOUN	_	Info=Foc|Polarity=Neg	4	ccomp	_	CSID=MIXED|CSPoint=pandemia§chu|Lang=qqe
+3	pandemiachu	pandemia	NOUN	_	Gender=Fem|Info=Foc|Number=Sing|Polarity=Neg	4	ccomp	_	CSID=MIXED|CSPoint=pandemia§chu|Lang=qqe
 4	nishpa	ni	VERB	_	Switch=Same|VerbForm=Conv	1	advcl	_	CSID=KC|Lang=qu|SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
 6	ashtawankarin	ashtawankarin	ADV	_	_	7	advmod	_	CSID=KC|Lang=qu
-7	plandemia	plandemia	NOUN	_	_	1	parataxis	_	CSID=ES|Lang=es|SpaceAfter=No
+7	plandemia	plandemia	NOUN	_	Gender=Fem|Number=Sing	1	parataxis	_	CSID=ES|Lang=es|SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	CSID=OTHER
 
 # sent_id = 1_143
@@ -1895,11 +1895,11 @@
 # trans = Un plan de exterminio masivo.
 # start = 593720
 # end = 598840
-1	Shuk	shuk	NUM	_	_	2	nummod	_	CSID=KC|Lang=qu
-2	plan	plan	NOUN	_	_	3	nsubj	_	CSID=ES|Lang=es
+1	Shuk	shuk	DET	_	_	2	det	_	CSID=KC|Lang=qu
+2	plan	plan	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	CSID=ES|Lang=es
 3	tiyan	tiya	VERB	_	Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	CSID=KC|Lang=qu
 4	nin	ni	VERB	_	Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-5	,	,	PUNCT	_	_	12	punct	_	CSID=OTHER
+5	,	,	PUNCT	_	_	7	punct	_	CSID=OTHER
 6	tukuykunata	tukuy	PRON	_	Case=Acc|Number=Plur|PronType=Tot	7	obj	_	CSID=KC|Lang=qu
 7	tukuchinkapak	tuku	VERB	_	Mood=Prp|Switch=Same|VerbForm=Conv|Voice=Cau	4	ccomp	_	CSID=KC|Lang=qu|SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	CSID=OTHER
@@ -1911,16 +1911,16 @@
 # end = 602380
 1	Maytapash	may	PRON	_	Case=Acc|Focus=Addit|PronType=Int	2	obj	_	CSID=KC|Lang=qu
 2	asinayta	asi	VERB	_	Case=Acc|Mood=Des|VerbForm=Vnoun	3	obj	_	CSID=KC|Lang=qu
-3	ninkika	ni	VERB	_	Info=Top|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+3	ninkika	ni	VERB	_	Emph=Yes|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
 
 # sent_id = 1_145
 # sent = Ashtawan serio rimawanki.
-# trans = Por favor, más seriedad.
+# trans = Por favor, hable con más seriedad.
 # start = 602400
 # end = 604620
 1	Ashtawan	ashtawan	ADV	_	_	2	advmod	_	CSID=KC|Lang=qu
-2	serio	serio	ADJ	_	_	3	advmod	_	CSID=ES|Lang=es
+2	serio	serio	ADJ	_	Gender=Masc|Number=Sing	3	advmod	_	CSID=ES|Lang=es
 3	rimawanki	rima	VERB	_	Number=Sing|Number[obj]=Sing|Person=2|Person[obj]=1|Tense=Fut|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
 
@@ -1929,20 +1929,20 @@
 # trans = ¿Usted no sabe que todas esas vacunas son armas biológicas para acabar con el mundo?
 # start = 604710
 # end = 614650
-1	Nachu	na	PART	_	Info=Foc|Polarity=Neg	2	advmod:neg	_	CSID=KC|Lang=qu
+1	Nachu	na	PART	_	Info=Foc|Polarity=Neg|QuestType=Polar	2	advmod:neg	_	CSID=KC|Lang=qu
 2	yachanki	yacha	VERB	_	Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu
-3	,	,	PUNCT	_	_	2	punct	_	CSID=OTHER
+3	,	,	PUNCT	_	_	10	punct	_	CSID=OTHER
 4	chay	chay	DET	_	_	5	det	_	CSID=KC|Lang=qu
-5	vacunakunaka	vacuna	NOUN	_	Info=Top|Number=Plur	10	nsubj	_	CSID=MIXED|CSPoint=vacuna§kunaka|Lang=qqe|SpaceAfter=No
+5	vacunakunaka	vacuna	NOUN	_	Gender=Fem|Info=Top|Number=Plur	10	nsubj	_	CSID=MIXED|CSPoint=vacuna§kunaka|Lang=qqe|SpaceAfter=No
 6	tukuy	tukuy	DET	_	_	9	det	_	CSID=KC|Lang=qu
 7	kay	kay	DET	_	_	8	det	_	CSID=KC|Lang=qu
 8	pachapi	pacha	NOUN	_	Case=Loc	9	obl	_	CSID=KC|Lang=qu
 9	tiyakta	tiya	VERB	_	Case=Acc|VerbForm=NomAg	10	obj	_	CSID=KC|Lang=qu
-10	tukuchinkapakmi	tukuchi	VERB	_	Mood=Prp|Switch=Same|VerbForm=Conv	2	ccomp	_	CSID=KC|Lang=qu
+10	tukuchinkapakmi	tukuchi	VERB	_	Info=Foc|Mood=Prp|Polarity=Pos|Switch=Same|VerbForm=Conv	2	ccomp	_	CSID=KC|Lang=qu
 11	,	,	PUNCT	_	_	14	punct	_	CSID=OTHER|SpaceAfter=No
 12	chay	chay	DET	_	_	13	det	_	CSID=KC|Lang=qu
-13	vacunakunaka	vacuna	NOUN	_	Info=Top|Number=Plur	14	nsubj	_	CSID=MIXED|CSPoint=vacuna§kunaka|Lang=qqe
-14	wañuchinkapakmi	wañu	VERB	_	Mood=Prp|Switch=Same|VerbForm=Conv|Voice=Cau	10	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
+13	vacunakunaka	vacuna	NOUN	_	Gender=Fem|Info=Top|Number=Plur	14	nsubj	_	CSID=MIXED|CSPoint=vacuna§kunaka|Lang=qqe
+14	wañuchinkapakmi	wañu	VERB	_	Info=Foc|Mood=Prp|Polarity=Pos|Switch=Same|VerbForm=Conv|Voice=Cau	10	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	CSID=OTHER
 
 # sent_id = 1_147
@@ -1955,8 +1955,8 @@
 3	churan	chura	VERB	_	Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu
 4	tukuy	tukuy	DET	_	_	5	det	_	CSID=KC|Lang=qu
 5	ukunmanta	ukun	NOUN	_	Case=Abl	3	obl	_	CSID=KC|Lang=qu|SpaceAfter=No
-6	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER
-7	ADN	ADN	NOUN	_	_	8	xcomp	_	CSID=ES|Lang=es
+6	,	,	PUNCT	_	_	9	punct	_	CSID=OTHER
+7	ADN	ADN	NOUN	_	Gender=Masc	8	ccomp	_	CSID=ES|Lang=es
 8	nishka	ni	VERB	_	VerbForm=Part	9	nsubj	_	CSID=KC|Lang=qu
 9	chakchurichun	chakchu	VERB	_	Mood=Prp|Switch=Diff|VerbForm=Conv|Voice=Rfl	3	advcl	_	CSID=KC|Lang=qu|SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
@@ -1966,11 +1966,11 @@
 # trans = ¿Y qué diablos es el ADN?
 # start = 620730
 # end = 623030
-1	ADNka	ADN	NOUN	_	Info=Top	3	nsubj	_	CSID=KC|Lang=qu
-2	ima	ima	PRON	_	PronType=Int	3	xcomp	_	CSID=KC|Lang=qu
-3	nishkatak	ni	VERB	_	Info=Foc|VerbForm=Part	0	root	_	CSID=KC|Lang=qu
+1	ADNka	ADN	NOUN	_	Gender=Masc|Info=Top	3	nsubj	_	CSID=MIXED|CSPoint=ADN§ka|Lang=qqe
+2	ima	ima	PRON	_	PronType=Int	3	ccomp	_	CSID=KC|Lang=qu
+3	nishkatak	ni	VERB	_	Info=Foc|QuestType=Open|VerbForm=Part	0	root	_	CSID=KC|Lang=qu
 4	kan	ka	AUX	_	Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	CSID=KC|Lang=qu|SpaceAfter=No
-5	?	?	PUNCT	_	_	15	punct	_	CSID=OTHER
+5	?	?	PUNCT	_	_	3	punct	_	CSID=OTHER
 
 # sent_id = 1_149
 # sent = Chaytaka mana yachanichu, shinapash shuk layataka rurakmi.
@@ -1980,11 +1980,11 @@
 1	Chaytaka	chay	PRON	_	Case=Acc|Info=Top|PronType=Dem	3	obj	_	CSID=KC|Lang=qu
 2	mana	mana	PART	_	Polarity=Neg	3	advmod:neg	_	CSID=KC|Lang=qu
 3	yachanichu	yacha	VERB	_	Info=Foc|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER
+4	,	,	PUNCT	_	_	8	punct	_	CSID=OTHER
 5	shinapash	shinapash	CCONJ	_	_	8	cc	_	CSID=KC|Lang=qu
-6	shuk	shuk	NUM	_	NumType=Card	7	nummod	_	CSID=KC|Lang=qu
+6	shuk	shuk	DET	_	_	7	det	_	CSID=KC|Lang=qu
 7	layataka	laya	NOUN	_	Case=Acc|Info=Top	8	obj	_	CSID=KC|Lang=qu
-8	rurakmi	rura	VERB	_	Info=Foc|VerbForm=NomAg	3	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
+8	rurakmi	rura	VERB	_	Info=Foc|Polarity=Pos|VerbForm=NomAg	3	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
 
 # sent_id = 1_150
@@ -1994,7 +1994,7 @@
 # end = 631720
 1	Ñukaka	ñuka	PRON	_	Info=Top|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	CSID=KC|Lang=qu
 2	mana	mana	PART	_	Polarity=Neg	6	advmod:neg	_	CSID=KC|Lang=qu
-3	laboratoriomanta	laboratorio	NOUN	_	Case=Abl	4	nmod	_	CSID=MIXED|CSPoint=laboratorio§manta|Lang=qqe
+3	laboratoriomanta	laboratorio	NOUN	_	Case=Abl|Gender=Masc|Number=Sing	4	nmod	_	CSID=MIXED|CSPoint=laboratorio§manta|Lang=qqe
 4	ukucha	ukucha	NOUN	_	_	6	xcomp	_	CSID=KC|Lang=qu
 5	kankapak	ka	AUX	_	Mood=Prp|Switch=Same|VerbForm=Conv	4	cop	_	CSID=KC|Lang=qu
 6	munanichu	muna	VERB	_	Info=Foc|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
@@ -2007,8 +2007,8 @@
 # end = 637710
 1	Killkashka	killka	VERB	_	VerbForm=Part	2	acl	_	CSID=KC|Lang=qu
 2	pankakunapi	panka	NOUN	_	Case=Loc|Number=Plur	9	obl	_	CSID=KC|Lang=qu
-3	,	,	PUNCT	_	_	6	punct	_	CSID=OTHER|SpaceAfter=No
-4	Apocalipsis	Apocalipsis	PROPN	_	_	5	xcomp	_	CSID=ES|Lang=es
+3	,	,	PUNCT	_	_	2	punct	_	CSID=OTHER|SpaceAfter=No
+4	Apocalipsis	Apocalipsis	PROPN	_	Gender=Masc	5	ccomp	_	CSID=ES|Lang=es
 5	nishka	ni	VERB	_	VerbForm=Part	6	acl	_	CSID=KC|Lang=qu
 6	kamupi	kamu	NOUN	_	Case=Loc	2	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	CSID=OTHER
@@ -2022,12 +2022,12 @@
 # start = 637990
 # end = 647570
 1	Tukuykuna	tukuy	PRON	_	Number=Plur|PronType=Tot	3	nsubj	_	CSID=KC|Lang=qu
-2	anticristopak	anticristo	NOUN	_	Case=Gen	3	nmod	_	CSID=MIXED|CSPoint=anticristo§pak|Lang=qqe
+2	anticristopak	anticristo	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	CSID=MIXED|CSPoint=anticristo§pak|Lang=qqe
 3	ñawpakpi	ñawpak	NOUN	_	Case=Loc	0	root	_	CSID=KC|Lang=qu
 4	kanchik	ka	AUX	_	Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	CSID=KC|Lang=qu|SpaceAfter=No
 5	,	,	PUNCT	_	_	11	punct	_	CSID=OTHER
 6	chay	chay	DET	_	_	7	det	_	CSID=KC|Lang=qu
-7	venenota	veneno	NOUN	_	Case=Acc	9	obj	_	CSID=MIXED|CSPoint=veneno§ta|Lang=qqe
+7	venenota	veneno	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	CSID=MIXED|CSPoint=veneno§ta|Lang=qqe
 8	yawarpi	yawar	NOUN	_	Case=Loc	9	obl	_	CSID=KC|Lang=qu
 9	churakpika	chura	VERB	_	Info=Top|Switch=Diff|VerbForm=Conv	11	advcl	_	CSID=KC|Lang=qu
 10	tukuylla	tukuy	PRON	_	Focus=Restr|PronType=Tot	11	nsubj	_	CSID=KC|Lang=qu
@@ -2041,7 +2041,7 @@
 # end = 651150
 1	Ari	ari	INTJ	_	_	8	discourse	_	CSID=KC|Lang=qu
 2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER|SpaceAfter=No
-3	ari	ari	INTJ	_	_	8	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
+3	ari	ari	INTJ	_	_	1	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER
 5	ama	ama	PART	_	Polarity=Neg	8	advmod:neg	_	CSID=KC|Lang=qu
 6	ashtawan	ashtawan	ADV	_	_	8	advmod	_	CSID=KC|Lang=qu
@@ -2050,22 +2050,22 @@
 9	.	.	PUNCT	_	_	8	punct	_	CSID=OTHER
 
 # sent_id = 1_154
-# sent = Kunanlltak ña kutin nikriwankichik, allpa illakrin, mana rumpachu, planoyashkami.
+# sent = Kunanllatak ña kutin nikriwankichik, allpa illakrin, mana rumpachu, planoyashkami.
 # trans = Ahorita me van a decir también que la tierra es plana, que no es redonda sino plana.
 # start = 651680
 # end = 658380
-1	Kunanlltak	kunan	ADV	_	Reflex=Yes	4	advmod	_	CSID=KC|Lang=qu
+1	Kunanllatak	kunan	ADV	_	Reflex=Yes	4	advmod	_	CSID=KC|Lang=qu
 2	ña	ña	ADV	_	_	4	advmod	_	CSID=KC|Lang=qu
 3	kutin	kutin	ADV	_	_	4	advmod	_	CSID=KC|Lang=qu
 4	nikriwankichik	ni	VERB	_	Aspect=Prosp|Number=Plur|Number[obj]=Sing|Person=2|Person[obj]=1|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu
-5	,	,	PUNCT	_	_	4	punct	_	CSID=OTHER|SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	CSID=OTHER|SpaceAfter=No
 6	allpa	allpa	NOUN	_	_	7	nsubj	_	CSID=KC|Lang=qu
 7	illakrin	illa	VERB	_	Aspect=Prosp|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	CSID=KC|Lang=qu
 8	,	,	PUNCT	_	_	10	punct	_	CSID=OTHER
 9	mana	mana	PART	_	Polarity=Neg	10	advmod:neg	_	CSID=KC|Lang=qu|SpaceAfter=No
-10	rumpachu	rumpa	ADJ	_	Info=Foc|Polarity=Neg	7	conj	_	CSID=KC|Lang=qu|SpaceAfter=No
+10	rumpachu	rumpa	ADJ	_	Info=Foc|Polarity=Neg	7	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	CSID=OTHER
-12	planoyashkami	planoya	VERB	_	Info=Foc|Person=3|VerbForm=Part	7	conj	_	CSID=MIXED|CSPoint=plano§yashkami|Lang=es|SpaceAfter=No
+12	planoyashkami	planoya	VERB	_	Info=Foc|Person=3|VerbForm=Part	7	parataxis	_	CSID=MIXED|CSPoint=plano§yashkami|Lang=es|SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	CSID=OTHER
 
 # sent_id = 1_155
@@ -2078,10 +2078,10 @@
 3	zombis	zombi	NOUN	_	Number=Plur	6	nmod	_	CSID=ES|Lang=es
 4	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER|SpaceAfter=No
 5	alienígenas	alienígena	NOUN	_	Number=Plur	3	conj	_	CSID=ES|Lang=es
-6	películakunata	película	NOUN	_	Case=Acc|Number=Plur	7	obj	_	CSID=MIXED|CSPoint=película§kunata|Lang=qqe
+6	películakunata	película	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	CSID=MIXED|CSPoint=película§kunata|Lang=qqe
 7	rikushkankichik	riku	VERB	_	Number=Plur|Person=2|VerbForm=Part	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	CSID=OTHER
-9	nachu	na	PART	_	Info=Foc|Polarity=Neg	7	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
+9	nachu	na	PART	_	Info=Foc|Polarity=Neg|QuestType=Polar	7	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
 10	.	.	PUNCT	_	_	7	punct	_	CSID=OTHER
 
 # sent_id = 1_156
@@ -2090,10 +2090,10 @@
 # start = 666600
 # end = 668530
 1	Rikupay	riku	VERB	_	Mood=Imp|Number=Sing|Person=2|Polite=Form|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
+2	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER
 3	pushak	pusha	VERB	_	VerbForm=NomAg	1	vocative	_	CSID=KC|Lang=qu
-4	alcaldesa	alcaldesa	NOUN	_	_	3	flat	_	CSID=ES|Lang=es|SpaceAfter=No
-5	.	.	PUNCT	_	_	7	punct	_	CSID=OTHER
+4	alcaldesa	alcaldesa	NOUN	_	Gender=Fem|Number=Sing	3	flat	_	CSID=ES|Lang=es|SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	CSID=OTHER
 
 # sent_id = 1_157
 # sent = Ñuka mana chay fantasíakunapi krinichu.
@@ -2103,7 +2103,7 @@
 1	Ñuka	ñuka	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	CSID=KC|Lang=qu
 2	mana	mana	PART	_	Polarity=Neg	5	advmod:neg	_	CSID=KC|Lang=qu
 3	chay	chay	DET	_	_	4	det	_	CSID=KC|Lang=qu
-4	fantasíakunapi	fantasía	NOUN	_	Case=Loc|Number=Plur	5	obl	_	CSID=KC|Lang=qu
+4	fantasíakunapi	fantasía	NOUN	_	Case=Loc|Gender=Fem|Number=Plur	5	obl	_	CSID=MIXED|CSPoint=fantasía§kunapi|Lang=qqe
 5	krinichu	kri	VERB	_	Info=Foc|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	CSID=OTHER
 
@@ -2114,8 +2114,8 @@
 # end = 676580
 1	Shinapash	shinapash	CCONJ	_	_	8	cc	_	CSID=KC|Lang=qu
 2	ñuka	ñuka	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nmod	_	CSID=KC|Lang=qu
-3	rimaypika	rima	VERB	_	Case=LocInfo=Top|VerbForm=Vnoun	8	obl	_	CSID=KC|Lang=qu
-4	pandemiaka	pandemia	NOUN	_	Info=Top	8	nsubj	_	CSID=MIXED|CSPoint=pandemia§ka|Lang=qqe
+3	rimaypika	rima	VERB	_	Case=Loc|Info=Top|VerbForm=Vnoun	8	obl	_	CSID=KC|Lang=qu
+4	pandemiaka	pandemia	NOUN	_	Gender=Fem|Info=Top|Number=Sing	8	nsubj	_	CSID=MIXED|CSPoint=pandemia§ka|Lang=qqe
 5	mana	mana	PART	_	Polarity=Neg	8	advmod:neg	_	CSID=KC|Lang=qu
 6	shukkuna	shuk	PRON	_	Number=Plur|PronType=Ind	7	nsubj	_	CSID=KC|Lang=qu
 7	nin	ni	VERB	_	Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	CSID=KC|Lang=qu
@@ -2127,7 +2127,7 @@
 # trans = Tomando té de canela tres veces al día ese bicho se acaba.
 # start = 676700
 # end = 683270
-1	Canela	canela	NOUN	_	_	2	nmod	_	CSID=ES|Lang=es
+1	Canela	canela	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	CSID=ES|Lang=es
 2	yakuta	yaku	NOUN	_	Case=Acc	6	obj	_	CSID=KC|Lang=qu
 3	punchapi	puncha	NOUN	_	Case=Loc	6	obl	_	CSID=KC|Lang=qu
 4	kimsa	kimsa	NUM	_	NumType=Card	5	nummod	_	CSID=KC|Lang=qu
@@ -2135,7 +2135,7 @@
 6	upyachikpi	upya	VERB	_	Switch=Diff|VerbForm=Conv|Voice=Cau	9	advcl	_	CSID=KC|Lang=qu
 7	chay	chay	DET	_	_	8	det	_	CSID=KC|Lang=qu
 8	kuru	kuru	NOUN	_	_	9	nsubj	_	CSID=KC|Lang=qu
-9	tukurinllami	tuku	VERB	_	Focus=Restr|Info=Foc|Person=3|Tense=Pres|VerbForm=Fin|Voice=Rfl	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+9	tukurinllami	tuku	VERB	_	Focus=Restr|Info=Foc|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Rfl	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	CSID=OTHER
 
 # sent_id = 1_160
@@ -2143,12 +2143,12 @@
 # trans = Eso le di yo a mi sobrino que estaba enfermo y listo.
 # start = 683300
 # end = 686890
-1	Chaytami	chay	PRON	_	Case=Acc|Info=Foc|PronType=Dem	6	obj	_	CSID=KC|Lang=qu
+1	Chaytami	chay	PRON	_	Case=Acc|Info=Foc|Polarity=Pos|PronType=Dem	6	obj	_	CSID=KC|Lang=qu
 2	ñuka	ñuka	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nmod	_	CSID=KC|Lang=qu
-3	sobrino	sobrino	NOUN	_	_	4	nsubj	_	CSID=ES|Lang=es
+3	sobrino	sobrino	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	CSID=ES|Lang=es
 4	unkushka	unku	VERB	_	VerbForm=Part	6	advcl	_	CSID=KC|Lang=qu
 5	kakpika	ka	VERB	_	Info=Top|Switch=Diff|VerbForm=Conv	4	cop	_	CSID=KC|Lang=qu
-6	kararkani	kara	VERB	_	Person=3|Tense=Past|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+6	kararkani	kara	VERB	_	Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	CSID=OTHER
 
 # sent_id = 1_161
@@ -2157,7 +2157,7 @@
 # start = 686890
 # end = 688810
 1	Nima	nima	DET	_	_	3	det	_	CSID=KC|Lang=qu
-2	canela	canela	NOUN	_	_	3	nmod	_	CSID=ES|Lang=es
+2	canela	canela	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	CSID=ES|Lang=es
 3	yaku	yaku	NOUN	_	_	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
 
@@ -2176,7 +2176,7 @@
 # trans = Sólo Dios protege.
 # start = 691290
 # end = 693200
-1	Pachakamakllami	pachakamak	NOUN	_	Focus=Restr|Info=Foc	2	nsubj	_	CSID=KC|Lang=qu
+1	Pachakamakllami	pachakamak	NOUN	_	Focus=Restr|Info=Foc|Polarity=Pos	2	nsubj	_	CSID=KC|Lang=qu
 2	allichin	allichi	VERB	_	Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	CSID=OTHER
 
@@ -2186,8 +2186,8 @@
 # start = 693340
 # end = 699370
 1	Hatun	hatun	ADJ	_	_	3	amod	_	CSID=KC|Lang=qu
-2	espiritual	espiritual	ADJ	_	_	3	amod	_	CSID=ES|Lang=es
-3	makanakuypimi	maka	VERB	_	Case=Loc|Info=Foc|VerbForm=Vnoun|Voice=Rcp	0	root	_	CSID=KC|Lang=qu
+2	espiritual	espiritual	ADJ	_	Number=Sing	3	amod	_	CSID=ES|Lang=es
+3	makanakuypimi	maka	VERB	_	Case=Loc|Info=Foc|Polarity=Pos|VerbForm=Vnoun|Voice=Rcp	0	root	_	CSID=KC|Lang=qu
 4	kanchik	ka	AUX	_	Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	CSID=KC|Lang=qu|SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	CSID=OTHER
 6	chaytaka	chay	PRON	_	Case=Acc|Info=Top	8	obj	_	CSID=KC|Lang=qu
@@ -2213,7 +2213,7 @@
 1	Mana	mana	PART	_	Polarity=Neg	3	advmod:neg	_	CSID=KC|Lang=qu
 2	mañaylla	maña	VERB	_	Focus=Restr|VerbForm=Vnoun	3	nsubj	_	CSID=KC|Lang=qu
 3	allichu	alli	ADJ	_	Info=Foc|Polarity=Neg	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER
+4	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER
 5	pastor	pastor	NOUN	_	_	3	vocative	_	CSID=ES|Lang=es|SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
 
@@ -2223,13 +2223,13 @@
 # start = 705780
 # end = 711250
 1	Yachankichu	yacha	VERB	_	Info=Foc|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
+2	,	,	PUNCT	_	_	7	punct	_	CSID=OTHER
 3	mikunakuna	mikuna	NOUN	_	Number=Plur	4	nsubj	_	CSID=KC|Lang=qu
 4	ashalla	asha	ADJ	_	Focus=Restr	7	advcl	_	CSID=KC|Lang=qu
 5	kakpika	ka	AUX	_	Info=Top|Switch=Diff|VerbForm=Conv	4	cop	_	CSID=KC|Lang=qu
-6	imatak	ima	PRON	_	Info=Foc|PronType=Int	7	obj	_	CSID=KC|Lang=qu
+6	imatak	ima	PRON	_	Info=Foc|PronType=Int|QuestType=Open	7	obj	_	CSID=KC|Lang=qu
 7	nin	ni	VERB	_	Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	CSID=KC|Lang=qu
-8	ñawpa	ñawpa	ADJ	_	_	9	nmod	_	CSID=KC|Lang=qu
+8	ñawpa	ñawpa	NOUN	_	_	9	nmod	_	CSID=KC|Lang=qu
 9	taytakunaka	tayta	NOUN	_	Info=Top|Number=Plur	7	nsubj	_	CSID=KC|Lang=qu|SpaceAfter=No
 10	?	?	PUNCT	_	_	1	punct	_	CSID=OTHER
 
@@ -2238,8 +2238,8 @@
 # trans = Rezando a la Virgen, pero también sembrando.
 # start = 711338
 # end = 714880
-1	Virgen	virgen	NOUN	_	_	2	obj	_	CSID=ES|Lang=es
-2	mamata	mama	NOUN	_	_	1	flat	_	CSID=KC|Lang=qu
+1	Virgen	virgen	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	CSID=ES|Lang=es
+2	mamata	mama	NOUN	_	Case=Acc	1	flat	_	CSID=KC|Lang=qu
 3	mañashpanti	maña	VERB	_	Switch=Same|VerbForm=ConvPar	0	root	_	CSID=KC|Lang=qu
 4	tarpushpanti	tarpu	VERB	_	Switch=Same|VerbForm=ConvPar	3	advcl	_	CSID=KC|Lang=qu|SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
@@ -2259,7 +2259,7 @@
 # trans = Y la mejor ayuda es la vacuna.
 # start = 717860
 # end = 720760
-1	Vacuna	vacuna	NOUN	_	_	2	xcomp	_	CSID=ES|Lang=es
+1	Vacuna	vacuna	NOUN	_	Gender=Fem|Number=Sing	2	xcomp	_	CSID=ES|Lang=es
 2	nishkaka	ni	VERB	_	Info=Top|VerbForm=Part	4	nsubj	_	CSID=KC|Lang=qu
 3	hatun	hatun	ADJ	_	_	4	amod	_	CSID=KC|Lang=qu
 4	yanapaymi	yanapa	VERB	_	VerbForm=Vnoun	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
@@ -2279,9 +2279,9 @@
 # start = 722100
 # end = 726650
 1	Na	na	INTJ	_	_	6	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
-2	,	,	PUNCT	_	_	12	punct	_	CSID=OTHER
+2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
 3	ama	ama	PART	_	Polarity=Neg	6	advmod:neg	_	CSID=KC|Lang=qu
-4	monjakunaka	monja	NOUN	_	Info=Top|Number=Plur	6	nsubj	_	CSID=MIXED|CSPoint=monja§kuna|Lang=qqe
+4	monjakunaka	monja	NOUN	_	Gender=Fem|Info=Top|Number=Plur	6	nsubj	_	CSID=MIXED|CSPoint=monja§kuna|Lang=qqe
 5	supaykuna	supay	NOUN	_	Number=Plur	6	obj	_	CSID=KC|Lang=qu
 6	umachichun	uma	VERB	_	Mood=Prp|Switch=Diff|VerbForm=Conv|Voice=Cau	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	CSID=OTHER
@@ -2315,9 +2315,9 @@
 # end = 738020
 1	Ama	ama	PART	_	Polarity=Neg	2	advmod:neg	_	CSID=KC|Lang=qu
 2	ruraychu	rura	VERB	_	Info=Foc|Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu
-3	,	,	PUNCT	_	_	2	punct	_	CSID=OTHER|SpaceAfter=No
-4	alcaldesa	alcaldesa	NOUN	_	_	2	vocative	_	CSID=ES|Lang=es|SpaceAfter=No
-5	,	,	PUNCT	_	_	12	punct	_	CSID=OTHER
+3	,	,	PUNCT	_	_	4	punct	_	CSID=OTHER|SpaceAfter=No
+4	alcaldesa	alcaldesa	NOUN	_	Gender=Fem|Number=Sing	2	vocative	_	CSID=ES|Lang=es|SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	CSID=OTHER
 6	ama	ama	PART	_	Polarity=Neg	7	advmod:neg	_	CSID=KC|Lang=qu
 7	wañuychu	wañu	VERB	_	Info=Foc|Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin	2	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
 8	!	!	PUNCT	_	_	2	punct	_	CSID=OTHER
@@ -2329,7 +2329,7 @@
 # end = 742140
 1	Killkak	killka	VERB	_	VerbForm=NomAg	4	obj	_	CSID=KC|Lang=qu|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER
-3	hampikta	hampi	VERB	_	VerbForm=NomAg	1	conj	_	CSID=KC|Lang=qu
+3	hampikta	hampi	VERB	_	VerbForm=NomAg	1	parataxis	_	CSID=KC|Lang=qu
 4	kayachimuy	kaya	VERB	_	Deixis=Ven|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Cau	0	root	_	CSID=KC|Lang=qu
 5	tuksiyta	tuksi	VERB	_	Case=Acc|VerbForm=Vnoun	6	obj	_	CSID=KC|Lang=qu
 6	apamuchun	apa	VERB	_	Deixis=Ven|Mood=Prp|Switch=Diff|VerbForm=Conv	4	advcl	_	CSID=KC|Lang=qu|SpaceAfter=No
@@ -2341,13 +2341,13 @@
 # start = 742150
 # end = 744500
 1	Na	na	PART	_	Polarity=Neg	7	discourse	_	CSID=KC|Lang=qu
-2	na	na	PART	_	Polarity=Neg	7	discourse	_	CSID=KC|Lang=qu
-3	na	na	PART	_	Polarity=Neg	7	discourse	_	CSID=KC|Lang=qu
-4	na	na	PART	_	Polarity=Neg	7	discourse	_	CSID=KC|Lang=qu
-5	,	,	PUNCT	_	_	4	punct	_	CSID=OTHER|SpaceAfter=No
+2	na	na	PART	_	Polarity=Neg	1	discourse	_	CSID=KC|Lang=qu
+3	na	na	PART	_	Polarity=Neg	1	discourse	_	CSID=KC|Lang=qu
+4	na	na	PART	_	Polarity=Neg	1	discourse	_	CSID=KC|Lang=qu
+5	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER|SpaceAfter=No
 6	na	na	PART	_	Polarity=Neg	7	advmod:neg	_	CSID=KC|Lang=qu
 7	ruraychu	rura	VERB	_	Info=Foc|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu
-8	,	,	PUNCT	_	_	7	punct	_	CSID=OTHER|SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	CSID=OTHER|SpaceAfter=No
 9	ama	ama	PART	_	Polarity=Neg	10	advmod:neg	_	CSID=KC|Lang=qu
 10	ruraychu	rura	VERB	_	Info=Foc|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin	7	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
 11	.	.	PUNCT	_	_	7	punct	_	CSID=OTHER
@@ -2357,13 +2357,13 @@
 # trans = Y así fue que la alcaldesa, delante de todos los vecinos y vecinas, se vacunó.
 # start = 745740
 # end = 751230
-1	Shinallami	shina	ADV	_	Focus=Restr|Info=Foc	7	advmod	_	CSID=KC|Lang=qu
-2	alcaldesa	alcaldesa	NOUN	_	_	7	nsubj	_	CSID=ES|Lang=es
+1	Shinallami	shina	ADV	_	Focus=Restr|Info=Foc|Polarity=Pos	7	advmod	_	CSID=KC|Lang=qu
+2	alcaldesa	alcaldesa	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	CSID=ES|Lang=es
 3	pushakka	pusha	VERB	_	Info=Top|VerbForm=NomAg	2	flat	_	CSID=KC|Lang=qu|SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	CSID=OTHER
 5	tukuypa	tukuy	PRON	_	Case=Gen|PronType=Tot	6	nmod	_	CSID=KC|Lang=qu
 6	ñawpapi	ñawpa	NOUN	_	Case=Loc	7	obl	_	CSID=KC|Lang=qu
-7	vacunarirka	vacuna	VERB	_	Person=3|Tense=Pres|VerbForm=Fin|Voice=Rfl	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+7	vacunarirka	vacuna	VERB	_	Person=3|Tense=Pres|VerbForm=Fin|Voice=Rfl	0	root	_	CSID=MIXED|CSPoint=vacuna§rirka|Lang=qqe|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	CSID=OTHER
 
 # sent_id = 1_179
@@ -2376,7 +2376,7 @@
 3	yacharkachu	yacha	VERB	_	Info=Foc|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu
 4	kayapa	kaya	NOUN	_	Case=Gen	6	obl	_	CSID=KC|Lang=qu
 5	imalla	ima	PRON	_	Focus=Restr|PronType=Int	6	nsubj	_	CSID=KC|Lang=qu
-6	tiyanata	tiya	VERB	_	Case=Acc|VerbForm=Inf	3	ccomp	_	CSID=KC|Lang=qu|SpaceAfter=No
+6	tiyanata	tiya	VERB	_	Case=Acc|VerbForm=Inf	3	obj	_	CSID=KC|Lang=qu|SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
 
 # sent_id = 1_180
@@ -2384,7 +2384,7 @@
 # trans = Alcaldesa Magdalena Ayala.
 # start = 757450
 # end = 759030
-1	Alcaldesa	alcaldesa	NOUN	_	_	0	root	_	CSID=ES|Lang=es
+1	Alcaldesa	alcaldesa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	CSID=ES|Lang=es
 2	Magdalena	Magdalena	PROPN	_	_	1	flat	_	CSID=ES|Lang=es
 3	Ayala	Ayala	PROPN	_	_	1	flat	_	CSID=KC|Lang=qu|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	CSID=OTHER
@@ -2394,7 +2394,7 @@
 # trans = Estoy aquí.
 # start = 759325
 # end = 760115
-1	Kaypimi	kay	PRON	_	Case=Loc|Info=Foc|PronType=Dem	0	root	_	CSID=KC|Lang=qu
+1	Kaypimi	kay	PRON	_	Case=Loc|Info=Foc|Polarity=Pos|PronType=Dem	0	root	_	CSID=KC|Lang=qu
 2	kani	ka	AUX	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	cop	_	CSID=KC|Lang=qu|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	CSID=OTHER
 
@@ -2403,7 +2403,7 @@
 # trans = Hay una denuncia contra usted.
 # start = 760290
 # end = 762190
-1	Kikinta	kikin	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	2	obj	_	CSID=KC|Lang=qu
+1	Kikinta	kikin	PRON	_	Case=Acc|Number=Sing|Person=2|Polite=Form|PronType=Prs	2	obj	_	CSID=KC|Lang=qu
 2	huchachishkawan	huchachi	VERB	_	Case=Ins|VerbForm=Part	3	obl	_	CSID=KC|Lang=qu
 3	shamunchik	shamu	VERB	_	Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
@@ -2421,7 +2421,7 @@
 # trans = ¿Y de qué se trata?
 # start = 763150
 # end = 764090
-1	Imatak	ima	PRON	_	Info=Foc|PronType=Int	2	obj	_	CSID=KC|Lang=qu
+1	Imatak	ima	PRON	_	Info=Foc|PronType=Int|QuestType=Open	2	obj	_	CSID=KC|Lang=qu
 2	nin	ni	VERB	_	Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 3	?	?	PUNCT	_	_	2	punct	_	CSID=OTHER
 
@@ -2434,7 +2434,7 @@
 2	allita	alli	ADJ	_	Case=Acc	3	obj	_	CSID=KC|Lang=qu
 3	rurashka	rura	VERB	_	Person=3|VerbForm=Part	4	ccomp	_	CSID=KC|Lang=qu
 4	nishpa	ni	VERB	_	Switch=Same|VerbForm=Conv	5	advcl	_	CSID=KC|Lang=qu
-5	huchachinakun	huchachi	VERB	_	Person=3|Tense=Pres|VerbForm=Fin|VerbForm=Rcp	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+5	huchachinakun	huchachi	VERB	_	Aspect=Prog|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	CSID=OTHER
 
 # sent_id = 1_186
@@ -2451,7 +2451,7 @@
 7	kashkata	ka	VERB	_	Case=Acc|VerbForm=Part	6	conj	_	CSID=KC|Lang=qu
 8	kikinpak	kikin	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	9	obl	_	CSID=KC|Lang=qu
 9	hapishkanki	hapi	VERB	_	Number=Sing|Person=2|VerbForm=Part	10	ccomp	_	CSID=KC|Lang=qu
-10	ninakun	ni	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+10	ninakun	ni	VERB	_	Aspect=Prog|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	CSID=OTHER
 
 # sent_id = 1_187
@@ -2459,7 +2459,7 @@
 # trans = ¿Qué dices?
 # start = 771840
 # end = 773360
-1	Imatak	ima	PRON	_	Info=Foc|PronType=Int	2	obj	_	CSID=KC|Lang=qu
+1	Imatak	ima	PRON	_	Info=Foc|PronType=Int|QuestType=Open	2	obj	_	CSID=KC|Lang=qu
 2	ninki	ni	VERB	_	Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 3	?	?	PUNCT	_	_	2	punct	_	CSID=OTHER
 
@@ -2470,7 +2470,7 @@
 # end = 775850
 1	Kikin	kikin	PRON	_	Number=Sing|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	CSID=KC|Lang=qu
 2	manarak	mana	PART	_	Polarity=Neg|State=Cont	3	advmod:neg	_	CSID=KC|Lang=qu
-3	vacunarinachu	vacuna	VERB	_	Info=Foc|Polarity=Neg|VerbForm=Inf|Voice=Rfl	0	root	_	CSID=KC|Lang=qu
+3	vacunarinachu	vacuna	VERB	_	Info=Foc|Polarity=Neg|VerbForm=Inf|Voice=Rfl	0	root	_	CSID=MIXED|CSPoint=vacuna§rinachu|Lang=qqe
 4	karkanki	ka	AUX	_	Number=Sing|Person=2|Tense=Past|VerbForm=Fin	3	aux	_	CSID=KC|Lang=qu|SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
 
@@ -2488,9 +2488,9 @@
 # start = 776760
 # end = 778420
 1	Na	na	PART	_	Polarity=Neg	6	discourse	_	CSID=KC|Lang=qu
-2	na	na	PART	_	Polarity=Neg	6	discourse	_	CSID=KC|Lang=qu
-3	na	na	PART	_	Polarity=Neg	6	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER
+2	na	na	PART	_	Polarity=Neg	1	discourse	_	CSID=KC|Lang=qu
+3	na	na	PART	_	Polarity=Neg	1	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
 5	mana	mana	PART	_	Polarity=Neg	6	advmod:neg	_	CSID=KC|Lang=qu
 6	kankachu	ka	VERB	_	Info=Foc|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	CSID=OTHER
@@ -8398,11 +8398,11 @@
 # end = 346440
 1	Ña	ña	ADV	_	_	7	advmod	_	CSID=KC|Lang=qu
 2	wakin	wakin	DET	_	_	3	det	_	CSID=KC|Lang=qu
-3	programakunata	programa	NOUN	_	_	7	obj	_	CSID=MIXED|CSPoint=programa§kunata|Lang=qqe
+3	programakunata	programa	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	CSID=MIXED|CSPoint=programa§kunata|Lang=qqe
 4	kay	kay	DET	_	_	6	det	_	CSID=KC|Lang=qu
 5	uyachik	uya	VERB	_	VerbForm=NomAg|Voice=Cau	6	acl	_	CSID=KC|Lang=qu
 6	antapi	anta	NOUN	_	Case=Loc	7	obl	_	CSID=KC|Lang=qu
-7	ruranakushunmi	rura	VERB	_	Info=Foc|Number=Plur|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Rcp	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+7	ruranakushunmi	rura	VERB	_	Aspect=Prog|Info=Foc|Number=Plur|Person=1|Polarity=Pos|Tense=Fut	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	CSID=OTHER
 
 # sent_id = 4_72
@@ -8417,7 +8417,7 @@
 7	ayllullaktapak	ayllullakta	NOUN	_	Case=Gen	9	nmod	_	CSID=KC|Lang=qu
 8	uyachik	uya	VERB	_	VerbForm=NomAg|Voice=Cau	9	acl	_	CSID=KC|Lang=qu
 9	antaka	anta	NOUN	_	Info=Top	10	nsubj	_	CSID=KC|Lang=qu
-10	imatak	ima	PRON	_	Info=Foc|PronType=Int	0	root	_	CSID=KC|Lang=qu
+10	imatak	ima	PRON	_	Info=Foc|PronType=Int|QuestType=Open	0	root	_	CSID=KC|Lang=qu
 11	kapan	ka	AUX	_	Person=3|Polite=Form|Tense=Pres|VerbForm=Fin	10	cop	_	CSID=KC|Lang=qu|SpaceAfter=No
 12	?	?	PUNCT	_	_	10	punct	_	CSID=OTHER
 
@@ -8453,7 +8453,7 @@
 # start = 358780
 # end = 362320
 1	Shinaka	shina	ADV	_	Info=Top	3	cc	_	CSID=KC|Lang=qu
-2	micrófonokunaka	micrófono	NOUN	_	Info=Top|Number=Plur	3	nsubj	_	CSID=MIXED|CSPoint=micrófono§kunaka|Lang=qqe
+2	micrófonokunaka	micrófono	NOUN	_	Gender=Masc|Info=Top|Number=Plur	3	nsubj	_	CSID=MIXED|CSPoint=micrófono§kunaka|Lang=qqe
 3	kikinkunapakmi	kikin	PRON	_	Case=Gen|Info=Foc|Number=Plur|Person=2|Polarity=Pos|Polite=Form|PronType=Prs	0	root	_	CSID=KC|Lang=qu
 4	kan	ka	AUX	_	Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	CSID=KC|Lang=qu|SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
@@ -8464,13 +8464,13 @@
 # start = 362480
 # end = 370690
 1	Kaymanta	kay	PRON	_	Case=Abl|PronType=Dem	4	obl	_	CSID=KC|Lang=qu
-2	napaykunata	napayku	VERB	_	Case=Acc|VerbForm=Inf	4	obj	_	CSID=KC|Lang=qu
+2	napaykunata	napay	NOUN	_	Case=Acc|Number=Plur	4	obj	_	CSID=KC|Lang=qu
 3	ayllukunaman	ayllu	NOUN	_	Case=Dat|Number=Plur	4	obl	_	CSID=KC|Lang=qu
 4	kachankichik	kacha	VERB	_	Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu
-5	,	,	PUNCT	_	_	4	punct	_	CSID=OTHER|SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	CSID=OTHER|SpaceAfter=No
 6	llakikunata	llaki	NOUN	_	Case=Acc|Number=Plur	7	obj	_	CSID=KC|Lang=qu
 7	willachinkichik	willa	VERB	_	Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Cau	4	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
-8	,	,	PUNCT	_	_	7	punct	_	CSID=OTHER
+8	,	,	PUNCT	_	_	11	punct	_	CSID=OTHER
 9	takikunatapash	taki	NOUN	_	Case=Acc|Focus=Addit|Number=Plur	10	obj	_	CSID=KC|Lang=qu
 10	mañayta	maña	VERB	_	Case=Acc|VerbForm=Vnoun	11	obj	_	CSID=KC|Lang=qu
 11	ushankichik	usha	VERB	_	Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	4	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
@@ -8481,7 +8481,7 @@
 # trans = Y las vacunas.
 # start = 370790
 # end = 372990
-1	Vacunamanta	vacuna	NOUN	_	Case=Abl	2	obl	_	CSID=MIXED|CSPoint=Vacuna§manta|Lang=qqe
+1	Vacunamanta	vacuna	NOUN	_	Case=Abl|Gender=Fem|Number=Sing	2	obl	_	CSID=MIXED|CSPoint=Vacuna§manta|Lang=qqe
 2	willachinkichik	willa	VERB	_	Number=Plur|Person=2|Tense=Fut|VerbForm=FIn|Voice=Cau	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	CSID=OTHER
 
@@ -8490,7 +8490,7 @@
 # trans = La radio Buen Vivir se pone al servicio de la salud de todo el municipio.
 # start = 373180
 # end = 380310
-1	Municipio	municipio	NOUN	_	_	2	nmod	_	CSID=ES|Lang=es
+1	Municipio	municipio	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	CSID=ES|Lang=es
 2	ukumanta	uku	NOUN	_	Case=Abl	3	nmod	_	CSID=KC|Lang=qu
 3	hampikunamanta	hampi	NOUN	_	Case=Abl|Number=Plur	4	obl	_	CSID=KC|Lang=qu
 4	willachinkapakka	willa	VERB	_	Info=Top|Mood=Prp|Switch=Same|VerbForm=Conv|Voice=Cau	9	advcl	_	CSID=KC|Lang=qu
@@ -8515,8 +8515,7 @@
 
 # sent_id = 4_80
 # sent = Hampik, hampik, allipacha nanaywan kakkunata churankapak mashna camata charinchik?
-# trans = Doctor, ¿cuántas camas de cuidados intensivos
-quedan libres?
+# trans = Doctor, ¿cuántas camas de cuidados intensivos quedan libres?
 # start = 391160
 # end = 396600
 1	Hampik	hampi	VERB	_	VerbForm=NomAg	11	vocative	_	CSID=KC|Lang=qu|SpaceAfter=No
@@ -8528,7 +8527,7 @@ quedan libres?
 7	kakkunata	ka	AUX	_	Case=Acc|Number=Plur|VerbForm=NomAg	6	cop	_	CSID=KC|Lang=qu
 8	churankapak	chura	VERB	_	Mood=Prp|Switch=Same|VerbForm=Conv	11	advcl	_	CSID=KC|Lang=qu
 9	mashna	mashna	DET	_	_	10	det	_	CSID=KC|Lang=qu
-10	camata	cama	NOUN	_	Case=Acc	11	obj	_	CSID=MIXED|CSPoint=cama§ta|Lang=qqe
+10	camata	cama	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	CSID=MIXED|CSPoint=cama§ta|Lang=qqe
 11	charinchik	chari	VERB	_	Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 12	?	?	PUNCT	_	_	11	punct	_	CSID=OTHER
 
@@ -8548,9 +8547,9 @@ quedan libres?
 1	Ay	ay	INTJ	_	_	13	discourse	_	CSID=KC|Lang=qu
 2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER|SpaceAfter=No
 3	llaki	llaki	NOUN	_	_	4	compound	_	CSID=KC|Lang=qu
-4	llaki	_	_	_	_	13	discourse	_	CSID=KC|Lang=qu
+4	llaki	llaki	NOUN	_	_	13	discourse	_	CSID=KC|Lang=qu
 5	,	,	PUNCT	_	_	4	punct	_	CSID=OTHER
-6	pandemia	pandemia	NOUN	_	_	12	nmod	_	CSID=ES|Lang=es
+6	pandemia	pandemia	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	CSID=ES|Lang=es
 7	,	,	PUNCT	_	_	10	punct	_	CSID=OTHER|SpaceAfter=No
 8	kay	kay	DET	_	_	10	det	_	CSID=KC|Lang=qu
 9	millay	millay	ADJ	_	_	10	amod	_	CSID=KC|Lang=qu|SpaceAfter=No
@@ -8577,7 +8576,7 @@ quedan libres?
 # start = 406850
 # end = 409190
 1	Tukuykuna	tukuy	PRON	_	Number=Plur|PronType=Tot	2	nsubj	_	CSID=KC|Lang=qu
-2	unkunakurka	unku	VERB	_	Person=3|Tense=Past|VerbForm=Fin|Voice=Rcp	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+2	unkunakurka	unku	VERB	_	Aspect=Prog|Number=Plur|Person=3|Tense=Past|VerbFore=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	CSID=OTHER
 
 # sent_id = 4_85
@@ -8585,15 +8584,15 @@ quedan libres?
 # trans = Fiebre, tos, falta de aire, iban al hospital.
 # start = 409360
 # end = 416260
-1	Yapa	yapa	ADV	_	_	3	advmod	_	CSID=KC|Lang=qu
+1	Yapa	yapa	ADV	_	_	2	advmod	_	CSID=KC|Lang=qu
 2	rupaykunawan	rupay	NOUN	_	Case=Ins|Number=Plur	4	obl	_	CSID=KC|Lang=qu
 3	hapiy	hapi	VERB	_	VerbForm=Vnoun	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 4	tukushka	illa	VERB	_	Person=3|VerbForm=Part	13	advcl	_	CSID=KC|Lang=qu
 5	,	tuku	AUX	_	Case=Ins	3	aux	_	CSID=KC|Lang=qu
-6	uhuwan	,	PUNCT	_	_	1	punct	_	CSID=OTHER|SpaceAfter=No
+6	uhuwan	,	PUNCT	_	_	3	punct	_	CSID=OTHER|SpaceAfter=No
 7	,	uhu	NOUN	_	_	9	obl	_	CSID=KC|Lang=qu
 8	samay	samay	NOUN	_	Switch=Same|VerbForm=Conv|Voice=Rfl	9	nsubj	_	CSID=KC|Lang=qu
-9	illarishpa	,	PUNCT	_	_	1	punct	_	CSID=OTHER|SpaceAfter=No
+9	illarishpa	,	PUNCT	_	_	6	punct	_	CSID=OTHER|SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	CSID=OTHER
 11	hampik	hampi	VERB	_	VerbForm=NomAg	12	nmod	_	CSID=KC|Lang=qu
 12	wasiman	wasi	NOUN	_	Case=Dat	13	obl	_	CSID=KC|Lang=qu
@@ -8607,9 +8606,9 @@ quedan libres?
 # start = 416370
 # end = 419880
 1	Wakinkuna	wakin	PRON	_	Number=Plur|PronType=Ind	4	nsubj	_	CSID=KC|Lang=qu
-2	chaypillatak	chay	PRON	_	Case=Loc|Reflex=Yes	3	obl	_	CSID=KC|Lang=qu
+2	chaypillatak	chay	PRON	_	Case=Loc|PronType=Dem|Reflex=Yes	3	obl	_	CSID=KC|Lang=qu
 3	shitarishpa	shita	VERB	_	Switch=Same|VerbForm=Conv|Voice=Rfl	4	advcl	_	CSID=KC|Lang=qu
-4	wañunakurka	wañu	VERB	_	Person=3|Tense=Past|VerbForm=Fin|Voice=Rfl	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+4	wañunakurka	wañu	VERB	_	Aspect=Prog|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	CSID=OTHER
 
 # sent_id = 4_87
@@ -8641,7 +8640,7 @@ quedan libres?
 # start = 428969
 # end = 432759
 1	Yanapawaychik	yanapa	VERB	_	Mood=Imp|Number=Plur|Number[obj]=Sing|Person=2|Person[obj]=1|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
+2	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER
 3	ñuka	ñuka	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nmod	_	CSID=KC|Lang=qu
 4	tayta	tayta	NOUN	_	_	5	nsubj	_	CSID=KC|Lang=qu
 5	wañukunmi	wañu	VERB	_	Aspect=Prog|Info=Foc|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
@@ -8656,16 +8655,16 @@ quedan libres?
 2	llakta	llakta	NOUN	_	_	3	obj	_	CSID=KC|Lang=qu
 3	pushakkunaka	pusha	VERB	_	Info=Top|Number=Plur|VerbForm=NomAg	7	nsubj	_	CSID=KC|Lang=qu
 4	shuk	shuk	NUM	_	NumType=Card	5	nummod	_	CSID=KC|Lang=qu
-5	gripellami	gripe	NOUN	_	Focus=Restr|Info=Foc|Polarity=Pos	6	ccomp	_	CSID=MIXED|CSPoint=gripe§llami|Lang=qqe
+5	gripellami	gripe	NOUN	_	Focus=Restr|Gender=Fem|Info=Foc|Number=Sing|Polarity=Pos	6	ccomp	_	CSID=MIXED|CSPoint=gripe§llami|Lang=qqe
 6	nishpa	ni	VERB	_	Switch=Same|VerbForm=Conv	7	advcl	_	CSID=KC|Lang=qu
-7	llullanakurka	llulla	VERB	_	Person=3|Tense=Past|VerbForm=Fin|Voice=Rcp	0	root	_	CSID=KC|Lang=qu
-8	,	,	PUNCT	_	_	7	punct	_	CSID=OTHER|SpaceAfter=No
+7	llullanakurka	llulla	VERB	_	Aspect=Prog|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu
+8	,	,	PUNCT	_	_	13	punct	_	CSID=OTHER|SpaceAfter=No
 9	mana	mana	PART	_	Polarity=Neg	11	advmod:neg	_	CSID=KC|Lang=qu
 10	ima	ima	PRON	_	PronType=Int	11	nmod	_	CSID=KC|Lang=qu
 11	llakipashchu	llaki	NOUN	_	Focus=Addit|Info=Foc|Polarity=Neg	13	ccomp	_	CSID=KC|Lang=qu
 12	kan	ka	AUX	_	Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	CSID=KC|Lang=qu
-13	ninakurkami	ni	VERB	_	Info=Foc|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Rcp	7	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
-14	,	,	PUNCT	_	_	13	punct	_	CSID=OTHER
+13	ninakurkami	ni	VERB	_	Aspect=Prog|Info=Foc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	7	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	CSID=OTHER
 15	kay	kay	DET	_	_	16	det	_	CSID=KC|Lang=qu
 16	llullakkunaka	llulla	VERB	_	Info=Top|Number=Plur|VerbForm=NomAg	13	nsubj	_	CSID=KC|Lang=qu|SpaceAfter=No
 17	.	.	PUNCT	_	_	7	punct	_	CSID=OTHER
@@ -8676,8 +8675,8 @@ quedan libres?
 # start = 450960
 # end = 454510
 1	Shinapash	shinapash	CCONJ	_	_	3	cc	_	CSID=KC|Lang=qu
-2	contagiokunaka	contagio	NOUN	_	Info=Top|Number=Plur	3	nsubj	_	CSID=MIXED|CSPoint=contagio§kunaka|Lang=qqe
-3	mirarinakurkami	mirari	VERB	_	Info=Top|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Rcp	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+2	contagiokunaka	contagio	NOUN	_	Gender=Masc|Info=Top|Number=Plur	3	nsubj	_	CSID=MIXED|CSPoint=contagio§kunaka|Lang=qqe
+3	mirarinakurkami	mirari	VERB	_	Aspect=Prog|Info=Foc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Rcp	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
 
 # sent_id = 4_92
@@ -8687,14 +8686,14 @@ quedan libres?
 # end = 462840
 1	Tukuy	tukuy	DET	_	_	2	det	_	CSID=KC|Lang=qu
 2	pachakunapi	pacha	NOUN	_	Case=Loc|Number=Plur	10	obl	_	CSID=KC|Lang=qu
-3	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	CSID=OTHER|SpaceAfter=No
 4	tukuy	tukuy	DET	_	_	5	det	_	CSID=KC|Lang=qu
 5	mamallaktakunapi	mama	NOUN	_	Case=Loc|Number=Plur	10	obl	_	CSID=KC|Lang=qu|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER
 7	wañushkakunataka	wañu	VERB	_	Case=Acc|Info=Top|Number=Plur|VerbForm=Part	11	nsubj	_	CSID=KC|Lang=qu
 9	ushashka	ushashka	ADV	_	_	11	advmod	_	CSID=KC|Lang=qu
 10	ushashka	ushashka	ADV	_	_	9	compound:redup	_	CSID=KC|Lang=qu
-11	mirarinakuktami	mirari	VERB	_	Case=Acc|Info=Foc|Polarity=Pos|VerbForm=NomAg|Voice=Rcp	12	obj	_	CSID=KC|Lang=qu
+11	mirarinakuktami	mira	VERB	_	Aspect=Prog|Case=Acc|Info=Foc|Number=Plur|Polarity=Pos|VerbForm=NomAg|Voice=Rfl	12	obj	_	CSID=KC|Lang=qu
 12	rikurkanchik	riku	VERB	_	Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 13	.	.	PUNCT	_	_	12	punct	_	CSID=OTHER
 
@@ -8707,9 +8706,9 @@ quedan libres?
 2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER|SpaceAfter=No
 3	yuyarinimi	yuya	VERB	_	Info=Foc|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Rfl	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER
-5	gringo	gringo	NOUN	_	_	6	nmod	_	CSID=ES|Lang=es
-6	presidenteka	presidente	NOUN	_	Info=Top	9	nsubj	_	CSID=MIXED|CSPoint=presidente§ka|Lang=qqe
-7	mascarillatapash	mascarilla	NOUN	_	Case=Acc|Focus=Addit	9	obj	_	CSID=MIXED|CSPoint=mascarilla§tapash|Lang=qqe
+5	gringo	gringo	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	CSID=ES|Lang=es
+6	presidenteka	presidente	NOUN	_	Info=Top|Number=Sing	9	nsubj	_	CSID=MIXED|CSPoint=presidente§ka|Lang=qqe
+7	mascarillatapash	mascarilla	NOUN	_	Case=Acc|Focus=Addit|Gender=Fem|Number=Sing	9	obj	_	CSID=MIXED|CSPoint=mascarilla§tapash|Lang=qqe
 8	mana	mana	PART	_	Polarity=Neg	7	advmod:neg	_	CSID=KC|Lang=qu
 9	churakunchu	chura	VERB	_	Aspect=Prog|Info=Foc|Polarity=Neg|VerbForm=NomAg	3	ccomp	_	CSID=KC|Lang=qu
 10	karka	ka	AUX	_	Person=3|Tense=Past|VerbForm=Fin	9	aux	_	CSID=KC|Lang=qu|SpaceAfter=No
@@ -8722,8 +8721,8 @@ quedan libres?
 # end = 479830
 1	Paypak	pay	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	nmod	_	CSID=KC|Lang=qu
 2	ruraykunamanta	rura	VERB	_	Case=Abl|Number=Plur|VerbForm=Vnoun	5	obl	_	CSID=KC|Lang=qu
-3	waranka	waranka	NUM	_	NumType=Card	5	nsubj	_	CSID=KC|Lang=qu
-4	warankakuna	waranka	NUM	_	Number=Plur|NumType=Card	3	flat	_	CSID=KC|Lang=qu
+3	waranka	waranka	NUM	_	NumType=Card	4	compound:redup	_	CSID=KC|Lang=qu
+4	warankakuna	waranka	NUM	_	Number=Plur|NumType=Card	5	nsubj	_	CSID=KC|Lang=qu
 5	wañurka	wañu	VERB	_	Person=3|Tense=Past|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	CSID=OTHER
 
@@ -8733,9 +8732,9 @@ quedan libres?
 # start = 480010
 # end = 483270
 1	Pay	pay	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	CSID=KC|Lang=qu
-2	presidenteka	presidente	NOUN	_	Info=Top	1	appos	_	CSID=KC|Lang=qu
+2	presidenteka	presidente	NOUN	_	Info=Top|Number=Sing	1	appos	_	CSID=MIXED|CSPoint=presidente§ka|Lang=qqe
 3	wañuchik	wañu	VERB	_	VerbForm=NomAg|Voice=Cau	4	acl	_	CSID=KC|Lang=qu
-4	presidentemi	presidente	NOUN	_	Info=Foc|Polarity=Pos	0	root	_	CSID=KC|Lang=qu
+4	presidentemi	presidente	NOUN	_	Info=Foc|Number=Sing|Polarity=Pos	0	root	_	CSID=MIXED|CSPoint=presidente§mi|Lang=qqe
 5	kan	ka	AUX	_	Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	CSID=KC|Lang=qu|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	CSID=OTHER
 
@@ -8744,15 +8743,15 @@ quedan libres?
 # trans = Los gringos acusaban a los chinos y los chinos a los gringos.
 # start = 485420
 # end = 492290
-1	Gringokunaka	gringo	NOUN	_	Info=Top|Number=Plur	3	nsubj	_	CSID=MIXED|CSPoint=Gringo§kunaka|Lang=qqe
-2	chinokunata	chino	NOUN	_	Case=Acc|Number=Plur	3	obj	_	CSID=MIXED|CSPoint=chino§kunata|Lang=qqe
-3	huchachinakurka	huchachi	VERB	_	Person=3|Tense=Past|VerbForm=Fin|Voice=Rcp	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER
+1	Gringokunaka	gringo	NOUN	_	Gender=Masc|Info=Top|Number=Plur	3	nsubj	_	CSID=MIXED|CSPoint=Gringo§kunaka|Lang=qqe
+2	chinokunata	chino	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	CSID=MIXED|CSPoint=chino§kunata|Lang=qqe
+3	huchachinakurka	huchachi	VERB	_	Aspect=Prog|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+4	,	,	PUNCT	_	_	9	punct	_	CSID=OTHER
 5	shinallatak	shina	ADV	_	Reflex=Yes	9	advmod	_	CSID=KC|Lang=qu
 6	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER|SpaceAfter=No
-7	chinokunaka	chino	NOUN	_	Info=Top|Number=Plur	9	nsubj	_	CSID=MIXED|CSPoint=chino§kunaka|Lang=qqe
-8	gringokunata	gringo	NOUN	_	Case=Acc|Number=Plur	9	obj	_	CSID=MIXED|CSPoint=gringo§kunata|Lang=qqe
-9	huchachinakurka	huchachi	VERB	_	Person=3|Tense=Past|VerbForm=Fin|Voice=Rcp	3	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
+7	chinokunaka	chino	NOUN	_	Gender=Masc|Info=Top|Number=Plur	9	nsubj	_	CSID=MIXED|CSPoint=chino§kunaka|Lang=qqe
+8	gringokunata	gringo	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	CSID=MIXED|CSPoint=gringo§kunata|Lang=qqe
+9	huchachinakurka	huchachi	VERB	_	Aspect=Prog|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
 
 # sent_id = 4_97
@@ -8760,8 +8759,8 @@ quedan libres?
 # trans = Que la culpa la tiene un murciélago.
 # start = 492350
 # end = 495700
-1	Murciélagotapash	murciélago	NOUN	_	Case=Acc|Focus=Addit	2	obj	_	CSID=MIXED|CSPoint=Murciélago§tapash|Lang=qqe
-2	huchachinakurka	huchachi	VERB	_	Person=3|Tense=Past|VerbForm=Fin|Voice=Rcp	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+1	Murciélagotapash	murciélago	NOUN	_	Case=Acc|Focus=Addit|Gender=Masc|Number=Sing	2	obj	_	CSID=MIXED|CSPoint=Murciélago§tapash|Lang=qqe
+2	huchachinakurka	huchachi	VERB	_	Aspect=Prog|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	CSID=OTHER
 4	imacha	imacha	INTJ	_	_	2	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	CSID=OTHER
@@ -8771,14 +8770,14 @@ quedan libres?
 # trans = Que la tiene un pangolín.
 # start = 495840
 # end = 500310
-1	Pangolín	pangolín	NOUN	_	_	2	ccomp	_	CSID=ES|Lang=es
+1	Pangolín	pangolín	NOUN	_	Gender=Masc|Number=Sing	2	ccomp	_	CSID=ES|Lang=es
 2	nishkatapash	ni	VERB	_	Case=Acc|Focus=Addit|VerbForm=Part	5	obj	_	CSID=KC|Lang=qu
 3	pay	pay	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	CSID=KC|Lang=qu
 4	apamurkami	apa	VERB	_	Deixis=Ven|Info=Foc|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	5	ccomp	_	CSID=KC|Lang=qu
-5	ninakurkami	ni	VERB	_	Info=Foc|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Rcp	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER
+5	ninakurkami	ni	VERB	_	Aspect=Prog|Info=Foc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	CSID=OTHER
 7	ay	ay	INTJ	_	_	5	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
-8	,	,	PUNCT	_	_	7	punct	_	CSID=OTHER
+8	,	,	PUNCT	_	_	9	punct	_	CSID=OTHER
 9	imacha	imacha	INTJ	_	_	5	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
 10	.	.	PUNCT	_	_	5	punct	_	CSID=OTHER
 
@@ -8787,11 +8786,11 @@ quedan libres?
 # trans = No, señores, no se equivoquen, esta epidemia se debe a la destrucción de la Naturaleza que hemos hecho los humanos.
 # start = 500510
 # end = 507900
-1	Ama	ama	INTJ	_	_	4	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
+1	Ama	ama	INTJ	_	Polarity=Neg	3	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
 3	ama	ama	PART	_	Polarity=Neg	4	advmod:neg	_	CSID=KC|Lang=qu
 4	pantarishunchu	panta	VERB	_	Info=Foc|Number=Plur|Person=1|Polarity=Neg|Tense=Fut|VerbForm=Fin|Voice=Rfl	0	root	_	CSID=KC|Lang=qu
-5	.	.	PUNCT	_	_	4	punct	_	CSID=OTHER|SpaceAfter=No
+5	.	.	PUNCT	_	_	10	punct	_	CSID=OTHER|SpaceAfter=No
 6	kay	kay	DET	_	_	7	det	_	CSID=KC|Lang=qu
 7	unkuykunaka	unku	VERB	_	Info=Top|Number=Plur|VerbForm=Vnoun	10	nsubj	_	CSID=KC|Lang=qu
 8	pachamamata	pachamama	NOUN	_	Case=Acc	9	obj	_	CSID=KC|Lang=qu
@@ -8821,7 +8820,7 @@ quedan libres?
 1	Mayta	may	PRON	_	Case=Acc|PronType=Int	2	obl	_	CSID=KC|Lang=qu
 2	purishpapish	puri	VERB	_	Focus=Addit|Switch=Same|VerbForm=Conv	3	advcl	_	CSID=KC|Lang=qu
 3	mapayachinchik	mapaya	VERB	_	Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Cau	0	root	_	CSID=KC|Lang=qu
-4	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER|SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	CSID=OTHER|SpaceAfter=No
 5	mayta	may	PRON	_	Case=Acc|PronType=Int	6	obl	_	CSID=KC|Lang=qu
 6	rishpapish	ri	VERB	_	Focus=Addit|Switch=Same|VerbForm=Conv	7	advcl	_	CSID=KC|Lang=qu
 7	mapayachinchik	mapaya	VERB	_	Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Cau	3	parataxis	_	CSID=KC|Lang=qu
@@ -8834,12 +8833,12 @@ quedan libres?
 # trans = Ensuciamos todo con la minería, con el petróleo.
 # start = 521000
 # end = 528010
-1	Chaymantami	chay	PRON	_	Case=Abl|Info=Foc|PronType=Dem	10	obl	_	CSID=KC|Lang=qu
+1	Chaymantami	chay	PRON	_	Case=Abl|Info=Foc|Polarity=Pos|PronType=Dem	10	obl	_	CSID=KC|Lang=qu
 2	kay	kay	DET	_	_	3	det	_	CSID=KC|Lang=qu
-3	minería	minería	NOUN	_	_	10	nsubj	_	CSID=ES|Lang=es
-4	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER|SpaceAfter=No
+3	minería	minería	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	CSID=ES|Lang=es
+4	,	,	PUNCT	_	_	6	punct	_	CSID=OTHER|SpaceAfter=No
 5	kay	kay	DET	_	_	6	det	_	CSID=KC|Lang=qu
-6	petróleo	petróleo	NOUN	_	_	3	parataxis	_	CSID=ES|Lang=es|SpaceAfter=No
+6	petróleo	petróleo	NOUN	_	Gender=Masc|Number=Sing	3	parataxis	_	CSID=ES|Lang=es|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	CSID=OTHER
 8	ñukanchikkunata	ñukanchik	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	9	obj	_	CSID=KC|Lang=qu
 9	unkuchishpa	unku	VERB	_	Switch=Same|VerbForm=Conv|Voice=Cau	10	advcl	_	CSID=KC|Lang=qu
@@ -8851,8 +8850,8 @@ quedan libres?
 # trans = Y ahí aparecen virus y animales desconocidos que nos contagian.
 # start = 528040
 # end = 534790
-1	Chaymantami	chay	PRON	_	Case=Abl|Info=Foc|PronType=Dem	8	obl	_	CSID=KC|Lang=qu
-2	kay	kay	DET	_	_	3	det	_	CSID=KC|Lang=qu
+1	Chaymantami	chay	PRON	_	Case=Abl|Info=Foc|Polarity=Pos|PronType=Dem	8	obl	_	CSID=KC|Lang=qu
+2	kay	kay	DET	_	_	5	det	_	CSID=KC|Lang=qu
 3	mana	mana	PART	_	Polarity=Neg	4	advmod:neg	_	CSID=KC|Lang=qu
 4	riksishka	riksi	VERB	_	VerbForm=Part	5	acl	_	CSID=KC|Lang=qu
 5	wiwakuna	wiwa	NOUN	_	Number=Plur	8	nsubj	_	CSID=KC|Lang=qu
@@ -8868,7 +8867,7 @@ quedan libres?
 # end = 539710
 1	Kunanka	kunan	NOUN	_	Info=Top	4	obl	_	CSID=KC|Lang=qu
 2	hatun	hatun	ADJ	_	_	3	amod	_	CSID=KC|Lang=qu
-3	corporaciónkunata	corporación	NOUN	_	Case=Acc|Number=Plur	4	obj	_	CSID=MIXED|CSPoint=corporación§kunata|Lang=qqe
+3	corporaciónkunata	corporación	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	CSID=MIXED|CSPoint=corporación§kunata|Lang=qqe
 4	huchachinakun	huchachi	VERB	_	Person=3|Tense=Pres|VerbForm=Fin|VerbForm=Rcp	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	CSID=OTHER
 
@@ -8893,7 +8892,7 @@ quedan libres?
 2	hampik	hampi	VERB	_	VerbForm=NomAg	3	acl	_	CSID=KC|Lang=qu
 3	wasika	wasi	NOUN	_	Info=Top	4	nsubj	_	CSID=KC|Lang=qu
 4	huntashka	hunta	VERB	_	Person=3|VerbForm=Part	0	root	_	CSID=KC|Lang=qu
-5	,	,	PUNCT	_	_	4	punct	_	CSID=OTHER|SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	CSID=OTHER|SpaceAfter=No
 6	huntaytapacha	hunta	VERB	_	Case=Acc|Degree=Abs|VerbForm=Vnoun	7	advmod	_	CSID=KC|Lang=qu
 7	huntashka	hunta	VERB	_	Person=3|VerbForm=Part	4	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	CSID=OTHER
@@ -8904,7 +8903,7 @@ quedan libres?
 # start = 551060
 # end = 555600
 1	Hampikkunataka	hampi	VERB	_	Case=Acc|Info=Top|Number=Plur|VerbForm=NomAg	3	subj	_	CSID=KC|Lang=qu
-2	astronautashina	astronauta	NOUN	_	Case=Equ	3	obl	_	CSID=KC|Lang=qu
+2	astronautashina	astronauta	NOUN	_	Case=Equ|Number=Sing	3	obl	_	CSID=MIXED|CSPoint=astronauta§shina|Lang=qqe
 3	churakushkata	chura	VERB	_	Aspect=Prog|Case=Acc|VerbForm=Part	4	obj	_	CSID=KC|Lang=qu
 4	rikurkani	riku	VERB	_	Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	CSID=OTHER
@@ -8919,7 +8918,7 @@ quedan libres?
 3	punchapash	puncha	NOUN	_	Focus=Addit	2	conj	_	CSID=KC|Lang=qu
 4	tukuy	tukuy	DET	_	_	5	det	_	CSID=KC|Lang=qu
 5	pachakuna	pacha	NOUN	_	Number=Plur	6	obl	_	CSID=KC|Lang=qu
-6	llamkanakun	llamka	VERB	_	Person=3|Tense=Pres|VerbForm=Fin|Voice=Rcp	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+6	llamkanakun	llamka	VERB	_	Aspect=Prog|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	CSID=OTHER
 
 # sent_id = 4_109
@@ -8942,10 +8941,10 @@ quedan libres?
 3	ari	ari	INTJ	_	_	1	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER
 5	paykuna	pay	PRON	_	Number=Plur|Person=3|PronType=Prs	17	reparandum	_	CSID=KC|Lang=qu
-6	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER|SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER|SpaceAfter=No
 7	hampikkuna	hampi	VERB	_	Number=Plur|VerbForm=NomAg	17	appos	_	CSID=KC|Lang=qu|SpaceAfter=No
-8	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
-9	enfermerakuna	enfermera	NOUN	_	Number=Plur	7	conj	_	CSID=MIXED|CSPoint=enfermera§kuna|Lang=qqe
+8	,	,	PUNCT	_	_	8	punct	_	CSID=OTHER
+9	enfermerakuna	enfermera	NOUN	_	Gender=Fem|Number=Plur	7	conj	_	CSID=MIXED|CSPoint=enfermera§kuna|Lang=qqe
 10	,	,	PUNCT	_	_	9	punct	_	CSID=OTHER|SpaceAfter=No
 11	pichakkuna	picha	VERB	_	Number=Plur|VerbForm=NomAg	7	conj	_	CSID=KC|Lang=qu|SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	CSID=OTHER
@@ -8957,9 +8956,9 @@ quedan libres?
 18	kay	kay	DET	_	_	19	det	_	CSID=KC|Lang=qu
 19	llakipika	llaki	NOUN	_	Case=Loc|Info=Top	22	obl	_	CSID=KC|Lang=qu
 20	sinchi	sinchi	ADJ	_	_	22	amod	_	CSID=KC|Lang=qu
-21	héroe	héroe	NOUN	_	_	22	compound	_	CSID=ES|Lang=es
+21	héroe	héroe	NOUN	_	Gender=Masc|Number=Sing	22	compound	_	CSID=ES|Lang=es
 22	mashikuna	mashi	NOUN	_	Number=Plur	0	root	_	CSID=KC|Lang=qu
-23	kashka	ka	AUX	_	VerbForm=Part	22	cop	_	CSID=KC|Lang=qu|SpaceAfter=No
+23	kashka	ka	AUX	_	Person=3|VerbForm=Part	22	cop	_	CSID=KC|Lang=qu|SpaceAfter=No
 24	.	.	PUNCT	_	_	22	punct	_	CSID=OTHER
 
 # sent_id = 4_111
@@ -8974,8 +8973,8 @@ quedan libres?
 5	ashalla	asha	ADJ	_	Focus=Restr	6	advcl	_	CSID=KC|Lang=qu
 6	samaywan	samay	NOUN	_	Case=Ins	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	CSID=OTHER
-8	camakuna	cama	NOUN	_	Number=Plur	9	nsubj	_	CSID=KC|Lang=qu
-9	tiyanchu	tiya	VERB	_	Info=Foc|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
+8	camakuna	cama	NOUN	_	Gender=Fem|Number=Plur	9	nsubj	_	CSID=MIXED|CSPoint=cama§kuna|Lang=qqe
+9	tiyanchu	tiya	VERB	_	Info=Foc|Person=3|Polarity=Neg|QuestType=Polar|Tense=Pres|VerbForm=Fin	6	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
 10	?	?	PUNCT	_	_	6	punct	_	CSID=OTHER
 
 # sent_id = 4_112
@@ -8984,15 +8983,15 @@ quedan libres?
 # start = 582140
 # end = 588800
 1	Charinchikmi	chari	VERB	_	Info=Foc|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu
-2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER|SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER|SpaceAfter=No
 3	rikukrini	riku	VERB	_	Aspect=Prosp|Number=Sing|Person=1|Tense=Pre|VerbForm=Fin	1	parataxis	_	CSID=KC|Lang=qu
-4	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER|SpaceAfter=No
+4	,	,	PUNCT	_	_	10	punct	_	CSID=OTHER|SpaceAfter=No
 5	anchakunata	ancha	ADJ	_	Case=Acc|Number=Plur	6	obj	_	CSID=KC|Lang=qu
 6	rikuna	riku	VERB	_	VerbForm=Inf	7	acl	_	CSID=KC|Lang=qu
 7	ukupi	uku	NOUN	_	Case=Gen	10	obl	_	CSID=KC|Lang=qu
 8	ishkay	ishkay	NUM	_	NumType=Card	9	nummod	_	CSID=KC|Lang=qu
 9	samarina	sama	VERB	_	VerbForm=Inf|Voice=Rfl	10	nsubj	_	CSID=KC|Lang=qu
-10	tiyanmi	tiya	VERB	_	Info=Foc|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
+10	tiyanmi	tiya	VERB	_	Info=Foc|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
 11	.	.	PUNCT	_	_	1	punct	_	CSID=OTHER
 
 # sent_id = 4_113
@@ -9018,7 +9017,7 @@ quedan libres?
 4	killakunapi	killa	NOUN	_	Case=Loc|Number=Plur	5	obl	_	CSID=KC|Lang=qu
 5	wakllishka	waklli	VERB	_	VerbForm=Part	0	root	_	CSID=KC|Lang=qu
 6	karka	ka	AUX	_	Person=3|Tense=Past|VerbForm=Fin	5	aux	_	CSID=KC|Lang=qu|SpaceAfter=No
-7	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER
+7	,	,	PUNCT	_	_	11	punct	_	CSID=OTHER
 8	kaykama	kay	PRON	_	Case=Ter|PronType=Dem	11	obl	_	CSID=KC|Lang=qu
 9	allichinkapak	allichi	VERB	_	Mood=Prp|Switch=Same|VerbForm=Conv	11	advcl	_	CSID=KC|Lang=qu
 10	mana	mana	PART	_	Polarity=Neg	11	advmod:neg	_	CSID=KC|Lang=qu
@@ -9031,11 +9030,11 @@ quedan libres?
 # start = 602900
 # end = 608940
 1	Kutin	kutin	ADV	_	_	2	compound	_	CSID=KC|Lang=qu
-2	kutinmi	kutin	ADV	_	Info=Foc|Polarity=pos	5	advmod	_	CSID=KC|Lang=qu
+2	kutinmi	kutin	ADV	_	Info=Foc|Polarity=Pos	5	advmod	_	CSID=KC|Lang=qu
 3	marka	marka	NOUN	_	_	4	obj	_	CSID=KC|Lang=qu
 4	pushakta	pusha	VERB	_	Case=Acc|VerbForm=NomAg	5	obj	_	CSID=KC|Lang=qu
 5	mañashkanchik	maña	VERB	_	Number=Plur|Person=1|VerbForm=Part	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER
+6	,	,	PUNCT	_	_	10	punct	_	CSID=OTHER
 7	shinapash	shinapash	CCONJ	_	_	10	cc	_	CSID=KC|Lang=qu
 8	nimata	nima	PRON	_	Case=Acc|PronType=Neg	10	obj	_	CSID=KC|Lang=qu
 9	mana	mana	PART	_	Polarity=Neg	10	advmod:neg	_	CSID=KC|Lang=qu
@@ -9048,10 +9047,10 @@ quedan libres?
 # start = 608940
 # end = 613380
 1	Willachinimi	willa	VERB	_	Info=Foc|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Cau	0	root	_	CSID=KC|Lang=qu
-2	oxígenota	oxígeno	NOUN	_	Case=Acc	5	obj	_	CSID=MIXED|CSPoint=oxígeno§ta|Lang=qqe
+2	oxígenota	oxígeno	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	CSID=MIXED|CSPoint=oxígeno§ta|Lang=qqe
 3	chay	chay	DET	_	_	4	det	_	CSID=KC|Lang=qu
 4	ñankunapi	ñan	NOUN	_	Case=Loc|Number=Plur	5	obj	_	CSID=KC|Lang=qu
-5	katunakun	katu	VERB	_	Person=3|Tense=Pres|VerbForm=Fin|Voice=Rcp	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+5	katunakun	katu	VERB	_	Aspect=Prog|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	CSID=OTHER
 
 # sent_id = 4_117
@@ -9061,9 +9060,9 @@ quedan libres?
 # end = 620050
 1	Mashikunaka	mashi	NOUN	_	Info=Top|Number=Plur	4	nsubj	_	CSID=KC|Lang=qu
 2	chushak	chushak	ADJ	_	_	3	amod	_	CSID=KC|Lang=qu
-3	tanquekunatami	tanque	NOUN	_	Case=Acc|Info=Foc|Number=Plur|Polarity=Pos	4	obj	_	CSID=MIXED|CSPoint=tanque§kunatami|Lang=qqe
-4	apanakun	apa	VERB	_	Person=3|Tense=Pres|VerbForm=Fin|Voice=Rcp	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-5	,	,	PUNCT	_	_	4	punct	_	CSID=OTHER
+3	tanquekunatami	tanque	NOUN	_	Case=Acc|Gender=Masc|Info=Foc|Number=Plur|Polarity=Pos	4	obj	_	CSID=MIXED|CSPoint=tanque§kunatami|Lang=qqe
+4	apanakun	apa	VERB	_	Aspect=Prog|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	CSID=OTHER
 6	ashtaka	ashtaka	DET	_	_	7	det	_	CSID=KC|Lang=qu
 7	kullkipa	kullki	NOUN	_	Case=Gen	8	obl	_	CSID=KC|Lang=qu
 8	huntachichun	hunta	VERB	_	Mood=Prp|Switch=Diff|VerbForm=Conv|Voice=Cau	4	advcl	_	CSID=KC|Lang=qu|SpaceAfter=No
@@ -9093,7 +9092,7 @@ quedan libres?
 # start = 629110
 # end = 634340
 1	Chashnapish	chashna	ADV	_	Focus=Addit	7	advmod	_	CSID=KC|Lang=qu
-2	prueba	prueba	NOUN	_	_	4	obj	_	CSID=ES|Lang=es
+2	prueba	prueba	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	CSID=ES|Lang=es
 3	covidta	covid	NOUN	_	Case=Acc	2	nmod	_	CSID=MIXED|CSPoint=covid§ta|Lang=qqe
 4	katuk	katu	VERB	_	VerbForm=NomAg	5	acl	_	CSID=KC|Lang=qu
 5	warmitaka	warmi	NOUN	_	Case=Acc|Info=Top	7	obj	_	CSID=KC|Lang=qu
@@ -9109,9 +9108,9 @@ quedan libres?
 1	Servinkapak	servi	VERB	_	Mood=Prp|Switch=Same|VerbForm=Conv	2	advcl	_	CSID=MIXED|CSPoint=Servi§nkapak|Lang=qqe
 2	kaypimi	kay	PRON	_	Case=Loc|Info=Foc|PronType=Dem|Polarity=Pos	0	root	_	CSID=KC|Lang=qu
 3	kani	ka	AUX	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	CSID=KC|Lang=qu|SpaceAfter=No
-4	,	,	PUNCT	_	_	2	punct	_	CSID=OTHER
+4	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER
 5	pushak	pusha	VERB	_	VerbForm=NomAg	2	vocative	_	CSID=KC|Lang=qu
-6	juez	juez	NOUN	_	_	5	flat	_	CSID=ES|Lang=es|SpaceAfter=No
+6	juez	juez	NOUN	_	Number=Sing	5	flat	_	CSID=ES|Lang=es|SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	CSID=OTHER
 
 # sent_id = 4_121
@@ -9123,12 +9122,12 @@ quedan libres?
 2	mana	mana	PART	_	Polarity=Neg	3	advmod:neg	_	CSID=KC|Lang=qu
 3	servinachu	servi	VERB	_	Info=Foc|Polarity=Neg|VerbForm=Inf	0	root	_	CSID=MIXED|CSPoint=servi§nachu|Lang=qqe
 4	kanki	ka	AUX	_	Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	cop	_	CSID=KC|Lang=qu
-5	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER
+5	,	,	PUNCT	_	_	8	punct	_	CSID=OTHER
 6	tukuy	tukuy	DET	_	_	7	det	_	CSID=KC|Lang=qu|SpaceAfter=No
 7	ayllukunatami	ayllu	NOUN	_	Case=Acc|Info=Foc|Number=Plur|Polarity=Pos	8	obj	_	CSID=KC|Lang=qu
 8	servina	servi	VERB	_	VerbForm=Inf	3	parataxis	_	CSID=MIXED|CSPoint=servi§na|Lang=qqe
 9	kanki	ka	AUX	_	Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	aux	_	CSID=KC|Lang=qu|SpaceAfter=No
-10	,	,	PUNCT	_	_	8	punct	_	CSID=OTHER
+10	,	,	PUNCT	_	_	13	punct	_	CSID=OTHER
 11	ninanta	ninan	ADV	_	Case=Acc	12	advmod	_	CSID=KC|Lang=qu
 12	shuwashkatami	shuwa	VERB	_	Case=Acc|Info=Foc|Polarity=Pos|VerbForm=Part	13	obj	_	CSID=KC|Lang=qu
 13	huchachikun	huchachi	VERB	_	Aspect=Prog|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
@@ -9142,7 +9141,7 @@ quedan libres?
 1	Tukuykunapa	tukuy	PRON	_	Case=Gen|Number=Plur|PronType=Tot	4	acl	_	CSID=KC|Lang=qu
 2	kashka	ka	AUX	_	VerbForm=Part	1	cop	_	CSID=KC|Lang=qu
 3	covid	covid	NOUN	_	_	4	nmod	_	CSID=ES|Lang=es
-4	pruebakunata	prueba	NOUN	_	Case=Acc|Number=Plur	5	acl	_	CSID=MIXED|CSPoint=prueba§kunata|Lang=qqe
+4	pruebakunata	prueba	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	5	acl	_	CSID=MIXED|CSPoint=prueba§kunata|Lang=qqe
 5	shuwashpa	shuwa	VERB	_	Switch=Same|VerbForm=Conv	7	advcl	_	CSID=KC|Lang=qu|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER
 7	katushka	katu	VERB	_	Person=3|VerbForm=Part	8	ccomp	_	CSID=KC|Lang=qu
@@ -9158,7 +9157,7 @@ quedan libres?
 1	Ñuka	ñuka	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	CSID=KC|Lang=qu
 2	mana	mana	PART	_	Polarity=Neg	3	advmod:neg	_	CSID=KC|Lang=qu
 3	hapirkanichu	hapi	VERB	_	Info=Foc|Number=Sing|Person=1|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER
+4	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER
 5	pushak	pusha	VERB	_	VerbForm=NomAg	3	vocative	_	CSID=KC|Lang=qu
 6	juez	juez	NOUN	_	_	5	flat	_	CSID=ES|Lang=es|SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
@@ -9169,8 +9168,8 @@ quedan libres?
 # start = 658620
 # end = 660460
 1	A	a	ADP	_	_	3	case	_	CSID=ES|Lang=es
-2	la	la	DET	_	Gender=Fem	3	det	_	CSID=ES|Lang=es
-3	fuerza	fuerza	NOUN	_	Gender=Fem	4	obl	_	CSID=ES|Lang=es
+2	la	la	DET	_	Gender=Fem|Number=Sing	3	det	_	CSID=ES|Lang=es
+3	fuerza	fuerza	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	CSID=ES|Lang=es
 4	kuwarka	ku	VERB	_	Number[obj]=Sing|Person=3|Person[obj]=Sing|Tense=Past|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	CSID=OTHER
 
@@ -9217,7 +9216,7 @@ quedan libres?
 6	chay	chay	DET	_	_	10	det	_	CSID=KC|Lang=qu
 7	shuwashka	shuwa	VERB	_	VerbForm=Part	9	acl	_	CSID=KC|Lang=qu
 8	puka	puka	ADJ	_	_	9	amod	_	CSID=KC|Lang=qu
-9	motopi	moto	NOUN	_	Case=Loc	10	obl	_	CSID=ES|Lang=es
+9	motopi	moto	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	10	obl	_	CSID=ES|Lang=es
 10	purikchu	purik	VERB	_	Info=Foc|QuestType=Polar|VerbForm=NomAg	2	parataxis	_	CSID=KC|Lang=qu
 11	kan	ka	AUX	_	Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	CSID=KC|Lang=qu|SpaceAfter=No
 12	?	?	PUNCT	_	_	2	punct	_	CSID=OTHER
@@ -9232,10 +9231,10 @@ quedan libres?
 3	,	,	PUNCT	_	_	2	punct	_	CSID=OTHER|SpaceAfter=No
 4	chayllatakmi	chay	PRON	_	Info=Foc|Polarity=Pos|PronType=Dem|Reflex=Yes	0	root	_	CSID=KC|Lang=qu
 5	kanka	ka	AUX	_	Person=3|Tense=Fut|VerbForm=Fin	4	cop	_	CSID=KC|Lang=qu|SpaceAfter=No
-6	,	,	PUNCT	_	_	4	punct	_	CSID=OTHER
+6	,	,	PUNCT	_	_	7	punct	_	CSID=OTHER
 7	pushak	pusha	VERB	_	VerbForm=NomAg	4	vocative	_	CSID=KC|Lang=qu
 8	juez	juez	NOUN	_	_	7	flat	_	CSID=ES|Lang=es|SpaceAfter=No
-9	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
+9	.	.	PUNCT	_	_	4	punct	_	CSID=OTHER
 
 # sent_id = 4_129
 # sent = A la fuerzami katuchiwarka, chawpi chawpi nishpa,
@@ -9243,10 +9242,10 @@ quedan libres?
 # start = 676640
 # end = 681910
 1	A	a	ADP	_	_	3	case	_	CSID=ES|Lang=es
-2	la	la	DET	_	Gender=Fem	3	det	_	CSID=ES|Lang=es
-3	fuerzami	fuerza	NOUN	_	Gender=Fem|Info=Foc|Polarity=Pos	4	obl	_	CSID=MIXED|CSPoint=fuerza§mi|Lang=qqe
+2	la	la	DET	_	Gender=Fem|Number=Sing	3	det	_	CSID=ES|Lang=es
+3	fuerzami	fuerza	NOUN	_	Gender=Fem|Info=Foc|Number=Sing|Polarity=Pos	4	obl	_	CSID=MIXED|CSPoint=fuerza§mi|Lang=qqe
 4	katuchiwarka	katu	VERB	_	Number[obj]=Sing|Person=3|Person[obj]=1|Tense=Past|VerbForm=Fin|Voice=Cau	0	root	_	CSID=KC|Lang=qu
-5	,	,	PUNCT	_	_	4	punct	_	CSID=OTHER|SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	CSID=OTHER|SpaceAfter=No
 6	chawpi	chawpi	NOUN	_	_	7	compound	_	CSID=KC|Lang=qu
 7	chawpi	chawpi	NOUN	_	_	8	ccomp	_	CSID=KC|Lang=qu
 8	nishpa	ni	VERB	_	Switch=Same|VerbForm=Conv	4	advcl	_	CSID=KC|Lang=qu|SpaceAfter=No
@@ -9271,7 +9270,7 @@ quedan libres?
 # trans = Ese Guapo cuando no está preso lo andan buscando.
 # start = 686020
 # end = 691570
-1	Chay	chay	DET	_	_	2	det	_	CSID=KC|Lang=qu
+1	Chay	chay	DET	_	_	3	det	_	CSID=KC|Lang=qu
 2	Guapo	Guapo	PROPN	_	_	3	ccomp	_	CSID=KC|Lang=qu
 3	nishka	ni	VERB	_	VerbForm=Part	5	nsubj	_	CSID=KC|Lang=qu
 4	na	na	PART	_	Polarity=Neg	5	advmod:neg	_	CSID=KC|Lang=qu
@@ -9279,7 +9278,7 @@ quedan libres?
 6	kakpika	ka	AUX	_	Info=Top|Switch=Diff|VerbForm=Conv	5	aux	_	CSID=KC|Lang=qu
 7	wichkashun	wichka	VERB	_	Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	8	ccomp	_	CSID=KC|Lang=qu
 8	nishpami	ni	VERB	_	Info=Foc|Polarity=Pos|Switch=Same|VerbForm=Conv	9	advcl	_	CSID=KC|Lang=qu
-9	maskanakun	maska	VERB	_	Person=3|Tense=Pres|VerbForm=Fin|Voice=Rcp	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+9	maskanakun	maska	VERB	_	Aspect=Prog|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	CSID=OTHER
 
 # sent_id = 4_132
@@ -9289,19 +9288,19 @@ quedan libres?
 # end = 693450
 1	Ñuka	ñuka	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	CSID=KC|Lang=qu
 2	yachani	yacha	VERB	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu
-3	pi	pi	PRON	_	PronType=Int	4	nsubj	_	CSID=KC|Lang=qu
-4	kak	ka	VERB	_	VerbForm=NomAg	2	obj	_	CSID=KC|Lang=qu|SpaceAfter=No
+3	pi	pi	PRON	_	PronType=Int	2	ccomp	_	CSID=KC|Lang=qu
+4	kak	ka	VERB	_	VerbForm=NomAg	3	cop	_	CSID=KC|Lang=qu|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	CSID=OTHER
 
 # sent_id = 4_133
-# sent = Pushak Juez, paykunaman mana katukpika, wañuchiwanmi karka.
+# sent = Pushak juez, paykunaman mana katukpika, wañuchiwanmi karka.
 # trans = Señor Juez, si yo no vendía para ellos, me mataban.
 # start = 693450
 # end = 698000
 1	Pushak	pusha	VERB	_	VerbForm=NomAg	8	vocative	_	CSID=KC|Lang=qu
-2	juez	juez	NOUN	_	_	1	flat	_	CSID=ES|Lang=es
+2	juez	juez	NOUN	_	Number=Sing	1	flat	_	CSID=ES|Lang=es
 3	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER|SpaceAfter=No
-4	paykunaman	pay	PRON	_	Case=Gen|Number=Plur|PronType=Prs	6	obl	_	CSID=KC|Lang=qu
+4	paykunaman	pay	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	6	obl	_	CSID=KC|Lang=qu
 5	mana	mana	PART	_	Polarity=Neg	6	advmod:neg	_	CSID=KC|Lang=qu
 6	katukpika	katu	VERB	_	Info=Top|Switch=Diff|VerbForm=Conv	8	advcl	_	CSID=KC|Lang=qu|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	CSID=OTHER
@@ -9331,9 +9330,9 @@ quedan libres?
 4	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER|SpaceAfter=No
 5	kikinka	kikin	PRON	_	Info=Top|Number=Sing|Person=2|PronType=Prs|Polite=Form	8	nsubj	_	CSID=KC|Lang=qu
 6	mana	mana	PART	_	Polarity=Neg	7	advmod:neg	_	CSID=KC|Lang=qu
-7	ruranatami	rura	VERB	_	Case=Acc|VerbForm=Inf	8	obj	_	CSID=KC|Lang=qu
+7	ruranatami	rura	VERB	_	Case=Acc|Info=Foc|Polarity=Pos|VerbForm=Inf	8	obj	_	CSID=KC|Lang=qu
 8	rurashkanki	rura	VERB	_	Number=Sing|Person=2|VerbForm=Part	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-9	.	.	PUNCT	_	_	8	punct	_	CSID=OTHER
+9	.	.	PUNCT	_	_	13	punct	_	CSID=OTHER
 10	chay	chay	DET	_	_	12	det	_	CSID=KC|Lang=qu
 11	shuwak	shuwa	VERB	_	VerbForm=NomAg	12	acl	_	CSID=KC|Lang=qu
 12	wamprakunapak	wampra	NOUN	_	Case=Gen|Number=Plur	13	nmod	_	CSID=KC|Lang=qu
@@ -9394,16 +9393,16 @@ quedan libres?
 # start = 720610
 # end = 725860
 1	Kishpichiway	kishpi	VERB	_	Mood=Imp|Number=Sing|Number[obj]=Sing|Person=2|Person[obj]=1|VerbForm=Fin|Voice=Cau	0	root	_	CSID=KC|Lang=qu
-2	mana	mana	PART	_	Polarity=Neg	7	advmod:neg	_	CSID=KC|Lang=qu
+2	mana	mana	PART	_	Polarity=Neg	3	advmod:neg	_	CSID=KC|Lang=qu
 3	yachaymanta	yacha	VERB	_	Case=Abl|VerbForm=Vnoun	7	obl	_	CSID=KC|Lang=qu
 4	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER|SpaceAfter=No
-5	shinapash	shinapash	CCONJ	_	_	11	cc	_	CSID=KC|Lang=qu|SpaceAfter=No
-6	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
-7	imatak	ima	PRON	_	Info=Foc|PronType=Int	3	nsubj	_	CSID=KC|Lang=qu
-8	chayka	chay	PRON	_	Info=Top|PronType=Dem	8	nsubj	_	CSID=KC|Lang=qu
-9	pushak	pusha	VERB	_	VerbForm=NomAg	1	vocative	_	CSID=KC|Lang=qu
-10	juez	juez	NOUN	_	_	5	flat	_	CSID=ES|Lang=es|SpaceAfter=No
-11	?	?	PUNCT	_	_	2	punct	_	CSID=OTHER
+5	shinapash	shinapash	CCONJ	_	_	10	cc	_	CSID=KC|Lang=qu|SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER
+7	imatak	ima	PRON	_	Info=Foc|PronType=Int|QuestType=Open	1	parataxis	_	CSID=KC|Lang=qu
+8	chayka	chay	PRON	_	Info=Top|PronType=Dem	7	nsubj	_	CSID=KC|Lang=qu
+9	pushak	pusha	VERB	_	VerbForm=NomAg	7	vocative	_	CSID=KC|Lang=qu
+10	juez	juez	NOUN	_	Number=Sing	9	flat	_	CSID=ES|Lang=es|SpaceAfter=No
+11	?	?	PUNCT	_	_	7	punct	_	CSID=OTHER
 
 # sent_id = 4_141
 # sent = Kay pandemia pachakunapi, mikunakunata charina, tarpuna ninan mutsurishkami.
@@ -9411,7 +9410,7 @@ quedan libres?
 # start = 725880
 # end = 732500
 1	Kay	kay	DET	_	_	3	det	_	CSID=KC|Lang=qu
-2	pandemia	pandemia	NOUN	_	_	3	nmod	_	CSID=ES|Lang=es
+2	pandemia	pandemia	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	CSID=ES|Lang=es
 3	pachakunapi	pacha	NOUN	_	Case=Acc|Number=Plur	10	obl	_	CSID=KC|Lang=qu
 4	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER|SpaceAfter=No
 5	mikunakunata	miku	VERB	_	Case=Acc|Number=Plur|VerbForm=Inf	6	obj	_	CSID=KC|Lang=qu
@@ -9423,7 +9422,7 @@ quedan libres?
 11	.	.	PUNCT	_	_	10	punct	_	CSID=OTHER
 
 # sent_id = 4_142
-# sent = Nimata mana hamuktanichu, pushak juez?
+# sent = Nimata mana hamuktanichu, pushak juez.
 # trans = Sigo en blanco, señor Juez.
 # start = 732600
 # end = 735220
@@ -9432,8 +9431,8 @@ quedan libres?
 3	hamuktanichu	hamukta	VERB	_	Info=Foc|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER
 5	pushak	pusha	VERB	_	VerbForm=NomAg	3	vocative	_	CSID=KC|Lang=qu
-6	juez	juez	NOUN	_	_	5	flat	_	CSID=ES|Lang=es|SpaceAfter=No
-7	?	?	PUNCT	_	_	3	punct	_	CSID=OTHER
+6	juez	juez	NOUN	_	Number=Sing	5	flat	_	CSID=ES|Lang=es|SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
 
 # sent_id = 4_143
 # sent = Kikin tarpunata yachankichu?
@@ -9453,7 +9452,7 @@ quedan libres?
 1	Wawamanta	wawa	NOUN	_	Case=Abl	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
 3	pushak	pusha	VERB	_	VerbForm=NomAg	1	vocative	_	CSID=KC|Lang=qu
-4	juez	juez	NOUN	_	_	3	flat	_	CSID=ES|Lang=es|SpaceAfter=No
+4	juez	juez	NOUN	_	Number=Sing	3	flat	_	CSID=ES|Lang=es|SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
 
 # sent_id = 4_145
@@ -9473,9 +9472,9 @@ quedan libres?
 # trans = Con respeto, señor Juez.
 # start = 741687
 # end = 743397
-1	Respetowan	respeto	NOUN	_	Case=Ins	0	root	_	CSID=MIXED|CSPoint=Respeto§wan|Lang=qqe
+1	Respetowan	respeto	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	0	root	_	CSID=MIXED|CSPoint=Respeto§wan|Lang=qqe
 2	pushak	pusha	VERB	_	VerbForm=NomAg	1	vocative	_	CSID=KC|Lang=qu
-3	juez	juez	NOUN	_	_	2	flat	_	CSID=ES|Lang=es|SpaceAfter=No
+3	juez	juez	NOUN	_	Number=Sing	2	flat	_	CSID=ES|Lang=es|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	CSID=OTHER
 
 # sent_id = 4_147
@@ -9483,11 +9482,11 @@ quedan libres?
 # trans = No me hable de orejas que bastante burra he sido.
 # start = 743450
 # end = 747430
-1	Ama	ama	PART	_	_	3	advmod:neg	_	CSID=KC|Lang=qu
+1	Ama	ama	PART	_	Polarity=Neg	3	advmod:neg	_	CSID=KC|Lang=qu
 2	rinripi	rinri	NOUN	_	Case=Loc	3	obl	_	CSID=KC|Lang=qu
 3	rimawaychu	rima	VERB	_	Info=Foc|Mood=Imp|Number=Sing|Number[obj]=Sing|Person=2|Person[obj]=1|Polarity=Neg|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-4	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER|SpaceAfter=No
-4	Ashtaka	.	PUNCT	_	_	3	punct	_	CSID=OTHER
+4	,	,	PUNCT	_	_	3	punct	_	CSID=OTHER|SpaceAfter=No
+4	ashtaka	.	PUNCT	_	_	3	punct	_	CSID=OTHER
 5	muspami	ashtaka	ADV	_	_	6	advmod	_	CSID=KC|Lang=qu
 6	kashkani	muspa	ADJ	_	Info=Foc	3	parataxis	_	CSID=KC|Lang=qu
 7	.	ka	AUX	_	Number=Sing|Person=1|VerbForm=Part	6	cop	_	CSID=KC|Lang=qu
@@ -9501,7 +9500,7 @@ quedan libres?
 2	kikinpak	kikin	PRON	_	Case=Gen|Number=Sing|Person=2|Polite=Form|PronType=Prs	3	nmod	_	CSID=KC|Lang=qu
 3	makipipash	maki	NOUN	_	Case=Loc|Focus=Addit	6	obl	_	CSID=KC|Lang=qu
 4	shuk	shuk	NUM	_	NumType=Card	5	nummod	_	CSID=KC|Lang=qu
-5	viverota	vivero	NOUN	_	Case=Acc	6	obj	_	CSID=MIXED|CSPoint=vivero§ta|Lang=qqe
+5	viverota	vivero	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	CSID=MIXED|CSPoint=vivero§ta|Lang=qqe
 6	rurashallami	rura	VERB	_	Focus=Restr|Info=Foc|Number=Sing|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	CSID=OTHER
 
@@ -9536,9 +9535,9 @@ quedan libres?
 1	Chusku	chusku	NUM	_	NumType=Card	2	nummod	_	CSID=KC|Lang=qu
 2	pachakunata	pacha	NOUN	_	Case=Acc|Number=Plur	8	obl	_	CSID=KC|Lang=qu|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	CSID=OTHER
-4	lunesmanta	lunes	NOUN	_	Case=Abl	8	obl	_	CSID=MIXED|CSPoint=lunes§manta|Lang=qqe
-5	vierneskaman	viernes	NOUN	_	Case=Ter	8	obl	_	CSID=MIXED|CSPoint=viernes§kaman|Lang=qqe
-6	paga	paga	NOUN	_	_	7	nsubj	_	CSID=KC|Lang=qu
+4	lunesmanta	lunes	NOUN	_	Case=Abl|Gender=Masc	8	obl	_	CSID=MIXED|CSPoint=lunes§manta|Lang=qqe
+5	vierneskaman	viernes	NOUN	_	Case=Ter|Gender=Masc	8	obl	_	CSID=MIXED|CSPoint=viernes§kaman|Lang=qqe
+6	paga	paga	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	CSID=ES|Lang=es
 7	illak	illa	VERB	_	VerbForm=NomAg	8	advcl	_	CSID=KC|Lang=qu
 8	llamkakrinki	llamka	VERB	_	Aspect=Prosp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	CSID=OTHER
@@ -9565,7 +9564,7 @@ quedan libres?
 # end = 777600
 1	Paktarak	paktarak	INTJ	_	_	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 2	chay	chay	DET	_	_	4	det	_	CSID=KC|Lang=qu
-3	Guapo	Guapo	PROPN	_	_	4	ccomp	_	CSID=KC|Lang=qu
+3	Guapo	Guapo	PROPN	_	_	4	ccomp	_	CSID=ES|Lang=es
 4	nishkawan	ni	VERB	_	Case=Ins|VerbForm=Part	1	obl	_	CSID=KC|Lang=qu
 5	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
 6	ama	ama	PART	_	Polarity=Neg	10	advmod:neg	_	CSID=KC|Lang=qu
@@ -9573,8 +9572,8 @@ quedan libres?
 8	rumipillatak	rumi	NOUN	_	Case=Loc|Reflex=Yes	10	obl	_	CSID=KC|Lang=qu
 9	kutin	kutin	ADV	_	_	10	advmod	_	CSID=KC|Lang=qu
 10	waktarinkichu	wakta	VERB	_	Info=Foc|Number=Sing|Person=2|Polarity=Neg|Tense=Fut|VerbForm=Fin|Voice=Rfl	1	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
-11	,	,	PUNCT	_	_	10	punct	_	CSID=OTHER
-12	nachu	na	PART	_	Info=Foc|Polarity=Neg	10	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	CSID=OTHER
+12	nachu	na	PART	_	Info=Foc|Polarity=Neg|QuestType=Open	10	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
 13	?	?	PUNCT	_	_	10	punct	_	CSID=OTHER
 
 # sent_id = 4_154
@@ -9587,8 +9586,8 @@ quedan libres?
 3	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER|SpaceAfter=No
 4	yupaychani	yupaycha	VERB	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
 5	pushak	pusha	VERB	_	VerbForm=NomAg	4	vocative	_	CSID=KC|Lang=qu
-6	juez	juez	NOUN	_	_	5	flat	_	CSID=KC|Lang=qu
-7	,	,	PUNCT	_	_	4	punct	_	CSID=OTHER
+6	juez	juez	NOUN	_	Number=Sing	5	flat	_	CSID=ES|Lang=es
+7	,	,	PUNCT	_	_	8	punct	_	CSID=OTHER
 8	yupaychani	yupaycha	VERB	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	discourse	_	CSID=KC|Lang=qu|SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	CSID=OTHER
 
@@ -9597,7 +9596,7 @@ quedan libres?
 # trans = En el Barrio del Jabonero
 # start = 786340
 # end = 788740
-1	Jaboneropak	Jabonero	PROPN	_	Case=Gen	2	nmod	_	CSID=MIXED|CSPoint=Jabonero§pak|Lang=qqe
+1	Jaboneropak	Jabonero	PROPN	_	Case=Gen|Gender=Masc	2	nmod	_	CSID=MIXED|CSPoint=Jabonero§pak|Lang=qqe
 2	ayllullaktapi	ayllullakta	NOUN	_	Case=Loc	0	root	_	CSID=KC|Lang=qu
 
 # sent_id = 4_156
@@ -9605,7 +9604,7 @@ quedan libres?
 # trans = Historias de la pandemia
 # start = 788780
 # end = 791140
-1	Pandemiamanta	pandemia	NOUN	_	Case=Abl	2	nmod	_	CSID=MIXED|CSPoint=pandemia§manta|Lang=qqe
+1	Pandemiamanta	pandemia	NOUN	_	Case=Abl|Gender=Fem|Number=Sing	2	nmod	_	CSID=MIXED|CSPoint=pandemia§manta|Lang=qqe
 2	rimaykuna	rima	VERB	_	Number=Plur|VerbForm=Vnoun	0	root	_	CSID=KC|Lang=qu
 
 # sent_id = 5_0
