@@ -16,6 +16,13 @@ import create_dataset
 AUDIO_FOLDER = "data"
 MAIN_FOLDER = "./"
 
+
+def load_from_hf(dataset_name: str) -> Dataset:
+    """Load the dataset from Hugging Face."""
+    dataset = load_dataset(dataset_name)
+    return dataset
+
+
 def load(chapters: list, filter_short=True):
     """Load the train, valid, test sets.
     Make sure to set `shuffle=False` in `train_test_split`,
@@ -142,16 +149,66 @@ class DataCollatorCTCWithPadding:
 
 def get_args():
     parser = ArgumentParser(description="Kichwa ASR.")
-    parser.add_argument("--epoch", type=int, default=20)
-    parser.add_argument("--output", type=str, default="kichwaasr")
-    parser.add_argument("--vocab", type=str, default="vocab.txt")
-    # parser.add_argument("--chapters", nargs="+",
-    #                     default=["Chapter1", "Chapter16"])
-    parser.add_argument("--samples", type=int, default=3911)
-    parser.add_argument("--learning_rate", type=float)
-    parser.add_argument("--fp16", action="store_true")
-    parser.add_argument("--batch_size", type=int, default=1)
-    parser.add_argument("--pretrained", type=str, default="facebook/wav2vec2-large-xlsr-53")
+    parser.add_argument(
+        "--epoch",
+        type=int,
+        default=20,
+        help="Number of epochs to train the model."
+    )
+    parser.add_argument(
+        "--output",
+        type=str,
+        default="kichwaasr",
+        help="Output directory to save the model."
+    )
+    parser.add_argument(
+        "--vocab",
+        type=str,
+        default="vocab.json"
+        help="Vocabulary file."
+    )
+    parser.add_argument(
+        "--samples",
+        type=int,
+        default=3911
+    )
+    parser.add_argument(
+        "--learning_rate",
+        type=float,
+        default=1e-4,
+        help="Learning rate for training the model."
+    )
+    parser.add_argument(
+        "--fp16",
+        action="store_true",
+        help="Use mixed precision training."
+    )
+    parser.add_argument(
+        "--batch_size",
+        type=int,
+        default=1,
+        help="Batch size for training the model."
+    )
+    parser.add_argument(
+        "--pretrained",
+        type=str,
+        default="facebook/wav2vec2-large-xlsr-53",
+        choices=["facebook/wav2vec2-large-xlsr-53",
+                 "facebook/wav2vec2-xls-r-300m",
+                 "facebook/wav2vec2-xls-r-1b",
+                 "facebook/wav2vec2-xls-r-2b",
+                 "facebook/mms-1b-all",
+                 "300m",
+                 "1b",
+                 "2b",
+                 "mms"],
+        help="Pretrained model to use"
+    )
+    parser.add_argument(
+        "--load_local",
+        action="store_true",
+        help="Load the data from the local folder."
+    )
     args = parser.parse_args()
     if args.pretrained == "300m":
         args.pretrained = "facebook/wav2vec2-xls-r-300m"
@@ -163,6 +220,7 @@ def get_args():
     #     assert os.path.exists(chapter)
     return args
 
+
 def filter_short_audio(batch):
     """Filter out audio samples that are shorter than 1 sec.
     If an audio sample is too short, it might cause `RuntimeError:
@@ -170,6 +228,7 @@ def filter_short_audio(batch):
     Kernel size can't be greater than actual input size`"""
     sr = batch["audio"]["sampling_rate"]
     return 1 < (len(batch["audio"]["array"]) / sr)
+
 
 if __name__ == "__main__":
     args = get_args()
@@ -181,22 +240,26 @@ if __name__ == "__main__":
     
     # Load dataset
     start = time.time()
-    if not os.path.exists(train_filename) or \
-       not os.path.exists(valid_filename) or \
-       not os.path.exists(test_filename):
-        train, valid, test = load(chapters=chapters)
+    if args.load_local:
+        if not os.path.exists(train_filename) or \
+        not os.path.exists(valid_filename) or \
+        not os.path.exists(test_filename):
+            train, valid, test = load(chapters=chapters)
+        else:
+            # Load the data from scratch.
+            train = load_dataset("json", data_files=train_filename, split="train")
+            valid = load_dataset("json", data_files=valid_filename, split="train")
+            test = load_dataset("json", data_files=test_filename, split="train")
+
+            train = train.cast_column("audio", Audio(sampling_rate=16000))
+            valid = valid.cast_column("audio", Audio(sampling_rate=16000))
+            test = test.cast_column("audio", Audio(sampling_rate=16000))
+
+            train = train.filter(filter_short_audio)
+
     else:
-        # Load the data from scratch.
-        train = load_dataset("json", data_files=train_filename, split="train")
-        valid = load_dataset("json", data_files=valid_filename, split="train")
-        test = load_dataset("json", data_files=test_filename, split="train")
-
-        train = train.cast_column("audio", Audio(sampling_rate=16000))
-        valid = valid.cast_column("audio", Audio(sampling_rate=16000))
-        test = test.cast_column("audio", Audio(sampling_rate=16000))
-
-        train = train.filter(filter_short_audio)
-
+        train, valid, test = load_from_hf("ctaguchi/killkan")
+        
     end = time.time()
     print("Time for loading data:", end - start)
 
