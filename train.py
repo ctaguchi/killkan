@@ -8,6 +8,8 @@ import torch
 import time
 from argparse import ArgumentParser
 import os
+import jiwer
+import numpy as np
 
 # Local
 import create_dataset
@@ -43,13 +45,30 @@ def load(chapters: list, filter_short=True):
     
     return train, valid, test
 
+
+def normalize_text(batch: dict) -> dict:
+    """Normalize the text.
+    - Lowercase, remove extra spaces, remove punctuation.
+    """
+    batch["sentence"] = batch["sentence"].lower()
+    batch["sentence"] = " ".join(batch["sentence"].split())
+
+    # remove punctuation
+    batch["sentence"] = "".join([c for c in batch["sentence"] if c.isalnum() or c == " "])
+
+    return batch
+
+
 def extract_chars(batch: dict) -> dict:
+    """Extract the characters from the text."""
     all_text = " ".join(batch["sentence"])
     vocab = list(set(all_text))
     return {"vocab": [vocab],
             "all_text": [all_text]}
 
+
 def create_vocab(dataset: Dataset) -> Dataset:
+    """Create the vocabulary file."""
     vocab = dataset.map(
         extract_chars,
         batched=True,
@@ -58,7 +77,9 @@ def create_vocab(dataset: Dataset) -> Dataset:
         remove_columns=dataset.column_names)
     return vocab
 
+
 def remove_long_data(dataset: Dataset, max_seconds=15) -> Dataset:
+    """Remove long audio files."""
     df = dataset.to_pandas()
     df["length"] = df["input_values"].apply(len)
     maxlen = max_seconds * 16000
@@ -69,7 +90,9 @@ def remove_long_data(dataset: Dataset, max_seconds=15) -> Dataset:
     del df
     return dataset
 
+
 def preprocess(dataset: Dataset, num_proc=24) -> Dataset:
+    """Preprocess the dataset."""
     dataset = dataset.map(
         prepare_dataset,
         remove_columns=dataset.column_names,
@@ -77,15 +100,31 @@ def preprocess(dataset: Dataset, num_proc=24) -> Dataset:
     )
     return dataset
 
+
 def prepare_dataset(batch: dict) -> dict:
+    """Prepare the dataset to have two columns:
+    - `input_values`: input values (audio array) as the input to the model.
+    - `labels`: the label to predict (the transcription).
+
+    Args:
+        batch (dict): The batch to process
+
+    Returns:
+        dict: The processed batch
+
+    # TODO: as_target_processor() is depreacted; rewrite.
+    """
     audio = batch["audio"]
     batch["input_values"] = processor(
         audio["array"],
         sampling_rate=audio["sampling_rate"]
     ).input_values[0]
+
     with processor.as_target_processor():
         batch["labels"] = processor(batch["sentence"]).input_ids
+
     return batch
+
 
 @dataclass
 class DataCollatorCTCWithPadding:
@@ -209,15 +248,21 @@ def get_args():
         action="store_true",
         help="Load the data from the local folder."
     )
+    parser.add_argument(
+        "--remove_long",
+        action="store_true",
+        help="Remove long audio files."
+    )
+
     args = parser.parse_args()
+
     if args.pretrained == "300m":
         args.pretrained = "facebook/wav2vec2-xls-r-300m"
     elif args.pretrained == "1b":
         args.pretrained = "facebook/wav2vec2-xls-r-1b"
     elif args.pretrained == "2b":
         args.pretrained = "facebook/wav2vec2-xls-r-2b"
-    # for chapter in args.chapters:
-    #     assert os.path.exists(chapter)
+
     return args
 
 
@@ -228,6 +273,21 @@ def filter_short_audio(batch):
     Kernel size can't be greater than actual input size`"""
     sr = batch["audio"]["sampling_rate"]
     return 1 < (len(batch["audio"]["array"]) / sr)
+
+
+def compute_metrics(pred):
+    pred_logits = pred.predictions
+    pred_ids = np.argmax(pred_logits, axis=-1)
+
+    pred.label_ids[pred.label_ids == -100] = processor.tokenizer.pad_token_id
+
+    pred_str = processor.batch_decode(pred_ids)
+    # we do not want to group tokens when computing the metrics
+    label_str = processor.batch_decode(pred.label_ids, group_tokens=False)
+
+    cer = jiwer.cer(reference=label_str, hypothesis=pred_str)
+
+    return {"cer": cer}
 
 
 if __name__ == "__main__":
@@ -258,10 +318,22 @@ if __name__ == "__main__":
             train = train.filter(filter_short_audio)
 
     else:
-        train, valid, test = load_from_hf("ctaguchi/killkan")
+        dataset = load_from_hf("ctaguchi/killkan")
+        train, valid, test = dataset["train"], dataset["validation"], dataset["test"]
         
     end = time.time()
     print("Time for loading data:", end - start)
+
+    # Remove the data samples where the text is empty
+    train = train.filter(lambda x: x["sentence"] is not None)
+    valid = valid.filter(lambda x: x["sentence"] is not None)
+    test = test.filter(lambda x: x["sentence"] is not None)
+
+    # Normalize the text
+    train = train.map(normalize_text, batched=True)
+    valid = valid.map(normalize_text, batched=True)
+    test = test.map(normalize_text, batched=True)
+    print("Text normalized")
 
     # Shuffle
     train = train.shuffle(seed=42)
@@ -289,7 +361,7 @@ if __name__ == "__main__":
     # Create the vocab file
     if not os.path.exists(args.output):
         # assuming that the model and vocab file fall into the same directory
-        os.mkdir(args.output)
+        os.makedirs(args.output, exist_ok=True)
     with open(args.vocab, "w") as f:
         json.dump(vocab_dict, f)
     print("Vocabulary created")
@@ -321,10 +393,11 @@ if __name__ == "__main__":
     train = preprocess(train)
     valid = preprocess(valid)
 
-    print("Removing long audio files...")
-    # Remove long data
-    # train = remove_long_data(train, max_seconds=15)
-    # valid = remove_long_data(valid, max_seconds=15)
+    if args.remove_long:
+        print("Removing long audio files...")
+        # Remove long data
+        train = remove_long_data(train, max_seconds=15)
+        valid = remove_long_data(valid, max_seconds=15)
     
     # print("Training/validation data stats:")
     # print(len(train))
@@ -364,6 +437,8 @@ if __name__ == "__main__":
         learning_rate=args.learning_rate,
         warmup_steps=100,
         save_total_limit=2,
+        load_best_model_at_end=True,
+        metric_for_best_model="cer",
     )
     # Some tips on hyperparameters:
     # If GPU usage shows some more room, then you can
@@ -378,6 +453,7 @@ if __name__ == "__main__":
         train_dataset=train,
         eval_dataset=valid,
         tokenizer=processor.feature_extractor,
+        compute_metrics=compute_metrics,
         )
     
     trainer.train()
