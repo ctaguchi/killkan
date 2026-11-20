@@ -589,7 +589,7 @@
 11	,	,	PUNCT	_	_	13	punct	_	CSID=OTHER
 12	manachu	mana	PART	_	Info=Foc|Polarity=Neg|QuestType=Polar	13	advmod:neg	_	CSID=KC|Lang=qu
 13	munanki	muna	VERB	_	Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
-14	?	?	PUNCT	_	_	13	punct	_	CSID=MIXED
+14	?	?	PUNCT	_	_	13	punct	_	CSID=OTHER
 
 # sent_id = 1_43
 # sent = Shukkuta, shukkuta mashi karaway.
@@ -6008,7 +6008,7 @@
 6	shuk	shuk	NUM	_	NumType=Card	7	nummod	_	CSID=KC|Lang=qu
 7	formulariotapash	formulario	NOUN	_	Case=Acc|Focus=Addit	4	parataxis	_	CSID=MIXED|CSPoint=formulario§tapash|Lang=qqe
 8	informe	informe	NOUN	_	_	7	conj	_	CSID=ES|Lang=es
-9	técnicotapash	técnico	ADJ	_	Case=Acc|Focu=Addit	8	amod	_	CSID=MIXED|XSPoint=técnico§tapash|Lang=qqe
+9	técnicotapash	técnico	ADJ	_	Case=Acc|Focu=Addit	8	amod	_	CSID=MIXED|CSPoint=técnico§tapash|Lang=qqe
 10	maykantak	maykan	PRON	_	Info=Foc|PronType=Int	4	root	_	CSID=KC|Lang=qu
 11	karka	ka	AUX	_	Person=3|Tense=Past|VerbForm=Fin	10	cop	_	CSID=KC|Lang=qu
 12	,	,	PUNCT	_	_	10	punct	_	CSID=OTHER
@@ -8157,8 +8157,8 @@
 7	,	,	PUNCT	_	_	6	punct	_	CSID=OTHER
 8	ashtawankarin	ashtawankarin	ADV	_	_	10	advmod	_	CSID=KC|Lang=qu
 9	tukuy	tukuy	DET	_	_	10	det	_	CSID=KC|Lang=qu
-10	municipiomanta  municipio	NOUN	_	Case=Abl	6	obl	_	CSID=MIXED|CSPoint=municipio§manta|Lang=qqe
-11	.	.   PUNCT   _   _   6   punct   _   CSID=OTHER
+10	municipiomanta	municipio	NOUN	_	Case=Abl	6	obl	_	CSID=MIXED|CSPoint=municipio§manta|Lang=qqe
+11	.	.	PUNCT	_	_	6	punct	_	CSID=OTHER
 
 # sent_id = 4_52
 # sent = Shinapash shuk tapuyta charini.
@@ -11381,7 +11381,7 @@
 # start = 505560
 # end = 508390
 1	Ñukaka	ñuka	PRON	_	Info=Top|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	CSID=KC|Lang=qu
-2	voluntariashinami	voluntaria	NOUN	_	Case=Equ|Gender=Fem|Info=Foc|Polarity=Pos	3	obl	_	CSID=MIXED|CSpoint=voluntaria§shinami|Lang=qqe
+2	voluntariashinami	voluntaria	NOUN	_	Case=Equ|Gender=Fem|Info=Foc|Polarity=Pos	3	obl	_	CSID=MIXED|CSPoint=voluntaria§shinami|Lang=qqe
 3	shamushkani	shamu	VERB	_	Number=Sing|Person=1|VerbForm=Part	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	CSID=OTHER
 
@@ -17368,7 +17368,7 @@
 1	Tukuykunami	tukuy	PRON	_	Info=Foc|Number=Plur|PronType=Tot	2	nsubj	_	CSID=KC|Lang=qu
 2	tapunkichik	tapu	VERB	_	Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu
 3	kaypi	kay	PRON	_	Case=Loc|PronType=Dem	2	advcl	_	CSID=KC|Lang=qu
-4	sexóloga	sexóloga	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	CSID=KC|CSPoint=ES|Lang=qu
+4	sexóloga	sexóloga	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	CSID=ES|Lang=es
 5	kutichichun	kutichi	VERB	_	Mood=Prp|Switch=Diff|VerbForm=Conv	2	advcl	_	CSID=KC|Lang=qu|SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	CSID=OTHER
 
@@ -26159,12 +26159,12 @@
 9	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
 10	Amaruwan	Amaru	PROPN	_	Case=Ins	8	obl	_	CSID=KC|Lang=qu|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	CSID=OTHER
-12	comunamanta comuna	NOUN	_	Case=Abl|Gender=Fem|Number=Sing	13	nmod	_	CSID=MIXED|CSPoint=comuna§manta|Lang=qqe
+12	comunamanta	comuna	NOUN	_	Case=Abl|Gender=Fem|Number=Sing	13	nmod	_	CSID=MIXED|CSPoint=comuna§manta|Lang=qqe
 13	dirigentekunawan	dirigente	NOUN	_	Case=Ins|Number=Plur	10	conj	_	CSID=MIXED|CSPoint=dirigente§kunawan|Lang=qqe|SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	CSID=OTHER
 15	shuk	shuk	NUM	_	NumType=Card	16	nummod	_	CSID=KC|Lang=qu
 16	mashikunawanpash	mashi	NOUN	_	Case=Ins|Focus=Addit|Number=Plur	10	conj	_	CSID=KC|Lang=qu
-17	.	.   PUNCT   _   _   8   punct   _   CSID=OTHER
+17	.	.	PUNCT	_	_	8	punct	_	CSID=OTHER
 
 # sent_id = 11_6
 # sent = Jaboneropak ayllullaktapi
@@ -30372,8 +30372,8 @@
 11	y	y	CCONJ	_	_	12	cc	_	CSID=ES|Lang=es|SpaceAfter=No
 12	originarioskunata	originario	ADJ	_	Case[stem2]=Acc|Gender[stem1]=Masc|Number[stem1]=Plur|Number[stem2]=Plur	10	conj	_	CSID=MIXED|CSPoint=originarios§kunata|Lang=qqe
 13	tapunarak	tapu	VERB	_	State=Cont|VerbForm=Inf	7	ccomp	_	CSID=KC|Lang=qu
-14	kan ka	AUX	_	Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	CSID=KC|Lang=qu|SpaceAfter=No
-15	,   ,	PUNCT	_	_	7	punct	_	CSID=OTHER
+14	kan	ka	AUX	_	Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	CSID=KC|Lang=qu|SpaceAfter=No
+15	,	,	PUNCT	_	_	7	punct	_	CSID=OTHER
 16	narak	na	PART	_	Polarity=Neg|State=Cont	19	advmod:neg	_	CSID=KC|Lang=qu
 17	ima	ima	DET	_	_	18	det	_	CSID=KC|Lang=qu
 18	proyectokuna	proyecto	NOUN	_	Gender=Masc|Number=Plur	19	nsubj	_	CSID=MIXED|CSPoint=proyecto§kuna|Lang=qqe
@@ -30385,7 +30385,7 @@
 24	shinallatak	shina	ADV	_	Reflex=Yes	25	advmod	_	CSID=KC|Lang=qu
 25	allpakuna	allpa	NOUN	_	Number=Plur	21	conj	_	CSID=KC|Lang=qu
 26	wakllirikukpi	waklli	VERB	_	Aspect=Prog|Switch=Diff|VerbForm=Conv|Voice=Rfl	19	parataxis	_	CSID=KC|Lang=qu
-27	.	.   PUNCT   _   _   7   punct   _   CSID=OTHER
+27	.	.	PUNCT	_	_	7	punct	_	CSID=OTHER
 
 # sent_id = 12_135
 # sent = Chay consultataka mana vinculanchikchu.
@@ -35084,7 +35084,7 @@
 # trans = La raíz del narcotráfico está más lejos.
 # start = 520635
 # end = 523935
-1	Narcotráfico	narcotráfico	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	CSID=ES|CSPoint=es
+1	Narcotráfico	narcotráfico	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	CSID=ES|Lang=es
 2	sapika	sapi	NOUN	_	Info=Top	4	nsubj	_	CSID=KC|Lang=qu
 3	ashtawan	ashtawan	ADV	_	_	4	advmod	_	CSID=KC|Lang=qu
 4	karupi	karu	ADJ	_	Case=Loc	0	root	_	CSID=KC|Lang=qu
@@ -36123,7 +36123,7 @@
 6	kay	kay	DET	_	_	7	det	_	CSID=KC|Lang=qu
 7	drogakunamanta	droga	NOUN	_	Case=Abl|Gender=Fem|Number=Plur	18	nmod	_	CSID=MIXED|CSPoint=droga§kunamanta|Lang=qqe
 8	shinallatak	shina	ADV	_	Reflex=Yes	17	advmod	_	CSID=KC|Lang=qu
-9	lavandería	lavandería	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	CSID=MIXED|CSPoint=lavandería|Lang=qqe
+9	lavandería	lavandería	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	CSID=ES|Lang=es
 10	de	de	ADP	_	_	11	case	_	CSID=ES|Lang=es
 11	millones	millón	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	CSID=ES|Lang=es
 12	de	de	ADP	_	_	13	case	_	CSID=ES|Lang=es
