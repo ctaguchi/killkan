@@ -1117,7 +1117,7 @@
 # end = 352030
 1	Hatun	hatun	ADJ	_	_	2	amod	_	CSID=KC|Lang=qu
 2	pushak	pusha	VERB	_	VerbForm=NomAg	4	obl	_	CSID=KC|Lang=qu
-3	policíaman	policía	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	2	flat	_	CSID=MIXED|CSPoint=Policía§man|Lang=qqe
+3	policíaman	policía	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	2	flat	_	CSID=MIXED|CSPoint=policía§man|Lang=qqe
 4	willanki	willa	VERB	_	Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	CSID=OTHER
 
@@ -5358,7 +5358,7 @@
 1	Shinashpa	shina	VERB	_	Switch=Same|VerbForm=Conv	5	advcl	_	CSID=KC|Lang=qu
 2	kutin	kutin	ADV	_	_	5	advmod	_	CSID=KC|Lang=qu
 3	ñukapak	ñuka	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	nmod	_	CSID=KC|Lang=qu
-4	Martakutaka	Marta	PROPN	_	Case=Acc|Degree=Dim|Info=Top	5	obj	_	CSID=MIXED|CSPoints=Marta§kutaka|Lang=qqe
+4	Martakutaka	Marta	PROPN	_	Case=Acc|Degree=Dim|Info=Top	5	obj	_	CSID=MIXED|CSPoint=Marta§kutaka|Lang=qqe
 5-6	tikrachimuwankiyari	_	_	_	_	_	_	_	CSID=KC|Lang=qu
 5	tikrachimuwanki	tikra	VERB	_	Deixis=Ven|Number=Sing|Number[obj]=Sing|Person=2|Person[obj]=1|Tense=Fut|VerbForm=Fin|Voice=Cau	0	root	_	CSID=KC|Lang=qu
 6	yari	yari	PART	_	_	5	advmod	_	CSID=KC|Lang=qu|SpaceAfter=No
@@ -8151,14 +8151,14 @@
 1	Shuk	shuk	NUM	_	NumType=Card	2	nummod	_	CSID=KC|Lang=qu
 2	emisora	emisora	NOUN	_	_	6	nsubj	_	CSID=ES|Lang=es
 3	mana	mana	PART	_	Polarity=Neg	6	advmod:neg	_	CSID=KC|Lang=qu|SpaceAfter=No
-4	shuk	.	PUNCT	_	_	6	punct	_	CSID=OTHER
-4	ayllullaktatalla	shuk	NUM	_	NumType=Card	5	nummod	_	CSID=KC|Lang=qu
-5	hapinchu	ayllullakta	NOUN	_	Case=Acc|Focus=Restr	6	obj	_	CSID=KC|Lang=qu
-6	,	hapi	VERB	_	Info=Foc|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
-7	ashtawankarin	,	PUNCT	_	_	6	punct	_	CSID=KC|Lang=qu
-8	tukuy	ashtawankarin	ADV	_	_	10	advmod	_	CSID=KC|Lang=qu
-9	municipiomanta	tukuy	DET	_	_	10	det	_	CSID=KC|Lang=qu
-10	.	municipio	NOUN	_	Case=Abl	6	obl	_	CSID=MIXED|CSPoint=municipio§manta|Lang=qqe
+4	shuk	shuk	NUM	_	NumType=Card	5	nummod	_	CSID=KC|Lang=qu
+5	ayllullaktatalla	ayllullakta	NOUN	_	Case=Acc|Focus=Restr	6	obj	_	CSID=KC|Lang=qu
+6	hapinchu	hapi	VERB	_	Info=Foc|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	CSID=OTHER
+8	ashtawankarin	ashtawankarin	ADV	_	_	10	advmod	_	CSID=KC|Lang=qu
+9	tukuy	tukuy	DET	_	_	10	det	_	CSID=KC|Lang=qu
+10	municipiomanta  municipio	NOUN	_	Case=Abl	6	obl	_	CSID=MIXED|CSPoint=municipio§manta|Lang=qqe
+11	.	.   PUNCT   _   _   6   punct   _   CSID=OTHER
 
 # sent_id = 4_52
 # sent = Shinapash shuk tapuyta charini.
@@ -16927,7 +16927,7 @@
 4	runaka	runa	NOUN	_	Info=Top	8	nsubj	_	CSID=KC|Lang=qu
 5	tawka	tawka	DET	_	_	6	det	_	CSID=KC|Lang=qu
 6	watakunatami	wata	NOUN	_	Case=Acc|Info=Foc|Number=Plur	8	obl	_	CSID=KC|Lang=qu
-7	cárcelpi	cárcel	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	8	obl	_	CSID=KC|CSPoint=cárcel§pi|Lang=qu
+7	cárcelpi	cárcel	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	8	obl	_	CSID=MIXED|CSPoint=cárcel§pi|Lang=qqe
 8	kawsakrinka	kawsa	VERB	_	Aspect=Prosp|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	CSID=KC|Lang=qu|SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	CSID=OTHER
 
@@ -17409,7 +17409,7 @@
 6	yuyaykunata	yuya	VERB	_	Case=Acc|Number=Plur|VerbForm=Vnoun	11	obj	_	CSID=KC|Lang=qu
 7	gobierno	gobierno	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	CSID=ES|Lang=es
 8	partemantaka	parte	NOUN	_	Case=Abl|Gender=Fem|Info=Top|Number=Sing	11	obl	_	CSID=MIXED|CSPoint=parte§mantaka|Lang=qqe
-9	educación	educación	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	CSID=MIXED|CSPoint=es
+9	educación	educación	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	CSID=ES|Lang=es
 10	ministeriowan	ministerio	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	11	obl	_	CSID=MIXED|CSPoint=ministerio§wan|Lang=qqe
 11	rimakrini	rima	VERB	_	Aspect=Prog|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
 12	.	.	PUNCT	_	_	1	punct	_	CSID=OTHER
@@ -20086,7 +20086,7 @@
 # end = 780696
 1	Yachachina	yacha	VERB	_	VerbForm=Inf|Voice=Cau	2	acl	_	CSID=KC|Lang=qu
 2	wasipi	wasi	NOUN	_	Case=Loc	5	obl	_	CSID=KC|Lang=qu
-3	educación	educación	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	CSID=MIXED|CSPoint=es
+3	educación	educación	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	CSID=ES|Lang=es
 4	sexualta	sexual	ADJ	_	Case=Acc|Number=Sing	3	amod	_	CSID=MIXED|CSPoint=sexual§ta|Lang=qqe
 5	charishpa	chari	VERB	_	Switch=Same|VerbForm=Conv	11	advcl	_	CSID=KC|Lang=qu|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER
@@ -26155,16 +26155,16 @@
 5	tiyakpi	tiya	VERB	_	Switch=Diff|VerbForm=Conv	8	advcl	_	CSID=KC|Lang=qu|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER
 7	entrevistataka	entrevista	NOUN	_	Case=Acc|Gender=Fem|Info=Top|Number=Sing	8	obj	_	CSID=MIXED|CSPoint=entrevista§taka|Lang=qqe|SpaceAfter=No
-8	grabarka	.	PUNCT	_	_	8	punct	_	CSID=OTHER
-8	,	graba	VERB	_	Person=3|Tense=Past|VerbForm=Fin	0	root	_	CSID=MIXED|CSPoint=graba§rka|Lang=qqe|SpaceAfter=No
-9	Amaruwan	,	PUNCT	_	_	1	punct	_	CSID=OTHER
-10	,	Amaru	PROPN	_	Case=Ins	8	obl	_	CSID=KC|Lang=qu|SpaceAfter=No
-11	comunamanta	,	PUNCT	_	_	10	punct	_	CSID=OTHER
-12	dirigentekunawan	comuna	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	CSID=ES|Lang=es
-13	,	dirigente	NOUN	_	Case=Ins|Number=Plur	10	conj	_	CSID=KC|Lang=qu|SpaceAfter=No
-14	shuk	,	PUNCT	_	_	13	punct	_	CSID=OTHER
-15	mashikunawanpash	shuk	NUM	_	NumType=Card	16	nummod	_	CSID=KC|Lang=qu
-16	.	mashi	NOUN	_	Case=Ins|Focus=Addit|Number=Plur	10	conj	_	CSID=KC|Lang=qu
+8	grabarka	graba	VERB	_	Person=3|Tense=Past|VerbForm=Fin	0	root	_	CSID=MIXED|CSPoint=graba§rka|Lang=qqe|SpaceAfter=No
+9	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
+10	Amaruwan	Amaru	PROPN	_	Case=Ins	8	obl	_	CSID=KC|Lang=qu|SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	CSID=OTHER
+12	comunamanta comuna	NOUN	_	Case=Abl|Gender=Fem|Number=Sing	13	nmod	_	CSID=MIXED|CSPoint=comuna§manta|Lang=qqe
+13	dirigentekunawan	dirigente	NOUN	_	Case=Ins|Number=Plur	10	conj	_	CSID=MIXED|CSPoint=dirigente§kunawan|Lang=qqe|SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	CSID=OTHER
+15	shuk	shuk	NUM	_	NumType=Card	16	nummod	_	CSID=KC|Lang=qu
+16	mashikunawanpash	mashi	NOUN	_	Case=Ins|Focus=Addit|Number=Plur	10	conj	_	CSID=KC|Lang=qu
+17	.	.   PUNCT   _   _   8   punct   _   CSID=OTHER
 
 # sent_id = 11_6
 # sent = Jaboneropak ayllullaktapi
@@ -30370,22 +30370,22 @@
 9	pueblos	pueblo	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	CSID=ES|Lang=es
 10	indígenas	indígena	ADJ	_	Number=Plur	9	amod	_	CSID=ES|Lang=es
 11	y	y	CCONJ	_	_	12	cc	_	CSID=ES|Lang=es|SpaceAfter=No
-12	originarioskunata	.	PUNCT	_	_	7	punct	_	CSID=OTHER
-12	tapunarak	originario	ADJ	_	Case[stem2]=Acc|Gender[stem1]=Masc|Number[stem1]=Plur|Number[stem2]=Plur	10	conj	_	CSID=MIXED|CSPoint=originarios§kunata|Lang=qqe
-13	kan	tapu	VERB	_	State=Cont|VerbForm=Inf	7	ccomp	_	CSID=KC|Lang=qu
-14	,	ka	AUX	_	Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	CSID=KC|Lang=qu|SpaceAfter=No
-15	narak	,	PUNCT	_	_	7	punct	_	CSID=OTHER
-16	ima	na	PART	_	Polarity=Neg|State=Cont	19	advmod:neg	_	CSID=KC|Lang=qu
-17	proyectokuna	ima	DET	_	_	18	det	_	CSID=KC|Lang=qu
-18	kallarikpi	proyecto	NOUN	_	Gender=Masc|Number=Plur	19	nsubj	_	CSID=MIXED|CSPoint=proyecto§kuna|Lang=qqe
-19	paykunapak	kallari	VERB	_	Switch=Diff|VerbForm=Conv	13	advcl	_	CSID=KC|Lang=qu
-20	derechos	pay	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	21	nmod	_	CSID=KC|Lang=qu
-21	colectivos	derecho	NOUN	_	Gender=Masc|Number=Plur	26	nsubj	_	CSID=ES|Lang=es
-22	,	colectivo	ADJ	_	Gender=Masc|Number=Plur	21	amod	_	CSID=ES|Lang=es|SpaceAfter=No
-23	shinallatak	,	PUNCT	_	_	21	punct	_	CSID=OTHER
-24	allpakuna	shina	ADV	_	Reflex=Yes	25	advmod	_	CSID=KC|Lang=qu
-25	wakllirikukpi	allpa	NOUN	_	Number=Plur	21	conj	_	CSID=KC|Lang=qu
-25	.	waklli	VERB	_	Aspect=Prog|Switch=Diff|VerbForm=Conv|Voice=Rfl	19	parataxis	_	CSID=KC|Lang=qu
+12	originarioskunata	originario	ADJ	_	Case[stem2]=Acc|Gender[stem1]=Masc|Number[stem1]=Plur|Number[stem2]=Plur	10	conj	_	CSID=MIXED|CSPoint=originarios§kunata|Lang=qqe
+13	tapunarak	tapu	VERB	_	State=Cont|VerbForm=Inf	7	ccomp	_	CSID=KC|Lang=qu
+14	kan ka	AUX	_	Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	CSID=KC|Lang=qu|SpaceAfter=No
+15	,   ,	PUNCT	_	_	7	punct	_	CSID=OTHER
+16	narak	na	PART	_	Polarity=Neg|State=Cont	19	advmod:neg	_	CSID=KC|Lang=qu
+17	ima	ima	DET	_	_	18	det	_	CSID=KC|Lang=qu
+18	proyectokuna	proyecto	NOUN	_	Gender=Masc|Number=Plur	19	nsubj	_	CSID=MIXED|CSPoint=proyecto§kuna|Lang=qqe
+19	kallarikpi	kallari	VERB	_	Switch=Diff|VerbForm=Conv	13	advcl	_	CSID=KC|Lang=qu
+20	paykunapak	pay	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	21	nmod	_	CSID=KC|Lang=qu
+21	derechos	derecho	NOUN	_	Gender=Masc|Number=Plur	26	nsubj	_	CSID=ES|Lang=es
+22	colectivos	colectivo	ADJ	_	Gender=Masc|Number=Plur	21	amod	_	CSID=ES|Lang=es|SpaceAfter=No
+23	,	,	PUNCT	_	_	21	punct	_	CSID=OTHER
+24	shinallatak	shina	ADV	_	Reflex=Yes	25	advmod	_	CSID=KC|Lang=qu
+25	allpakuna	allpa	NOUN	_	Number=Plur	21	conj	_	CSID=KC|Lang=qu
+26	wakllirikukpi	waklli	VERB	_	Aspect=Prog|Switch=Diff|VerbForm=Conv|Voice=Rfl	19	parataxis	_	CSID=KC|Lang=qu
+27	.	.   PUNCT   _   _   7   punct   _   CSID=OTHER
 
 # sent_id = 12_135
 # sent = Chay consultataka mana vinculanchikchu.
@@ -34531,7 +34531,7 @@
 # end = 356110
 1	Kanka	kan	PRON	_	Info=Top|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	CSID=KC|Lang=qu
 2	nachu	na	PART	_	Info=Foc|Polarity=Neg|QuestType=Polar	3	advmod:neg	_	CSID=KC|Lang=qu
-3	cárcelpi	cárcel	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	0	root	_	CSID=KC|CSPoint=cárcel§pi|Lang=qu
+3	cárcelpi	cárcel	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	0	root	_	CSID=MIXED|CSPoint=cárcel§pi|Lang=qqe
 4	mashna	mashna	DET	_	_	5	det	_	CSID=KC|Lang=qu
 5	watapachari	wata	NOUN	_	Case=Gen|Evident=Dub	3	obl	_	CSID=KC|Lang=qu
 6	karkanki	ka	AUX	_	Number=Sing|Person=2|Tense=Past|VerbForm=Fin	3	cop	_	CSID=KC|Lang=qu|SpaceAfter=No
@@ -38238,7 +38238,7 @@
 5	suficiente	suficiente	ADJ	_	Number=Sing	6	amod	_	CSID=ES|Lang=es
 6	pruebaskuna	prueba	NOUN	_	Gender[stem1]=Fem|Number[stem1]=Plur|Number[stem2]=Plur	7	nsubj	_	CSID=MIXED|CSPoint=pruebas§kuna|Lang=qqe
 7	tiyanchu	tiya	VERB	_	Info=Foc|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	10	ccomp	_	CSID=KC|Lang=qu
-8	cárcelpi	cárcel	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	9	obl	_	CSID=KC|CSPoint=cárcel§pi|Lang=qu
+8	cárcelpi	cárcel	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	9	obl	_	CSID=MIXED|CSPoint=cárcel§pi|Lang=qqe
 9	sakinkapak	saki	VERB	_	Mood=Prp|Switch=Same|VerbForm=Conv	7	advcl	_	CSID=KC|Lang=qu
 10	nishka	ni	VERB	_	VerbForm=Part	2	parataxis	_	CSID=KC|Lang=qu|SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	CSID=OTHER
