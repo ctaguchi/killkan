@@ -12,3 +12,6 @@ CC-BY 4.0
 - `elan_segment.py`: This program segments the whole ELAN file (.eaf) and the audio file into a file per sentence.
 - `elan2ud.py`: This converts an ELAN file (.eaf) into the UD-style CoNLL-U format.
 - `kc_killkan-ud-test.conllu`: The UD-style CoNLL-U file.
+
+## Changelog
+- 2026-11-20: Fixed annotation bugs in `kc_killkan-ud-test.conllu` that came from automatic conversion from ELAN.
