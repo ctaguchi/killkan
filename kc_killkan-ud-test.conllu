@@ -30554,7 +30554,7 @@
 11	.	.	PUNCT	_	_	9	punct	_	CSID=OTHER
 
 # sent_id = 12_148
-# sent = Kanka na riksinkichu, mashi, kay minucioso informe de impacto ambiental nishkata presentashka empresa alli pacha shinashkata.
+# sent = Kanka na riksinkichu, mashi, kay minucioso informe de impacto ambiental nishkata presentashka empresa allipacha shinashkata.
 # trans = Usted desconoce, amigo, el minucioso informe de impacto ambiental presentado por la empresa con los más altos estándares de excelencia.
 # start = 589190
 # end = 596920
@@ -30578,7 +30578,7 @@
 18	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
 
 # sent_id = 12_149
-# sent = Alli pacha kashpaka consultata shinaychikyari.
+# sent = Allipacha kashpaka consultata shinaychikyari.
 # trans = Pues si son tan altos, atrévanse a hacer la consulta.
 # start = 596960
 # end = 600640
@@ -31068,7 +31068,7 @@
 15	.	.	PUNCT	_	_	7	punct	_	CSID=OTHER
 
 # sent_id = 13_1
-# sent = Chayka alli pachami kan.
+# sent = Chayka allipachami kan.
 # trans = Qué bien.
 # start = 11000
 # end = 12550
